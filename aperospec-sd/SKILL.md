@@ -262,7 +262,7 @@ References:
 Chinese preferred:
 - Source Han Sans
 - HarmonyOS Sans
-- Alibaba PuHTi
+- Alibaba PuHuiTi
 
 English preferred:
 - Helvetica Now
