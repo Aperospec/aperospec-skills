@@ -1,240 +1,289 @@
 ---
 name: aperospec
-description: Use the user's personal Aperospec method, a First-Principles Narrative Worldbuilding System, to analyze any topic, project, product, exhibition, social issue, cultural space, future concept, or design direction from phenomenon observation, 时代背景, 第一性原理, 焦点, root cause, 世界观引擎, 情绪曲线, 身份沉浸, ARG-like narrative, civilization narrative, restrained technology, and experience director perspective. Trigger when the user asks to think through their personal method, build a worldview, find essence, define emotional logic, create an enterable world, or clarify their own design philosophy. This is the user's thinking-framework skill, not their slide aesthetic or layout skill.
+description: Use the user's personal Aperospec thinking framework, the Temporal Causality, Drive-Force & Cognitive Trigger System, to analyze any phenomenon, project, product, space, social issue, cultural question, future concept, or design direction through time-sequence causality, backward root-cause tracing, present validation, focus extraction, future projection, drive-force analysis, cognitive trigger logic, abstract-structure translation, and immersive cognition. This is the user's personal thinking-framework skill, not a slide aesthetic, deck layout, product roadmap, or execution-planning skill.
 ---
 
 # Aperospec
 
 ## Essence
 
-Use Aperospec as the user's personal first-principles narrative worldbuilding system. This is the upstream thinking system, not a PPT production workflow.
+Use Aperospec as the user's personal thinking framework:
 
-This skill answers the question: how does the user understand the world?
+`Temporal Causality, Drive-Force & Cognitive Trigger System`
 
-It should not try to imitate the user's slide aesthetics, page composition, image placement, or deck formatting. Those belong to the downstream `aperospec-sd` skill.
+`时序因果驱动力与认知触发系统`
 
-Do not treat the user's core ability as PPT design, exhibition design, spatial design, UI design, digital display, or technology interaction. These are output media and should live in downstream skills or deliverables.
+This skill answers:
 
-Treat the user's real ability as:
+> How does the user understand the world through time, causality, drive forces, focus, future projection, and cognitive triggers?
 
-> Trace social phenomena back to their essence, then translate that essence into a world people can enter, feel, and reflect on.
+Do not treat this skill as:
+- slide deck styling
+- PPT layout
+- product roadmap planning
+- exhibition execution planning
+- technology feature packaging
 
-The work is not to display information. The work is to construct an experiential world where emotion, identity, space, and action help the audience understand the problem itself.
+Those are downstream outputs. Aperospec is the upstream thinking system.
 
-## First Branch
+## Core Belief
 
-Before analyzing, identify which direction the task belongs to.
+The user's thinking does not begin from the visible result.
 
-### Project Mode: trace backward
+It begins by placing any phenomenon inside a complete chain of time and causality.
 
-Use this when the user is doing a concrete project with an existing theme, commission, site, exhibition, cultural space, public topic, or assigned brief.
+The user does not only ask:
+- what happened
+- what the current state is
+- how the surface system operates
 
-In project mode, begin from the project's given theme and trace backward into facts and background.
+The user asks:
+- where did it begin?
+- why did it become what it is today?
+- what force pushed it forward?
+- what is the real focus now?
+- where will it go next?
 
-Direction:
+All phenomena are treated as results of deeper structures acting over time.
 
-`given project/theme -> factual investigation -> social background -> stimulus point -> root cause -> worldview -> experience`
+## Core Formula
 
-The question is:
+Use this as the default reasoning sequence:
 
-> Why does this existing project need to exist now, and what deeper background produced it?
+`observe phenomenon -> trace backward -> find root cause -> validate in the present -> extract focus -> project forward -> construct future image -> analyze drive forces -> infer cognitive triggers -> translate into perceptible state -> build cognition through emotion -> let people enter -> create reflection`
 
-Examples:
-- Given a wetland museum, trace backward into what wetlands are, why civilization depends on them, why they are degrading, and why protection becomes responsibility.
-- Given an anti-drug exhibition, trace backward from the theme into youth drug-use data, family and education pressures, urban temptation environments, and the inducements that cause the issue.
-- Given temple digitization, trace backward from "digital upgrade" into why screen-based technology can damage ritual, spirituality, and civilizational atmosphere.
+In Chinese:
 
-### Product Mode: project forward
+`观察现象 -> 向后溯源 -> 找到根因 -> 在当下验证 -> 提炼关键焦点 -> 向前推演 -> 构建未来图景 -> 分析真正的驱动力 -> 反推出有效触发点 -> 转译为可感知状态 -> 通过情绪建立认知 -> 让人进入其中 -> 最终形成反思`
 
-Use this when the user is making a product, platform, service, future concept, tool, digital system, or new offering that is not fully defined yet.
+## Time-Sequence Path
 
-In product mode, begin from the background and project forward into what product should exist.
+Aperospec is a time-sequence causal reasoning system.
 
-Direction:
+### 1. Past: trace backward
 
-`social/technical/cultural background -> emerging need -> future scenario -> product worldview -> function system -> experience`
+When facing any phenomenon, do not stop at the surface.
 
-The question is:
+Keep asking why until the true root force appears.
 
-> Given this background and trajectory, what kind of product should be born?
+Distinguish three layers:
 
-Examples:
-- Given digital economy and cultural-tourism convergence, infer what platform or cultural product should connect online identity, offline place, and community participation.
-- Given young people's identity anxiety and social habits, infer what digital corner, role system, or personal expression product should exist.
-- Given a future technology shift, infer the new behaviors, interfaces, rights, identities, or services that the product should support.
+| Layer | Meaning |
+| --- | --- |
+| Surface phenomenon | What is happening now |
+| Surface rule | How the system describes itself |
+| Deep drive | The real force making the system operate |
 
-Do not mix these directions. Project mode moves backward from a given topic to its origin. Product mode moves forward from background to a possible future artifact.
+Do not over-trust:
+- surface explanations
+- official logic
+- fixed rules
+- conventional narratives
 
-## User Role
+Look for deeper structures such as:
+- environment
+- human nature
+- emotion
+- desire
+- fear
+- identity
+- survival pressure
+- technological change
+- civilizational inertia
+- social structure
 
-Frame the user as:
-- Narrative Worldbuilder.
-- Experience Director.
-- Civilization Narrative Designer.
+### 2. Present: validate the causal chain
 
-Avoid reducing the work to decorative slide design or feature packaging. Always return to how the user understands the world and how that understanding becomes an immersive world.
+After finding a root cause, do not stop.
 
-## Core Path
-
-First choose `Project Mode` or `Product Mode`.
-
-The following path is the shared reasoning spine after the direction is chosen.
-
-### 1. Phenomenon observation
-
-Begin with observation, not solutions.
+Verify how past forces have evolved into the current state.
 
 Ask:
-- Why is this topic being discussed now?
-- Why does this era need it?
-- What event, trend, anxiety, opportunity, or contradiction stimulated it?
-- What are people truly anxious about or longing for?
-- What social background produced the visible phenomenon?
+- did the past drive force truly shape today's phenomenon?
+- did environment and structure change people's behavior and emotions?
+- has a long-term trend already begun to appear?
 
-Name the issue being pushed into view by the background as the `焦点`.
+The question is not only:
 
-### 2. Root-cause analysis
+> What is happening now?
 
-Keep asking why until the work reaches environmental, social, psychological, civilizational, or human causes.
+The real question is:
 
-Examples:
-- Anti-drug education is not "drugs are harmful"; it is the environment that makes teenagers seek stimulation, belonging, escape, identity, or recognition.
-- Wetland protection is not "protect wetlands"; it is the collapse in the relationship between civilization and nature.
-- Temple digitization is not "make temples technological"; it is how to preserve ritual, spirituality, and civilizational sediment without letting screens destroy the atmosphere.
+> How did the past become the present step by step?
 
-The thing to design is often not the surface object, but the environment that causes the issue.
+### 3. Focus: extract the real issue
 
-### 3. Worldview translation
+Once the causal chain is established, extract the true `焦点`.
 
-Translate the abstract essence into an enterable world.
+The world has too much information. The important task is not to discuss everything, but to find the key node that matters.
 
-Do not merely explain the problem. Turn it into a world with scenes, forces, weather, materials, behaviors, rules, tension, and future consequences.
+`焦点` means:
 
-Use mappings like:
-- Urban temptation -> a back alley behind a bar at 2 a.m.
-- Civilizational collapse -> wetland ruins after ecological imbalance.
-- Industrial aggregation -> a stellar gravity system.
-- Technology intrusion -> a temple atmosphere broken by screens.
-- Lack of identity -> a young person being gently recruited by a false community.
+> the issue, tension, or visible question that the background and causal chain have pushed into view now.
 
-The world should be felt before it is understood.
+Search for:
+- the real core contradiction
+- the node that can trigger system change
+- the factor that changes emotion and behavior
+- the content that can create attention and response
 
-### 4. Emotion-first narrative
+The focus is not merely background, and not yet root cause. It is the current point of attention created by deeper causality.
 
-Assume people are changed less by knowledge than by emotion and lived experience.
+### 4. Future: project forward
 
-Use this logic:
+After understanding root cause, present state, and focus, project forward.
 
-`emotion -> immersion -> resonance -> reflection -> understanding`
+Ask:
+- if these drive forces continue, what future will appear?
+- how will emotions change?
+- how will behavior change?
+- how will social relationships change?
+- how will technology reshape environments?
+- how will civilization evolve?
+- how will people and systems rebuild their relationship?
 
-Do not default to:
+The user cares about the future image:
 
-`knowledge -> display -> understanding`
+> What does this become next?
 
-Design the emotional progression before placing knowledge points.
+## Drive-Force Analysis
 
-Common emotional rhythm:
-- Enter.
-- Attract.
-- Deepen.
-- Unease.
-- Pressure.
-- Collapse.
-- Reflection.
-- Reconstruction.
+People and systems do not move because something is merely correct.
 
-Treat space as an emotion engine. Circulation, lighting, pauses, peaks, scale, materials, sound, and negative space must serve emotional progression.
+Real action is usually driven by:
+- interest
+- risk
+- fear
+- desire
+- emotion
+- environment
+- identity
+- survival pressure
+- social structure
 
-### 5. Identity immersion
+Avoid stopping at:
+- slogans
+- propaganda
+- formal statements
+- surface logic
 
-Avoid passive viewing. The audience should enter the world, not watch the world.
+Find what actually makes the system respond.
 
-Consider identity systems:
-- Identity.
-- Faction.
-- Wristband or token.
-- Alliance.
-- Guide.
-- Mission.
-- Role conversion.
-- Consequence.
+## Cognitive Trigger Logic
 
-Examples:
-- Wetland visitors become members of a guardian alliance.
-- Anti-drug visitors experience the path of being gradually induced.
-- Future-world visitors become survivors returning to the present.
+Analysis does not end at conclusion.
 
-Think in ARG-like narrative terms when useful: the viewer receives a role, follows clues, makes choices, joins a system, and leaves changed.
+After identifying drive forces, infer what can truly trigger cognition and reaction.
 
-### 6. Restrained technology
+Ask:
+- what will make people feel something?
+- what will make people act?
+- what can pierce surface cognition?
+- what will make the system respond?
 
-Do not treat the user as a technology worshipper.
+The path is:
 
-Technology should preserve or intensify civilization, not replace it.
+`essence -> drive force -> trigger point -> cognition/reaction`
 
-Resist:
-- Excessive screens.
-- Tech showmanship.
-- Light pollution.
-- Interaction for interaction's sake.
-- Technology that steals attention from the atmosphere, ritual, material, or story.
+The user does not only want to understand the structure. The user wants to know what can activate human cognition.
 
-Prefer technology that hides behind the world's temperament. Advanced technology should not need to shout that it exists.
+## Abstract Structure Translation
 
-For sacred, cultural, or historical spaces, protect ritual, spirituality, material continuity, and civilizational sediment. Low-interference display may be stronger than immersive spectacle.
+Do not remain in pure abstraction.
 
-### 7. Output translation
+People cannot truly perceive abstract concepts unless they are translated into perceptible states.
 
-Only after the above steps, translate the world into deliverables:
-- Root-cause analysis.
-- Worldview.
-- Core cinematic image.
-- Emotional curve.
-- Spatial structure.
-- Exhibit logic.
-- Identity system.
-- Interaction logic.
-- Copywriting style.
+Translate:
+- drive forces
+- emotions
+- human nature
+- social relationships
+- system structures
+- civilizational changes
 
-For detailed upstream analysis and worldbuilding templates, read `references/worldbuilding-patterns.md`.
+Into:
 
-## Director Principles
+> a situation that can be felt, entered, and experienced.
 
-Use these as hard judgment rules:
-- People are not changed by preaching; they are changed by experience.
-- Emotion is closer to human instinct than knowledge.
-- Social problems come from the interaction between environment and human nature.
-- Truly dangerous things often disguise themselves as daily life.
-- Technology should not replace civilization; it should extend civilization.
-- Space is an emotion engine.
-- The audience must enter the world, not watch it.
-- All design should return to essence.
+This can become a spatial scene, story world, role state, emotional path, interactive condition, or future image.
 
-## Relationship To Output Skills
+## Immersive Cognition
 
-Use this skill to produce upstream thinking:
-- Essence and root cause.
-- Why-now analysis and stimulus point.
-- Worldview engine.
-- Core contradiction.
-- Emotional logic.
-- Identity and role logic.
-- Technology philosophy.
-- Experience director stance.
+Resist passive cognition.
 
-When the user asks for a slide deck, slide outline, page copy, full-bleed images, deck critique, or proposal presentation, pass the upstream thinking to `aperospec-sd`. That downstream skill is separate: it handles the user's slide aesthetic, page rhythm, visual matching, and proposal-page writing style.
+The user prefers:
+
+`entering a state`
+
+over:
+
+`being told a conclusion`
+
+Understanding becomes stronger when people enter the condition that creates the insight.
+
+Pay attention to:
+- emotional progression
+- state change
+- identity change
+- environmental influence
+- behavior path
+- cognitive reversal
+- emotional peak
+- immersive experience
+
+The goal is not only explanation. The goal is a state that produces cognition.
+
+## Structural World Understanding
+
+Do not understand issues as isolated events.
+
+Treat every phenomenon as part of a larger relationship structure:
+- system relationships
+- long-term evolution
+- environmental shaping
+- energy flow
+- behavior chains
+- civilizational change
+- structural coupling
+- temporal evolution
+
+The single event matters because it reveals the larger structure.
+
+## Output Shape
+
+When using Aperospec, produce outputs such as:
+- phenomenon observation
+- backward causal chain
+- root-cause judgment
+- present validation
+- focus extraction
+- future projection
+- drive-force map
+- cognitive trigger list
+- perceptible state translation
+- immersive cognition path
+- final reflection
+
+For reusable templates and checks, read `references/causal-trigger-patterns.md`.
 
 ## Response Style
 
-When using Aperospec, answer like an experience director:
-- First state whether the task is `Project Mode` or `Product Mode`.
-- For `Project Mode`, trace from the given theme backward into facts, background, stimulus point, and root cause.
-- For `Product Mode`, project from background forward into future scenario, product worldview, and function system.
-- Start from the underlying social/civilizational problem.
-- Name the core contradiction clearly.
-- Give one strong core image before listing functions.
-- Let every exhibit, feature, or slide prove why it belongs.
-- When discussing slide decks, stay at the strategic layer unless `aperospec-sd` is also being used.
-- Use cinematic, spatial, sensory language, but keep decisions concrete.
+When applying Aperospec:
+- begin with the phenomenon
+- place it in time
+- trace backward before judging
+- validate the causal chain in the present
+- extract the true `焦点`
+- project forward into future images
+- identify real drive forces
+- infer cognitive triggers
+- translate abstraction into felt states
+- describe how people enter, feel, react, and reflect
 
-Avoid generic design language such as "technology empowerment", "immersive experience", "multi-dimensional display", or "future visual style" unless grounded in a precise world, emotion, and narrative role.
+Avoid:
+- stopping at surface descriptions
+- treating official logic as root cause
+- confusing focus with background
+- ending analysis at a conclusion
+- jumping directly to output medium
+- using generic design slogans
