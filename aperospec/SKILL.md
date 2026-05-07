@@ -1,6 +1,6 @@
 ---
 name: aperospec
-description: Use the user's personal Aperospec method, a First-Principles Narrative Worldbuilding System, to analyze any topic, project, product, exhibition, social issue, cultural space, future concept, or design direction from phenomenon observation, 时代背景, 第一性原理, 刺激点, root cause, 世界观引擎, 情绪曲线, 身份沉浸, ARG-like narrative, civilization narrative, restrained technology, and experience director perspective. Trigger when the user asks to think through their personal method, build a worldview, find essence, define emotional logic, create an enterable world, or clarify their own design philosophy. For PPT-specific output, use aperospec-ppt after or alongside this skill.
+description: Use the user's personal Aperospec method, a First-Principles Narrative Worldbuilding System, to analyze any topic, project, product, exhibition, social issue, cultural space, future concept, or design direction from phenomenon observation, 时代背景, 第一性原理, 焦点, root cause, 世界观引擎, 情绪曲线, 身份沉浸, ARG-like narrative, civilization narrative, restrained technology, and experience director perspective. Trigger when the user asks to think through their personal method, build a worldview, find essence, define emotional logic, create an enterable world, or clarify their own design philosophy. This is the user's thinking-framework skill, not their slide aesthetic or layout skill.
 ---
 
 # Aperospec
@@ -9,6 +9,10 @@ description: Use the user's personal Aperospec method, a First-Principles Narrat
 
 Use Aperospec as the user's personal first-principles narrative worldbuilding system. This is the upstream thinking system, not a PPT production workflow.
 
+This skill answers the question: how does the user understand the world?
+
+It should not try to imitate the user's slide aesthetics, page composition, image placement, or deck formatting. Those belong to the downstream `aperospec-sd` skill.
+
 Do not treat the user's core ability as PPT design, exhibition design, spatial design, UI design, digital display, or technology interaction. These are output media and should live in downstream skills or deliverables.
 
 Treat the user's real ability as:
@@ -16,6 +20,50 @@ Treat the user's real ability as:
 > Trace social phenomena back to their essence, then translate that essence into a world people can enter, feel, and reflect on.
 
 The work is not to display information. The work is to construct an experiential world where emotion, identity, space, and action help the audience understand the problem itself.
+
+## First Branch
+
+Before analyzing, identify which direction the task belongs to.
+
+### Project Mode: trace backward
+
+Use this when the user is doing a concrete project with an existing theme, commission, site, exhibition, cultural space, public topic, or assigned brief.
+
+In project mode, begin from the project's given theme and trace backward into facts and background.
+
+Direction:
+
+`given project/theme -> factual investigation -> social background -> stimulus point -> root cause -> worldview -> experience`
+
+The question is:
+
+> Why does this existing project need to exist now, and what deeper background produced it?
+
+Examples:
+- Given a wetland museum, trace backward into what wetlands are, why civilization depends on them, why they are degrading, and why protection becomes responsibility.
+- Given an anti-drug exhibition, trace backward from the theme into youth drug-use data, family and education pressures, urban temptation environments, and the inducements that cause the issue.
+- Given temple digitization, trace backward from "digital upgrade" into why screen-based technology can damage ritual, spirituality, and civilizational atmosphere.
+
+### Product Mode: project forward
+
+Use this when the user is making a product, platform, service, future concept, tool, digital system, or new offering that is not fully defined yet.
+
+In product mode, begin from the background and project forward into what product should exist.
+
+Direction:
+
+`social/technical/cultural background -> emerging need -> future scenario -> product worldview -> function system -> experience`
+
+The question is:
+
+> Given this background and trajectory, what kind of product should be born?
+
+Examples:
+- Given digital economy and cultural-tourism convergence, infer what platform or cultural product should connect online identity, offline place, and community participation.
+- Given young people's identity anxiety and social habits, infer what digital corner, role system, or personal expression product should exist.
+- Given a future technology shift, infer the new behaviors, interfaces, rights, identities, or services that the product should support.
+
+Do not mix these directions. Project mode moves backward from a given topic to its origin. Product mode moves forward from background to a possible future artifact.
 
 ## User Role
 
@@ -28,6 +76,10 @@ Avoid reducing the work to decorative slide design or feature packaging. Always 
 
 ## Core Path
 
+First choose `Project Mode` or `Product Mode`.
+
+The following path is the shared reasoning spine after the direction is chosen.
+
 ### 1. Phenomenon observation
 
 Begin with observation, not solutions.
@@ -39,7 +91,7 @@ Ask:
 - What are people truly anxious about or longing for?
 - What social background produced the visible phenomenon?
 
-Name the active force as the `刺激点` unless the user chooses another term.
+Name the issue being pushed into view by the background as the `焦点`.
 
 ### 2. Root-cause analysis
 
@@ -170,16 +222,19 @@ Use this skill to produce upstream thinking:
 - Technology philosophy.
 - Experience director stance.
 
-When the user asks for a PPT deck, slide outline, page copy, full-bleed images, deck critique, or proposal presentation, also use `aperospec-ppt`. That downstream skill translates this thinking system into PPT structure and page-level output.
+When the user asks for a slide deck, slide outline, page copy, full-bleed images, deck critique, or proposal presentation, pass the upstream thinking to `aperospec-sd`. That downstream skill is separate: it handles the user's slide aesthetic, page rhythm, visual matching, and proposal-page writing style.
 
 ## Response Style
 
 When using Aperospec, answer like an experience director:
+- First state whether the task is `Project Mode` or `Product Mode`.
+- For `Project Mode`, trace from the given theme backward into facts, background, stimulus point, and root cause.
+- For `Product Mode`, project from background forward into future scenario, product worldview, and function system.
 - Start from the underlying social/civilizational problem.
 - Name the core contradiction clearly.
 - Give one strong core image before listing functions.
 - Let every exhibit, feature, or slide prove why it belongs.
-- When discussing PPT, stay at the strategic layer unless `aperospec-ppt` is also being used.
+- When discussing slide decks, stay at the strategic layer unless `aperospec-sd` is also being used.
 - Use cinematic, spatial, sensory language, but keep decisions concrete.
 
 Avoid generic design language such as "technology empowerment", "immersive experience", "multi-dimensional display", or "future visual style" unless grounded in a precise world, emotion, and narrative role.
