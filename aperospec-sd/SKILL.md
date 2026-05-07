@@ -1,228 +1,452 @@
 ---
 name: aperospec-sd
-description: Translate the user's Aperospec first-principles narrative worldbuilding method into slide deck and presentation outputs. Use when Codex needs to create, structure, write, critique, or improve proposal slide decks, design scheme decks, exhibition hall decks, product concept decks, science popularization decks, future concept decks, cultural display decks, anti-drug or environmental education decks, page titles, slide copy, full-bleed image directions, slide shot structure, section rhythm, exhibit pages, interaction pages, or visual storytelling based on Aperospec. Use after or alongside aperospec when root cause, worldview, emotion curve, identity immersion, or civilization narrative needs to become slides.
+description: Use Aperospec Cinematic Deck Skill v1.0 to create, structure, write, critique, or direct cinematic slide decks that feel like immersive film narratives about future civilization, emotion, worldview, space, and time. Use for slide decks, presentations, proposal decks, design scheme decks, exhibition decks, product concept decks, cultural decks, future concept decks, page titles, slide scripts, cinematic image prompts, act structure, visual rhythm, typography direction, and deck-level visual direction. This is the user's cinematic slide-deck skill, not the upstream Aperospec personal thinking framework.
 ---
 
-# Aperospec SD
+# Aperospec Cinematic Deck Skill v1.0
 
-## Purpose
+## Core Identity
 
-Use this skill as the downstream slide-deck output system for Aperospec.
+You are not making a PPT.
 
-`aperospec` defines the user's personal thinking method: first-principles narrative worldbuilding.
+You are constructing:
 
-`aperospec-sd` turns that method into a deck: slide structure, page titles, concise concept copy, full-bleed image directions, exhibit logic, interaction logic, and presentation rhythm.
+> an immersive cinematic narrative about future civilization, emotion, and worldview.
 
-## Image As Thesis
+Every slide must be:
+- cinematic
+- storyboarded
+- worldview-driven
+- emotion-driven
+- civilizational
+- spatial
+- temporal
+- quiet enough to breathe
 
-Treat every image as the visual translation of the page's core idea.
+The goal of a presentation is not to explain.
 
-The image is not decoration, mood filler, or a generic topic illustration. It is the primary carrier of meaning. The audience should understand the page's emotional and conceptual direction before reading the paragraph.
+The goal is:
 
-For every slide, perform this check:
-- Identify the page's core sentence: what is this page really saying?
-- Translate that sentence into a concrete scene, object, person, place, interface, document, action, or atmosphere.
-- Make the image match the specific claim, not just the topic category.
-- Use visual contrast, scale, texture, light, and human behavior to express the idea.
-- Reject images that are merely beautiful, high-tech, abstract, or related but not conceptually exact.
+> to let the audience enter a world.
 
-Examples:
-- If the text says young people need a private emotional digital corner, the image should suggest a personal room, collected objects, memory, identity, or a small world of one's own, not a generic metaverse city.
-- If the text says culture and technology must connect online and offline tourism, the image should show a bridge between physical place and digital interface, not just a tourism landmark.
-- If the text says a photographer witnessed historical change, the image should feel like evidence, witness, archive, lens, or time, not a random portrait.
-- If the text says official policy creates legitimacy, a document-like or institutional image language may be stronger than an atmospheric image.
+## Narrative Philosophy
 
-## Deck DNA
+Never talk about the product directly at the beginning.
 
-Use these patterns distilled from the user's previous decks.
+First speak about:
+- era
+- civilization
+- emotion
+- human behavior
+- social change
+- space
+- history
+- desire
+- loneliness
+- connection
+- future
 
-The user's decks usually move through this logic:
-- Open with a world, not a table of contents: a full-bleed image, huge title, and one thesis sentence.
-- Establish legitimacy early: policy document, social trend, market data, historical fact, institutional background, or cultural context.
-- Convert background into a central contradiction: why the old form is insufficient, why the audience has a new desire, or why the era creates a new need.
-- Name the bridge: virtual and real, online and offline, history and future, culture and technology, individual identity and social connection, local culture and global circulation.
-- Turn the bridge into a system: IP, platform, route, feature set, operation model, architecture, or exhibition journey.
-- Prove execution: cases, diagrams, process, phases, capability matrix, financial logic, team, or future planning.
-- Close with future vision or a clean brand ending.
+The product is only:
 
-Do not make every slide minimal. The user's decks alternate between:
-- Image-led thesis pages with very little text.
-- Dense logic pages for policy, market, architecture, process, capability, and value proof.
-- Black high-contrast product/technology pages.
-- White or document-like pages when institutional credibility matters.
-- Poetic chapter pages that reset emotion before returning to system explanation.
+> a natural result born inside the new world.
 
-## Required Upstream Logic
+## Fixed Five-Act Structure
 
-Before making slides, establish or infer:
-- Phenomenon: what is visibly being discussed or requested?
-- Why now: why does this era need the topic?
-- Stimulus point: what event, trend, anxiety, contradiction, or opportunity activates it?
-- Root cause: what deeper environmental, social, psychological, civilizational, or human force creates the issue?
-- Worldview: what enterable world translates that essence?
-- Core image: what one cinematic image can represent the whole project?
-- Emotional curve: how should the audience feel from beginning to end?
-- Identity system: who does the audience become inside the world?
-- Technology stance: should technology be visible, hidden, restrained, ritualized, playful, oppressive, or absent?
+All decks must follow a cinematic five-act structure.
 
-If these are missing, generate them before building pages.
+### ACT 1: Opening World
 
-## Deck Logic
+Purpose:
 
-Build the slide deck like a film made of pages.
+Establish the worldview.
 
-Recommended rhythm:
-1. Title world: one image that announces the world before explaining it.
-2. Why now: social background and stimulus point.
-3. Root cause: the deeper contradiction behind the topic.
-4. Worldview engine: the metaphor or world that lets the issue become enterable.
-5. Emotional curve: the journey from entry to reconstruction.
-6. Spatial or experience structure: zones, chapters, user journey, or system map.
-7. Identity immersion: role, mission, faction, token, guide, or ARG-like mechanism.
-8. Key exhibits or features: each born from a narrative beat.
-9. Technology and interaction: only where it intensifies the world.
-10. Closing reconstruction: belief, action, future image, or changed identity.
+Keywords:
+- civilization
+- city
+- history
+- scale
+- immersion
+- space
+- atmosphere
 
-Adjust the number of slides to the user's context. Do not force all ten sections if the deck is short.
+Visual language:
+- large scenes
+- huge titles
+- extremely low information density
+- cinematic poster feeling
 
-## Deck Archetypes
+Forbidden:
+- data
+- feature lists
+- business logic
 
-Choose the closest archetype, then adapt it.
+### ACT 2: Emotional Conflict
 
-### Cultural digital transformation deck
+Purpose:
 
-Use for city, culture, tourism, heritage, public sector, or digital community projects.
+Establish contradiction and emotion.
 
-Typical rhythm:
-1. Cultural world image.
-2. Policy and era background.
-3. PEST or social/technology/economic rationale.
-4. Local resource inventory.
-5. Strategic goal and core purpose.
-6. IP mapping: scene IP, content IP, activity IP.
-7. Traffic and community logic.
-8. Online-offline connection.
-9. Operation structure.
-10. System or capability architecture.
-11. Cases and value proof.
-12. Future planning.
+Keywords:
+- rupture
+- change
+- loss
+- old/new conflict
+- loneliness
+- desire
+- era shift
 
-### Product or business proposal deck
+Visual language:
+- black frames
+- silence
+- single-point information
+- pressure
+- historical photos
+- documentary style
 
-Use for startup, platform, product, investment, or BP-style decks.
+### ACT 3: Emerging Future
 
-Typical rhythm:
-1. One-line thesis over a world image.
-2. Market position in one clear sentence.
-3. Strategic constraint and solution.
-4. Value flywheel.
-5. Market and competitor proof.
-6. Emotional insight or personal metaphor.
-7. Pain points.
-8. Core functions as keys.
-9. Feature pages with scenario snippets.
-10. Development roadmap.
-11. Team proof.
-12. Thanks.
+Purpose:
 
-### Exhibition or culture curation deck
+Let the future begin to appear.
 
-Use for photography, art, museum, cultural exhibition, or curatorial proposals.
+Keywords:
+- AI
+- digital civilization
+- ARG
+- virtual-real fusion
+- new social relations
+- new consumption
+- new culture
 
-Typical rhythm:
-1. Era-scale title image.
-2. Subject identity.
-3. Why this person or theme matters.
-4. Historical timeline or witness role.
-5. The problem with traditional exhibitions.
-6. Curatorial turning point.
-7. New viewing proposition.
-8. Guest, institution, or cooperation proof.
+Visual language:
+- surreal
+- digital space
+- dreamlike
+- future city
+- spatial storytelling
 
-### Cultural journey or international exchange deck
+### ACT 4: System Reveal
 
-Use for travel, cross-cultural, cooperation, regional exchange, or digital cultural tourism.
+Purpose:
 
-Typical rhythm:
-1. Poetic invitation.
-2. Cooperation background.
-3. Strategic significance.
-4. Cultural bridge thesis.
-5. Digital extension of physical exhibition.
-6. Virtual space logic.
-7. Cultural landmarks and textures.
-8. Task or identity-based exploration.
-9. Technology modules: Web3D, DID, NFR, AI NPC, data.
-10. Future vision.
+Reveal the system.
 
-## Page Rule
+This is the only act where the following are allowed:
+- data
+- product structure
+- business logic
+- workflow
+- UI
+- charts
 
-Every core slide page should contain:
-- Title: a sharp concept-forward phrase, not a generic label.
-- One paragraph: what this page expresses, why it matters, and what the audience should feel.
-- Full-bleed image direction: one concrete high-definition background image direction that visually translates the page's core idea.
+Even here, the system must feel like a technology system reveal in a film, not a consulting deck.
 
-Optional when useful:
-- Narrative role.
-- Emotion.
-- Exhibit or interaction point.
-- Speaker note.
-- Image prompt for AI generation or image search.
+### ACT 5: Civilization Vision
 
-For dense logic pages, keep the same concept hierarchy even if the layout is not full-bleed:
-- One dominant page title.
-- One thesis sentence or short lead paragraph.
-- Three to five grouped proof blocks, columns, or diagram nodes.
-- A clear bridge sentence that explains why this evidence moves the deck forward.
+Purpose:
 
-## Image-Led Thinking
+Elevate the deck.
 
-Do not use images as decoration. The background image is the conceptual carrier and should be extremely matched to the text.
+This is not a summary.
 
-A strong image direction should specify:
-- Place.
-- Time.
-- Light.
-- People or traces of people.
-- Materials.
-- Camera distance.
-- Emotional temperature.
-- Key symbolic detail.
-- Why this image matches the page's sentence.
+It should leave a future aftertaste.
 
-Avoid generic image directions such as "high-tech background", "future city", "environmental protection picture", "immersive display", or "abstract data".
+The audience should feel:
+- imagination
+- emotion
+- belief
+- civilization
 
-## Writing Style
+The ending should not emphasize:
 
-Use concise, cinematic proposal language:
-- Let the title carry attitude.
-- Let the paragraph explain intention, not dump information.
-- Let the image carry atmosphere and worldview.
-- Prefer emotional precision over slogans.
-- Use short declarative section names such as "价值飞轮", "核心痛点", "未来展望", "文化的链接", or "探索的起点" when they clarify the logic.
-- Use poetic sentences for opening or emotional reset pages, then return to concrete operational language.
-- Avoid empty phrases such as "technology empowerment", "multi-dimensional display", "immersive experience", and "innovative interaction" unless the page gives a specific world, action, and narrative reason.
+> our company
 
-## Visual System
+It should emphasize:
 
-Prefer these visual moves when creating slide directions:
-- Full-bleed photographic or cinematic cover with oversized type.
-- Large white typography over dark or image backgrounds.
-- Black canvas for digital platform, product, architecture, case, and technology pages.
-- White institutional pages for policy, government, official documents, or credibility.
-- Cropped devices, interface mockups, QR entry points, or app screens when proving product entry.
-- Tables and matrices for market, competitor, capability, and implementation proof.
-- A final dark or image-led thanks page with restrained branding.
+> a new era has begun.
 
-The image should create the feeling before the text explains the logic.
+## Slide Grammar
 
-## Outputs
+### Single-Focus Rule
 
-Choose the format that matches the user's request:
-- Slide deck strategy: upstream Aperospec analysis plus deck thesis.
-- Slide outline: slide-by-slide title, paragraph, image direction, narrative role.
-- Exhibit deck: zone/exhibit table with story beat, emotion, knowledge point, visitor action, interaction, and technology form.
-- Visual direction: core image system and full-bleed image prompts.
-- Critique: identify pages where title, copy, image, and narrative role do not align.
+Each slide can have only one visual core.
 
-For concrete templates, read `references/ppt-patterns.md`.
+Forbid:
+- competing focal points
+- equal-weight information blocks
+- dense information stacking
+
+### Silent Space Rule
+
+Use silence generously:
+- black
+- deep gray
+- white
+- empty space
+- quiet regions
+
+Purpose:
+- breathing
+- premium feeling
+- rhythm
+
+### Title As Image
+
+The title is not explanatory text.
+
+The title is:
+- a shot element
+- a spatial structure
+- part of the composition
+
+Allowed:
+- oversized titles
+- cropped titles
+- vertical titles
+- Chinese-English mixed titles
+- cross-page titles
+
+### Slide As Shot
+
+Every slide must belong to a shot type:
+
+| Shot type | Use |
+| --- | --- |
+| Establishing Shot | Build the world |
+| Wide Shot | Show grand space |
+| Medium Shot | Show human-space relation |
+| Close-up | Show emotion |
+| Insert Shot | Build credibility |
+| Transition Shot | Shift emotion |
+| Silent Shot | Pause |
+
+## Visual Direction
+
+### Color System
+
+Main colors:
+- black
+- deep gray
+- white
+
+Supporting colors:
+- low-saturation civilizational tones
+- neon accents
+- digital cold light
+- warm historical tones
+
+Forbidden:
+- internet blue
+- gradient tech purple
+- Dribbble style
+- startup style
+
+### Light And Shadow
+
+Use:
+- strong light and shadow
+- cinematic lighting
+- real spatial feeling
+- atmosphere
+- emotional illumination
+
+References:
+- Denis Villeneuve
+- Blade Runner 2049
+- Wong Kar Wai
+- TeamLab
+- Netflix opening sequence
+
+## Typography System
+
+Chinese preferred:
+- Source Han Sans
+- HarmonyOS Sans
+- Alibaba PuHTi
+
+English preferred:
+- Helvetica Now
+- DIN
+- Neue Haas Grotesk
+
+Typography rules:
+- large type
+- strong breathing room
+- extremely low density
+- generous spacing
+
+Forbidden:
+- small-text stacking
+- traditional BP layout
+- dense explanation
+
+## Image Generation Direction
+
+Images must have:
+- time
+- civilization
+- space
+- human traces
+- emotion
+
+Forbid:
+- AI asset feeling
+- e-commerce feeling
+- corporate promotional feeling
+- generic tech imagery
+
+High-frequency prompt vocabulary:
+- cinematic
+- documentary
+- atmospheric
+- immersive
+- emotional architecture
+- future civilization
+- digital heritage
+- urban memory
+- spatial storytelling
+- future archaeology
+- human traces
+- brutal contrast
+- poetic technology
+
+## Slide Rhythm
+
+The deck must feel like a film.
+
+Rhythm types:
+
+| Page type | Function |
+| --- | --- |
+| Immersion page | Build emotion |
+| Black frame page | Create breathing pause |
+| Information page | Build credibility |
+| Worldview page | Elevate meaning |
+| Transition page | Change rhythm |
+
+Recommended rhythm loop:
+
+`2 emotion pages -> 1 immersion page -> 1 information page -> 1 black frame page -> 1 future page`
+
+Repeat and adapt as needed.
+
+## Language Tone
+
+Forbidden:
+- corporate wording
+- business cliches
+- "we are committed to"
+- "solution"
+- "empower the industry"
+
+Required:
+- film narration
+- civilization documentary tone
+- future manifesto tone
+- exhibition introduction tone
+
+## Core Emotional Targets
+
+Every deck must trigger at least some of:
+- curiosity
+- immersion
+- civilization
+- history
+- loneliness
+- future
+- imagination
+- belief
+
+## Aperospec Methodology
+
+Aperospec SD is not merely a visual style.
+
+It is:
+
+> an immersive expression system that uses cinematic narrative to gradually bring the audience into a future-civilization worldview.
+
+It combines:
+- cinematic storyboarding
+- worldview design
+- digital curation
+- spatial narrative
+- civilizational narrative
+- emotion control
+- visual direction
+- futurist expression
+
+The result is:
+
+> a slide deck narrative system that moves like a film.
+
+## Workflow
+
+### STEP 1: Define The World
+
+Define first:
+- worldview
+- era background
+- civilizational state
+- human emotion
+- social change
+
+Do not define the product first.
+
+### STEP 2: Write The Film Script
+
+Do not write a PPT outline.
+
+Write:
+- Opening
+- Conflict
+- Transition
+- Emergence
+- Future
+
+### STEP 3: Build The Storyboard
+
+Every slide must define:
+- shot type
+- emotional target
+- light state
+- information density
+- visual rhythm
+
+### STEP 4: Build Emotional Rhythm
+
+Control when the audience:
+- immerses
+- pauses
+- feels pressure
+- releases
+- imagines the future
+
+### STEP 5: Final Visual Direction
+
+Only at the end decide:
+- layout
+- imagery
+- motion
+- typography
+- transition
+- visual unity
+
+## Ultimate Principle
+
+Presentation is not:
+
+> telling information to the audience.
+
+Presentation is:
+
+> bringing the audience into a new world.
+
+The core of Aperospec SD is not:
+
+> making beautiful slides.
+
+It is:
+
+> directing visual narrative act by act, like a film, so the audience enters a new civilization world.
+
+For reusable templates, read `references/cinematic-deck-patterns.md`.
