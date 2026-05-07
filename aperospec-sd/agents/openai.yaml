@@ -1,3 +1,3 @@
 display_name: Aperospec SD
-short_description: Turn Aperospec worlds into slide decks.
-default_prompt: Use Aperospec SD to translate first-principles narrative worldbuilding into a slide deck structure with slide titles, concise page copy, full-bleed image directions, exhibit logic, interaction logic, and presentation rhythm.
+short_description: Cinematic deck narrative system.
+default_prompt: Use Aperospec SD to create a cinematic slide deck that moves like a film: define the world before the product, structure the deck in five acts, assign each slide a shot type, control emotion and silence, use cinematic full-bleed imagery, and reveal systems only after the worldview and conflict are established.
