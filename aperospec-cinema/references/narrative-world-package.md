@@ -1,143 +1,191 @@
-# Narrative World Package Template
+# Narrative World Package API Template
 
-Use this template when Aperospec Cinema is asked to translate an upstream cognitive analysis, project insight, product insight, social issue, future concept, or exhibition theme into a narrative world.
+Use this template only when the input is a complete Cognitive World Package (CWP) from `aperospec-project`.
 
-## Narrative World Package
+## Input Gate
+
+Before translation, confirm the CWP contains:
+- WORLD EVOLUTION
+- ROOT CAUSE
+- DRIVING FORCES
+- CORE CONTRADICTION
+- BEHAVIORAL CHANGE
+- FUTURE PROJECTION
+- COGNITIVE TRIGGERS
+- NARRATIVE POTENTIAL
+
+If these fields are missing, do not improvise. Ask for a valid CWP.
+
+## Mapping Table
+
+| CWP field | NWP translation |
+| --- | --- |
+| WORLD EVOLUTION | WORLD |
+| ROOT CAUSE | hidden pressure inside WORLD and EMOTIONAL ENVIRONMENT |
+| DRIVING FORCES | invisible forces inside EMOTIONAL ENVIRONMENT and CORE CONFLICT |
+| CORE CONTRADICTION | CORE CONFLICT |
+| BEHAVIORAL CHANGE | IMMERSIVE EXPERIENCE and EMOTIONAL CURVE |
+| FUTURE PROJECTION | SOMETHING IS COMING |
+| COGNITIVE TRIGGERS | SCENE POTENTIALS |
+| NARRATIVE POTENTIAL | visual/narrative direction across the NWP |
+
+## Required Output
 
 ```markdown
-# Narrative World Package
+# Narrative World Package (NWP)
+
+## INPUT SOURCE
+
+Cognitive World Package:
+[Briefly name the source TOPIC only.]
 
 ## 1. WORLD
 
-This is a world where:
-[Describe the civilization state, era background, social temperament, emotional environment, and behavior change.]
+This is a narrative world where:
+[Translate WORLD EVOLUTION into civilizational state, world atmosphere, Opening background, and social state.]
 
-The world does not feel like:
-[What surface interpretation should be avoided.]
+The world is not:
+[Avoid surface framing.]
 
-It feels like:
-[City / space / world state / atmosphere / human behavior.]
+It opens through:
+[Opening background, not slide opening.]
 
-## 2. CORE DRIVING FORCE
+## 2. EMOTIONAL ENVIRONMENT
 
-The system is not truly driven by:
-[Official explanation / surface logic / formalized language.]
+The collective emotion is:
+[Translate root cause and driving forces into emotional climate.]
 
-It is driven by:
-[Desire / emotion / fear / survival pressure / group identity / reward mechanism.]
+Pressure comes from:
+[Hidden Narrative Pressure.]
 
-The force operates through:
-[How the force changes behavior.]
+Loneliness / anxiety / desire / fear appears as:
+[Narrative temperature and human condition.]
 
-## 3. CORE CONFLICT
+## 3. SOMETHING IS COMING
 
-The real conflict is:
-[Narrative tension in one sentence.]
+What is approaching:
+[Translate FUTURE PROJECTION.]
 
-It appears as:
-- [Conflict / confrontation]
-- [Seduction / path dependence]
-- [Loss of control]
-- [Structural opposition]
+What is losing control:
+[System, behavior, desire, society, civilization, or environment.]
 
-## 4. EMOTIONAL CURVE
+What is about to change:
+[Approaching transformation.]
+
+## 4. CORE CONFLICT
+
+The narrative core conflict is:
+[Translate CORE CONTRADICTION into dramatic tension.]
+
+It is a conflict between:
+- People and environment:
+- People and systems:
+- People and desire:
+- People and civilization:
+
+## 5. EMOTIONAL CURVE
 
 The audience moves through:
 
-`[emotion 1] -> [emotion 2] -> [pressure] -> [peak] -> [pause] -> [release] -> [reflection]`
+`immersion -> resonance -> pressure -> lostness -> release -> aftertaste`
 
-Pressure rises when:
-[Describe the escalation.]
+Immersion:
+[Entry feeling.]
 
-The release appears when:
-[Describe the release node.]
+Resonance:
+[Where the audience recognizes themselves.]
 
-## 5. FUTURE VISION
+Pressure:
+[Where hidden pressure becomes felt.]
 
-If the current drive forces continue, the world moves toward:
-[Future projection with civilizational feeling.]
+Lostness:
+[Where control weakens or meaning collapses.]
 
-The relationship between people and systems changes from:
-[Old relationship]
+Release:
+[Where the narrative opens a way out or a pause.]
 
-To:
-[New relationship]
+Aftertaste:
+[What remains emotionally.]
 
-## 6. COGNITIVE TRIGGERS
-
-The audience is pierced by perceptible states:
-- [Visible state]
-- [Audible state]
-- [Behavioral state]
-- [Spatial state]
-- [Temporal state]
-
-Do not say:
-[Abstract concept.]
-
-Show:
-[Concrete perceptible state.]
-
-## 7. IMMERSIVE EXPERIENCE
+## 6. IMMERSIVE EXPERIENCE
 
 The audience feels as if they are entering:
-[State / dream / spatial experience / emotional condition.]
+[State / world / condition.]
 
-Their behavior path is:
-[What they see, approach, hesitate over, choose, lose, regain, or understand.]
+They move through:
+[Behavior path translated from BEHAVIORAL CHANGE.]
 
-## 8. VISUAL WORLD
+They do not merely understand:
+[Concept.]
 
-Light:
-[Light and shadow.]
+They experience:
+[Perceptible condition.]
 
-Color:
-[Color temperature and palette.]
+## 7. VISUAL WORLD
+
+Light and shadow:
+[Derived from NARRATIVE POTENTIAL and emotional environment.]
 
 Atmosphere:
-[Air, density, silence, sound, material.]
+[Density, silence, air, pressure, warmth/coldness.]
 
-Space:
-[Scale, enclosure, openness, pressure, distance.]
+Spatial feeling:
+[Scale, enclosure, distance, threshold, openness.]
 
 Civilizational feeling:
-[Historical / future / technological / ritual / ruin / migration feeling.]
+[Historical, technological, ritual, ruin, migration, or future condition.]
 
-## 9. STRUCTURAL ELEMENTS
+## 8. SCENE POTENTIALS
 
-Only after the world is clear, translate it into structure:
-- Function:
-- Module:
-- Spatial structure:
-- Exhibition zone:
-- System structure:
+The most cinematic scene potentials are:
+- Scene:
+  State:
+  Behavior:
+  Space:
+  Emotional trigger:
+- Scene:
+  State:
+  Behavior:
+  Space:
+  Emotional trigger:
+- Scene:
+  State:
+  Behavior:
+  Space:
+  Emotional trigger:
+
+These are not slides yet.
+They are narrative scene potentials for `aperospec-sd` to later translate into a Slide Movie.
 ```
 
-## Translation Checks
+## Validation Checklist
 
-Before finalizing, check:
-- Does the output feel like a world, not a chapter directory?
-- Does the world contain "Something is coming"?
-- Are the drive forces translated into dramatic conflict?
-- Are cognitive triggers perceptible rather than abstract?
-- Does emotion arrive before information?
-- Does the output avoid slide language until the narrative world is complete?
-- Are structural elements placed last?
+Before finalizing, confirm:
+- The input was a CWP.
+- The output is an NWP.
+- No new root-cause analysis was invented outside the CWP.
+- No slide titles, page structures, typography, layout, or motion design appear.
+- CWP fields were mapped rather than ignored.
+- Scene potentials are cinematic but not yet storyboard slides.
+- The NWP can be passed directly to `aperospec-sd`.
 
 ## Forbidden Drift
 
 Do not drift into:
-- PPT outline
-- consulting logic
-- product feature list
-- exhibition-zone inventory
-- business plan
-- abstract theory without scenes
-- slogans without perceptible triggers
+- upstream cognitive analysis
+- free worldbuilding unrelated to the CWP
+- slide deck outline
+- storyboard deck
+- visual design instructions
+- business structure
+- PPT language
 
-When uncertain, choose:
-- scene over explanation
-- pressure over summary
-- behavior over concept
-- atmosphere over structure
-- one approaching event over many scattered topics
+When uncertain, map:
+- WORLD EVOLUTION to world
+- ROOT CAUSE to pressure
+- DRIVING FORCES to invisible forces
+- CORE CONTRADICTION to conflict
+- BEHAVIORAL CHANGE to human transition
+- FUTURE PROJECTION to approaching change
+- COGNITIVE TRIGGERS to scene potentials
+- NARRATIVE POTENTIAL to tone and pacing
