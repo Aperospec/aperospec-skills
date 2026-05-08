@@ -1,0 +1,3 @@
+display_name: Aperospec Slidedeck
+short_description: NWP to SCP rendering engine.
+default_prompt: Use Aperospec Slidedeck to render a Narrative World Package (NWP) from aperospec-cinema into a Slide Cinema Package (SCP): screenplay, visual script, storyboard, slide structure, and art direction. Do not re-analyze the world, regenerate narrative, or create bullet-point corporate PPT.
