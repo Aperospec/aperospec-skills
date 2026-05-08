@@ -1,257 +1,288 @@
 ---
 name: aperospec-cinema
-description: Use Aperospec Narrative Translation Engine v1.0 to translate upstream Aperospec cognitive analysis into an immersive narrative world package. Use for turning abstract cognition, drive forces, trends, root causes, social structures, product/project insights, or future concepts into worldview, dramatic conflict, emotional curve, cognitive triggers, immersive experience, visual world, and structural elements. This is the user's middle-layer narrative translation skill, not the upstream Aperospec thinking framework and not the downstream Aperospec SD slide-deck skill.
+description: Use Aperospec Cinema as a Narrative Translation API that accepts only a Cognitive World Package (CWP) from aperospec-project and outputs a fixed Narrative World Package (NWP) for aperospec-sd. Use for standardized CWP-to-NWP mapping: world evolution to narrative world, root cause to hidden narrative pressure, driving forces to invisible forces, core contradiction to core conflict, behavioral change to human state transition, future projection to Something Is Coming, cognitive triggers to scene potentials, and narrative potential to narrative direction. This skill does not analyze the world, create slides, define typography/layout, or freely invent narrative outside the CWP interface.
 ---
 
-# Aperospec Narrative Translation Engine v1.0
+# Aperospec Cinema Narrative Translation API
 
-`中游 Skill | 叙事转译引擎`
+`中游 Skill | Interface-based Narrative Translation Engine`
 
 ## Core Definition
 
-The core task of Aperospec Narrative Translation Engine is not:
+This skill is not a free cinematic thinking system.
 
-> analyzing the world.
+It is a standardized:
 
-It is:
+> Narrative Translation API.
 
-> translating cognitive structures into narrative worlds that can be entered, sensed, and immersed in.
+Its task is not:
+- understanding the world
+- re-analyzing causality
+- generating cognitive conclusions
+- making slides
+- designing visuals
+- writing a presentation structure
 
-It is the translation layer between:
+Its task is:
 
-`cognitive system -> cinematic system`
+> translating a Cognitive World Package (CWP) into a Narrative World Package (NWP).
 
-Use it after `aperospec` has produced cognition, causality, drive forces, focus, or future projection.
+## Pipeline Position
 
-Use it before `aperospec-sd` turns the narrative world into a cinematic slide deck.
+Pipeline:
 
-Do not treat this skill as:
-- root-cause analysis itself
-- PPT outline generation
-- bullet-point planning
-- business structure
-- chapter directory
-- final slide layout
+`aperospec -> aperospec-project -> CWP -> aperospec-cinema -> NWP -> aperospec-sd -> Slide Movie`
 
-## Core Responsibilities
+| Skill | Position | Output |
+| --- | --- | --- |
+| aperospec | original cognitive personality layer | divergent thinking |
+| aperospec-project | standardized cognitive engine | Cognitive World Package (CWP) |
+| aperospec-cinema | narrative translation API | Narrative World Package (NWP) |
+| aperospec-sd | Slide Cinema engine | Slide Movie |
 
-### 1. Translate abstract cognition into worldview
+## Interface Definition
 
-Translate abstract concepts such as:
-- attention disorder
-- civilizational migration
-- digital alienation
-- identity anxiety
-- social structure change
+### INPUT SOURCE
 
-Into perceptible narrative forms:
-- city
-- space
-- world state
-- emotional environment
-- behavior pattern
+Input source:
 
-### 2. Translate drive forces into dramatic conflict
+> `aperospec-project.skill`
 
-Translate forces such as:
-- desire
-- group identity
-- survival pressure
-- emotional escape
+### INPUT TARGET
 
-Into narrative tensions:
-- conflict
-- confrontation
+This system can only receive:
+
+> Cognitive World Package (CWP)
+
+The CWP must contain:
+- WORLD EVOLUTION
+- ROOT CAUSE
+- DRIVING FORCES
+- CORE CONTRADICTION
+- BEHAVIORAL CHANGE
+- FUTURE PROJECTION
+- COGNITIVE TRIGGERS
+- NARRATIVE POTENTIAL
+
+Forbidden direct inputs:
+- PPT requirements
+- Slide requirements
+- Narrative drafts
+- visual descriptions
+- bullet points
+- module lists
+- business structures
+
+If the input is not a CWP, do not freely interpret it. Ask for a CWP from `aperospec-project` first.
+
+### OUTPUT TYPE
+
+This system always outputs:
+
+> Narrative World Package (NWP)
+
+### OUTPUT TARGET
+
+Output target:
+
+> `aperospec-sd.skill`
+
+## System Responsibility
+
+Old responsibility was vague:
+- cinematic
+- narrative
+- worldview
+- emotion
+
+New responsibility is precise:
+
+`Cognitive World Package (CWP) -> Narrative World Package (NWP)`
+
+This skill only performs:
+
+> Narrative Translation.
+
+It must not decide the cognitive structure again.
+
+## Cognitive To Narrative Mapping System
+
+This is the core mapping protocol.
+
+### CWP: WORLD EVOLUTION -> Narrative World
+
+Generate:
+- worldview
+- civilizational atmosphere
+- Opening background
+- social state
+
+### CWP: ROOT CAUSE -> Hidden Narrative Pressure
+
+Generate:
+- deep pressure
+- systemic problem
+- latent loss of control
+
+### CWP: DRIVING FORCES -> Invisible Forces
+
+Generate:
 - seduction
-- loss of control
-- path dependence
+- control
+- desire structure
+- environmental push
 
-### 3. Translate trends into approaching events
+### CWP: CORE CONTRADICTION -> Core Conflict
 
-Narrative must always contain:
+Generate:
+- dramatic conflict
+- narrative tension
+- emotional opposition
 
-> Something is coming.
+### CWP: BEHAVIORAL CHANGE -> Human State Transition
 
-The audience must feel that a change is approaching.
+Generate:
+- how people are changed
+- behavior path
+- emotional state
 
-### 4. Translate abstract structures into perceptible states
+### CWP: FUTURE PROJECTION -> Something Is Coming
 
-An abstract idea such as:
+Generate:
+- future pressure
+- civilizational trend
+- approaching change
 
-> addiction mechanism
+### CWP: COGNITIVE TRIGGERS -> Scene Potentials
 
-Must not remain a concept.
+Generate:
+- scenes
+- shot details
+- emotional inserts
 
-It must become perceptible states such as:
-- cold phone light late at night
-- time suddenly jumping to 3 a.m.
-- a Restart button
-- breathing sounds
-- dormitory atmosphere
-- group whispers
+### CWP: NARRATIVE POTENTIAL -> Narrative Direction
 
-## Narrative Translation Principle
+Generate:
+- genre
+- narrative tone
+- atmosphere
+- cinematic pacing
 
-Always follow:
+## Narrative World Package Output Protocol
 
-> Narrative Dominates Structure
+Always output the fixed NWP structure below.
 
-Always prioritize:
-- emotion before information
-- world before logic
-- immersion before explanation
-- scene before structure
-
-## Narrative World Package
-
-This skill outputs a:
-
-> Narrative World Package
-
-It must not output:
-- PPT outline
-- bullet-point-only plan
-- commercial structure
-- chapter directory
-
-When the user asks for translation, produce the following fixed structure.
-
-For reusable templates, read `references/narrative-world-package.md`.
+For the reusable template, read `references/narrative-world-package.md`.
 
 ### 1. WORLD
 
-Answer:
-
-> What kind of world is this?
-
-Must include:
-- civilizational state
-- era background
-- social temperament
-- emotional environment
-- behavior change
-
-### 2. CORE DRIVING FORCE
-
-Answer:
-
-> What force truly drives the system?
-
-Bypass:
-- official explanations
-- surface logic
-- formalized expression
-
-Look directly for:
-- desire
-- emotion
-- fear
-- survival pressure
-- group identity
-- reward mechanism
-
-### 3. CORE CONFLICT
-
-Answer:
-
-> What is the real conflict?
-
-Must contain:
-- narrative tension
-- emotional tension
-- behavioral loss of control
-- structural confrontation
-
-### 4. EMOTIONAL CURVE
+Narrative world.
 
 Define:
+- civilizational state
+- world atmosphere
+- Opening background
 
-> What emotional changes will the audience experience?
+### 2. EMOTIONAL ENVIRONMENT
 
-Must include:
-- emotional progression
-- pressure changes
-- release nodes
-- peaks and pauses
+Define:
+- collective emotion
+- pressure
+- loneliness
+- narrative temperature
 
-### 5. FUTURE VISION
+### 3. SOMETHING IS COMING
 
-Answer:
+Define:
+- what is approaching
+- what is losing control
+- what is about to change
 
-> Where will this world go?
+### 4. CORE CONFLICT
 
-Must contain:
-- civilizational feeling
-- long-term trend
-- future projection
-- change in the relationship between people and systems
+Narrative core conflict.
 
-### 6. COGNITIVE TRIGGERS
+Define the conflict between:
+- people and environment
+- people and systems
+- people and desire
+- people and civilization
 
-Answer:
+### 5. EMOTIONAL CURVE
 
-> What will truly pierce the audience?
+Define:
+- immersion
+- resonance
+- pressure
+- lostness
+- release
+- aftertaste
 
-Triggers must be perceptible states.
-
-Forbidden:
-- abstract concepts
-- slogans
-- generalized themes
-
-### 7. IMMERSIVE EXPERIENCE
+### 6. IMMERSIVE EXPERIENCE
 
 Answer:
 
 > What does the audience feel they are entering?
 
-Describe:
-- state
-- dreamlike quality
-- emotion
-- spatial experience
-- behavior path
-
-### 8. VISUAL WORLD
+### 7. VISUAL WORLD
 
 Define:
 - light and shadow
-- color
 - atmosphere
 - spatial feeling
 - civilizational feeling
 
-### 9. STRUCTURAL ELEMENTS
+### 8. SCENE POTENTIALS
 
-Only at the end may the output contain:
-- functions
-- modules
-- spatial structure
-- exhibition zones
-- system structure
+Define the most cinematic:
+- scenes
+- states
+- behaviors
+- spaces
+- emotional triggers
 
-## Output Rules
+## Strict Rules
 
-Write in a cinematic, spatial, and emotional style.
+### RULE 1
 
-Make every abstract concept become something visible, audible, behavioral, spatial, or atmospheric.
+Forbidden:
+- slide design
+- typography
+- layout
+- page structure
+- motion design
 
-Avoid prematurely turning the result into:
-- product feature list
-- execution plan
+### RULE 2
+
+Forbidden:
+
+> re-analyzing the world.
+
+Use the CWP as the source of truth.
+
+### RULE 3
+
+This system can only perform:
+
+> Narrative Translation.
+
+### RULE 4
+
+Do not output:
+- PPT outline
 - slide titles
-- UI flow
-- exhibit list
-- business model
+- storyboard deck
+- visual production plan
+- business structure
 
-If the user needs those downstream outputs, first complete the Narrative World Package, then hand off to `aperospec-sd` or another execution skill.
+Those belong downstream to `aperospec-sd`.
 
 ## Final Principle
 
-This system does not:
+This skill is no longer:
 
-> explain the world.
+> free creation.
 
-It:
+It is:
 
-> translates the world into a cinematic universe that can be entered.
+> a standardized narrative translator that stabilizes the Aperospec Pipeline.
