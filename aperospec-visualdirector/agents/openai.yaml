@@ -1,0 +1,3 @@
+display_name: Aperospec Visual Director
+short_description: SBP to VDP visual directing engine.
+default_prompt: Use Aperospec Visual Director to turn a Storyboard Package (SBP) into a Visual Directing Package (VDP): slide composition, typography system, image direction, visual rhythm, AI image prompts, and rendering rules. Only use the SBP; do not reread upstream analysis or change the storyboard.
