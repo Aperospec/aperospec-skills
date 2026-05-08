@@ -1,6 +1,6 @@
 ---
 name: aperospec-project
-description: Use Aperospec Project as a standardized upstream Cognitive Engine that accepts only a TOPIC input and outputs a Cognitive World Package (CWP). Use for structured cognitive analysis of a topic, phenomenon, social issue, project theme, product theme, cultural question, future concept, or behavioral change through world evolution, root cause, driving forces, core contradiction, behavioral change, future projection, cognitive triggers, and narrative potential. This skill preserves the original aperospec skill's divergent thinking by providing a separate machine-readable pipeline engine for downstream aperospec-cinema and aperospec-sd.
+description: Use Aperospec Project as a standardized upstream Cognitive Engine that accepts only a TOPIC input and outputs a Cognitive World Package (CWP). Use for structured cognitive analysis of a topic, phenomenon, social issue, project theme, product theme, cultural question, future concept, or behavioral change through world evolution, root cause, driving forces, core contradiction, behavioral change, future projection, cognitive triggers, and narrative potential. This skill preserves the original aperospec skill's divergent thinking by providing a separate machine-readable pipeline engine for downstream aperospec-cinema, aperospec-storyboard, and aperospec-visualdirector.
 ---
 
 # Aperospec Project Cognitive Engine
@@ -31,7 +31,7 @@ This skill is the upstream layer in the Aperospec Pipeline.
 
 Pipeline:
 
-`INPUT: TOPIC -> aperospec-project -> Cognitive World Package (CWP) -> aperospec-cinema -> Narrative World Package (NWP) -> aperospec-sd -> Slide Movie`
+`INPUT: TOPIC -> aperospec-project -> Cognitive World Package (CWP) -> aperospec-cinema -> Narrative World Package (NWP) -> aperospec-storyboard -> SBP -> aperospec-visualdirector -> VDP -> Final Slide Cinema`
 
 Responsibilities:
 
@@ -40,7 +40,8 @@ Responsibilities:
 | aperospec | original divergent framework | preserve open-ended thinking and philosophy |
 | aperospec-project | upstream cognitive engine | understand the world and output CWP |
 | aperospec-cinema | middle narrative translation engine | translate CWP into a cinematic narrative world |
-| aperospec-sd | downstream slide movie engine | shoot the narrative world into a Slide Movie |
+| aperospec-storyboard | storyboard engine | translate NWP into Storyboard Package (SBP) |
+| aperospec-visualdirector | visual director engine | translate SBP into Visual Directing Package (VDP) |
 
 ## Input Protocol
 
