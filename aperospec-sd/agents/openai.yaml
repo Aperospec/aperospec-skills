@@ -1,3 +1,3 @@
 display_name: Aperospec SD
-short_description: Cinematic deck narrative system.
-default_prompt: Use Aperospec SD to create a cinematic slide deck that moves like a film: define the world before the product, structure the deck in five acts, assign each slide a shot type, control emotion and silence, use cinematic full-bleed imagery, and reveal systems only after the worldview and conflict are established.
+short_description: Cinematic Slide Movie engine.
+default_prompt: Use Aperospec SD v3.0 to translate a Narrative World Package into a cinematic Slide Movie: generate screenplay, visual script, and storyboard deck; define shot types, silent slides, scene-before-explanation rhythm, image direction, typography density, and final slide motion.
