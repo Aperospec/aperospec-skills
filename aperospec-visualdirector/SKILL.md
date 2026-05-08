@@ -1,29 +1,79 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the visual directing engine in the Aperospec Pipeline. It accepts only a Storyboard Package (SBP) from aperospec-storyboard and outputs a Visual Directing Package (VDP): slide composition, typography system, image direction, visual rhythm, AI image prompts, and rendering rules. It answers what each page should look like. It does not analyze the world, generate CWP/NWP/SBP, or alter storyboard structure.
+description: Use Aperospec Visual Director as the visual directing engine in the Aperospec Pipeline. It accepts only a Storyboard Package (SBP) from aperospec-storyboard and outputs a Visual Directing Package (VDP). Use it to define what every slide looks like through slide composition, typography direction, cinematic image direction, visual rhythm, cinematic prompts, and rendering notes. It is not a PPT beautification tool, layout tool, information design system, world analyzer, narrative generator, emotional-curve rewriter, or storyboard editor.
 ---
 
-# Aperospec Visual Director Engine
+# Aperospec Visual Directing Engine
 
 `视觉导演引擎`
 
 ## Core Definition
 
-This skill turns:
+`aperospec-visualdirector.skill` is not:
+- a PPT beautification tool
+- a layout tool
+- an information design system
 
-> Storyboard
+Its core task is:
 
-Into:
+> translating Storyboard into watchable Slide Cinema.
 
-> watchable Slide Cinema.
+## System Position
 
-It answers:
+This skill sits after:
+
+> `aperospec-storyboard.skill`
+
+It reads:
+
+> Storyboard Package (SBP)
+
+And outputs:
+
+> Visual Directing Package (VDP)
+
+Pipeline:
+
+`aperospec -> aperospec-project -> CWP -> aperospec-cinema -> NWP -> aperospec-storyboard -> SBP -> aperospec-visualdirector -> VDP -> Final Slide Cinema`
+
+## Core Responsibility
+
+This skill only answers:
 
 > What does each page actually look like?
 
-## Pipeline Position
+## Forbidden Responsibilities
 
-`aperospec -> aperospec-project -> CWP -> aperospec-cinema -> NWP -> aperospec-storyboard -> SBP -> aperospec-visualdirector -> VDP -> Final Slide Cinema`
+This skill must not perform:
+- worldview analysis
+- Narrative generation
+- Emotional Curve reconstruction
+- Storyboard modification
+- Scene rewriting
+
+These have already been completed by:
+- `aperospec-cinema.skill`
+- `aperospec-storyboard.skill`
+
+## Important Principle
+
+This skill is not:
+
+> information design.
+
+It is:
+
+> cinematic shot design.
+
+## Slide Definition
+
+Every slide must be understood as:
+
+> a film shot.
+
+Not:
+
+> a PPT page.
 
 ## Interface Definition
 
@@ -53,116 +103,228 @@ This system always outputs:
 
 > Visual Directing Package (VDP)
 
-## Context Isolation Rule
-
-Visual Director can only see:
-
-> Storyboard Package (SBP)
-
-It must not reread:
-- project documents
-- world cognition
-- Narrative analysis
-- upstream source material
-
-Otherwise, it will start thinking again.
-
-## VDP Output Protocol
-
 For the reusable template, read `references/visual-directing-package.md`.
 
-VDP must contain:
-- Slide Composition
-- Typography System
-- Image Direction
-- Visual Rhythm
-- AI Image Prompt
-- Rendering Rules
+## Visual Language Principles
 
-## Slide Composition
+### Rule 1: Image First
 
-Define:
-- full-screen / split layout
-- composition
+Image always comes before text.
+
+### Rule 2: Emotion Before Information
+
+Emotion comes before explanation.
+
+### Rule 3: Silence Has Weight
+
+Allow:
+- black frames
 - negative space
-- black frame ratio
-- visual hierarchy
+- pages without explanation
+- one-sentence pages
+
+### Rule 4: Cinematic Breathing
+
+Every page must breathe.
+
+Forbidden:
+- information overload
+- full-page text
+- bullet points
+- corporate layout
+
+### Rule 5: Narrative Space
+
+Every page must preserve Narrative space.
+
+The audience needs to:
+
+> enter the page.
+
+Not:
+
+> read the page.
+
+## Slide Composition System
+
+Every page must define:
+
+### Composition Type
+
+Examples:
+- Fullscreen
+- Split Layout
+- Cinematic Crop
+- Minimal Frame
+- Black Frame
+- Floating Composition
+
+### Negative Space Ratio
+
+Define the ratio of empty or silent space.
+
+Default:
+
+> negative space first.
+
+### Text Density
+
+Define the text density.
+
+Default:
+
+> extremely low text density.
+
+### Focus Point
+
+Define the viewer's first visual focus.
 
 ## Typography System
 
-Define:
-- font size
-- density
-- alignment
-- breathing
-- minimalism
+Typography must be understood as:
 
-## Image Direction
+> cinematic subtitles.
 
-Define:
-- camera distance
-- lighting
-- atmosphere
-- grain
-- blur
-- texture
-- photographic language
+Not:
 
-## Visual Rhythm
+> PPT text.
 
-Define:
-- which page is still
-- which page is black frame
-- which page has only one sentence
-- which page is emotional impact
+### Typography Rules
 
-## AI Image Prompt
+1. Default to very little text.
+2. One sentence is better than one paragraph.
+3. Type must breathe.
+4. Dense text, explanatory paragraphs, and bullet points are forbidden.
+5. Typography must serve emotion, not information quantity.
 
-Every page must generate a cinematic image prompt.
+## Image Direction System
+
+Every page must generate:
+
+> cinematic Image Direction.
+
+Each page must define:
+
+### Lens
+
+Examples:
+- 35mm
+- 50mm
+- Wide Lens
+- Close-up
+- Long Shot
+
+### Lighting
+
+Examples:
+- Cold Blue
+- Soft Natural
+- High Contrast
+- Screen Glow
+- Dark Ambient
+
+### Atmosphere
+
+Examples:
+- Psychological Pressure
+- Isolation
+- Documentary Reality
+- Silent Anxiety
+- Emotional Distance
+
+### Texture
+
+Examples:
+- Film Grain
+- Blur Reflection
+- Digital Noise
+- Soft Fog
+- Matte Surface
+
+### Camera Feeling
+
+Define the feeling of camera distance.
+
+Examples:
+- Intimate
+- Distant
+- Surveillance
+- Human POV
+
+## Visual Rhythm System
+
+Pages must form a visual rhythm.
+
+Define which pages are:
+- black frame
+- still
+- emotional explosion
+- minimal
+- high pressure
+- one sentence
+- no text
+
+Rhythm must feel like:
+
+> cinema.
+
+Not:
+
+> a presentation.
+
+## AI Image Prompt System
+
+Every page must automatically generate:
+
+> Cinematic Image Prompt.
 
 Each prompt must include:
-- atmosphere
-- lighting
-- framing
-- lens
-- emotional tone
-- environment
-- cinematic texture
+- Environment
+- Lighting
+- Lens
+- Composition
+- Emotional Tone
+- Texture
+- Cinematic Atmosphere
 
 ## Rendering Rules
 
-Must enforce:
-
-> Image-led Slides.
-
 Forbidden:
-- document layout
-- bullet points
 - corporate PPT
-- long text blocks
+- document-style layout
+- bullet points
+- Canva style
+- side-by-side image/text template
+- information presentation style
 
-## Strict Rules
+Required:
+- Image-led
+- Cinematic
+- Emotional
+- Atmospheric
+- Minimal
+- Narrative-driven
 
-### RULE 1
+## Output Protocol
 
-Do not change storyboard order.
+This skill must always output:
 
-### RULE 2
+> Visual Directing Package (VDP)
 
-Do not reinterpret Narrative.
+VDP must contain:
+1. Slide Composition
+2. Typography Direction
+3. Image Direction
+4. Visual Rhythm
+5. Cinematic Prompt
+6. Rendering Notes
 
-### RULE 3
+## Ultimate Principle
 
-Do not analyze the original topic.
+Advanced Slide Cinema is not:
 
-### RULE 4
+> layout.
 
-All final pages must be Image-led.
+It is:
 
-## Final Principle
-
-This skill does not think through the world.
-
-It directs:
-
-> how the film should be seen.
+> Narrative + shot + atmosphere + emotional space + visual rhythm.
