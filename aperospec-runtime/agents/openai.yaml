@@ -1,0 +1,3 @@
+display_name: Aperospec Runtime
+short_description: Pipeline orchestration layer.
+default_prompt: Use Aperospec Runtime to run the full Aperospec Pipeline in order: TOPIC to CWP with aperospec-project, CWP to NWP with aperospec-cinema, NWP to SBP with aperospec-storyboard, SBP to VDP with aperospec-visualdirector, then render final Slide Cinema from VDP only.
