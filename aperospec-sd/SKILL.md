@@ -1,224 +1,202 @@
 ---
 name: aperospec-sd
-description: Use Aperospec Cinematic Deck Skill v1.0 to create, structure, write, critique, or direct cinematic slide decks that feel like immersive film narratives about future civilization, emotion, worldview, space, and time. Use for slide decks, presentations, proposal decks, design scheme decks, exhibition decks, product concept decks, cultural decks, future concept decks, page titles, slide scripts, cinematic image prompts, act structure, visual rhythm, typography direction, and deck-level visual direction. This is the user's cinematic slide-deck skill, not the upstream Aperospec personal thinking framework.
+description: Use Aperospec Cinematic Deck Engine v3.0 to translate a Narrative World Package into a cinematic Slide Movie. Use for downstream slide deck direction, screenplay generation, visual script generation, storyboard deck generation, cinematic slide grammar, silent slides, shot types, visual rhythm, image direction, typography density, and final slide production. This skill only accepts a Narrative World Package as input and is not for upstream world analysis, causal reasoning, drive-force projection, or raw business/PPT outlines.
 ---
 
-# Aperospec Cinematic Deck Skill v1.0
+# Aperospec Cinematic Deck Engine v3.0
 
-## Core Identity
+`下游 Skill | 电影化 Slide Deck 引擎`
 
-You are not making a PPT.
+## Core Definition
 
-You are constructing:
+The core task of Aperospec Cinematic Deck Engine is not:
 
-> an immersive cinematic narrative about future civilization, emotion, and worldview.
+> making a PPT.
 
-Every slide must be:
-- cinematic
-- storyboarded
-- worldview-driven
-- emotion-driven
-- civilizational
-- spatial
-- temporal
-- quiet enough to breathe
+It is:
 
-The goal of a presentation is not to explain.
+> translating a Narrative World into a watchable Slide Movie.
 
-The goal is:
+This system is not a:
 
-> to let the audience enter a world.
+> Presentation System.
 
-## Narrative Philosophy
+It is a:
 
-Never talk about the product directly at the beginning.
+> Cinematic Narrative System.
 
-First speak about:
-- era
-- civilization
-- emotion
-- human behavior
-- social change
-- space
-- history
-- desire
-- loneliness
-- connection
-- future
+## System Position
 
-The product is only:
+This system belongs to the final directing and production layer of the:
 
-> a natural result born inside the new world.
+`Aperospec Pipeline`
 
-## Fixed Five-Act Structure
+It does not handle:
+- world understanding
+- causal analysis
+- drive-force projection
+- civilizational structure generation
 
-All decks must follow a cinematic five-act structure.
+Those tasks are completed by:
+- the upstream cognitive engine
+- the middle-layer narrative translation engine
 
-### ACT 1: Opening World
+This system only handles:
 
-Purpose:
+> shooting the Narrative World into cinematic slides.
 
-Establish the worldview.
+## Input Source
 
-Keywords:
-- civilization
-- city
-- history
-- scale
-- immersion
-- space
+This system can only receive:
+
+> Narrative World Package
+
+It must not directly receive:
+- PPT outline
+- module list
+- commercial structure
+- bullet points
+
+Otherwise, the system will automatically degrade into:
+
+> corporate reporting mode.
+
+If the input is not a Narrative World Package, first ask for or construct one through the middle-layer narrative translation skill before producing slides.
+
+## Cinematic Pipeline
+
+### STEP 1: Screenplay Generation
+
+Translate the Narrative World into:
+- Opening
+- Conflict
+- emotional escalation
+- Transition
+- Future Vision
+
+### STEP 2: Visual Script Generation
+
+Define:
+- shot
+- light and shadow
+- camera movement
+- rhythm
 - atmosphere
+- typography density
 
-Visual language:
-- large scenes
-- huge titles
-- extremely low information density
-- cinematic poster feeling
+### STEP 3: Storyboard Deck Generation
 
-Forbidden:
-- data
-- feature lists
-- business logic
+Only at the end generate:
+- Slide
+- Layout
+- Image
+- Motion
+- Transition
 
-### ACT 2: Emotional Conflict
+For reusable templates, read `references/slide-movie-patterns.md`.
 
-Purpose:
+## Cinematic Principle
 
-Establish contradiction and emotion.
+Every slide must feel like:
 
-Keywords:
-- rupture
-- change
-- loss
-- old/new conflict
-- loneliness
-- desire
-- era shift
+> a film shot.
 
-Visual language:
-- black frames
-- silence
-- single-point information
-- pressure
-- historical photos
-- documentary style
-
-### ACT 3: Emerging Future
-
-Purpose:
-
-Let the future begin to appear.
-
-Keywords:
-- AI
-- digital civilization
-- ARG
-- virtual-real fusion
-- new social relations
-- new consumption
-- new culture
-
-Visual language:
-- surreal
-- digital space
-- dreamlike
-- future city
-- spatial storytelling
-
-### ACT 4: System Reveal
-
-Purpose:
-
-Reveal the system.
-
-This is the only act where the following are allowed:
-- data
-- product structure
-- business logic
-- workflow
-- UI
-- charts
-
-Even here, the system must feel like a technology system reveal in a film, not a consulting deck.
-
-### ACT 5: Civilization Vision
-
-Purpose:
-
-Elevate the deck.
-
-This is not a summary.
-
-It should leave a future aftertaste.
-
-The audience should feel:
-- imagination
-- emotion
-- belief
-- civilization
-
-The ending should not emphasize:
-
-> our company
-
-It should emphasize:
-
-> a new era has begun.
+Not:
+- information page
+- report page
+- explanatory page
+- bullet point page
 
 ## Slide Grammar
 
-### Single-Focus Rule
+### 1. Single-Focus Slide
 
-Each slide can have only one visual core.
+Each slide can contain only:
 
-Forbid:
+> one visual core.
+
+Forbidden:
 - competing focal points
-- equal-weight information blocks
-- dense information stacking
+- dense explanation
+- equal-level information stacking
 
-### Silent Space Rule
+### 2. Every Page Must Be A Shot
 
-Use silence generously:
-- black
-- deep gray
-- white
-- empty space
-- quiet regions
+Every page must clearly define its shot type and purpose:
 
-Purpose:
-- breathing
-- premium feeling
-- rhythm
+| Shot type | Purpose |
+| --- | --- |
+| Establishing Shot | build the world |
+| Wide Shot | create spatial feeling |
+| Medium Shot | show human-environment relation |
+| Close-up | reveal emotion |
+| Insert Shot | build credibility |
+| Silent Shot | pause |
+| Transition Shot | change rhythm |
 
-### Title As Image
+### 3. Silent Space Principle
 
-The title is not explanatory text.
+Use generously:
+- black frames
+- negative space
+- quiet space
 
-The title is:
-- a shot element
-- a spatial structure
-- part of the composition
+Because:
+
+> breathing is more important than information.
+
+### 4. Title As Image
+
+The title is not:
+
+> information explanation.
+
+It is:
+
+> a composition element.
 
 Allowed:
-- oversized titles
-- cropped titles
-- vertical titles
-- Chinese-English mixed titles
-- cross-page titles
+- oversized title
+- cropped title
+- cross-page title
+- Chinese-English mixed title
+- title pressed into the image
 
-### Slide As Shot
+### 5. Scene Before Explanation
 
-Every slide must belong to a shot type:
+Always follow:
 
-| Shot type | Use |
-| --- | --- |
-| Establishing Shot | Build the world |
-| Wide Shot | Show grand space |
-| Medium Shot | Show human-space relation |
-| Close-up | Show emotion |
-| Insert Shot | Build credibility |
-| Transition Shot | Shift emotion |
-| Silent Shot | Pause |
+> scene before explanation.
+
+Always let the audience first:
+- feel
+- immerse
+- resonate
+- feel pressure
+- get lost
+
+Only afterward may the deck show:
+- data
+- logic
+- system information
+
+### 6. Silent Slide Principle
+
+The deck must contain:
+
+> Silent Slides
+
+Meaning:
+- black frame
+- one sentence
+- one shot
+- no explanation
+
+Function:
+- breathing
+- pause
+- emotional accumulation
+- rhythm reset
 
 ## Visual Direction
 
@@ -230,223 +208,110 @@ Main colors:
 - white
 
 Supporting colors:
-- low-saturation civilizational tones
-- neon accents
-- digital cold light
-- warm historical tones
+- cold light
+- neon
+- low-saturation civilizational colors
 
 Forbidden:
-- internet blue
-- gradient tech purple
+- startup blue
+- corporate tech purple
 - Dribbble style
-- startup style
 
-### Light And Shadow
+### Light And Shadow System
 
-Use:
-- strong light and shadow
-- cinematic lighting
-- real spatial feeling
-- atmosphere
-- emotional illumination
+Must contain:
+- strong cinematic feeling
+- strong atmosphere
+- strong spatial feeling
+- strong emotional lighting
 
 References:
-- Denis Villeneuve
 - Blade Runner 2049
+- Black Mirror
+- Denis Villeneuve
 - Wong Kar Wai
 - TeamLab
-- Netflix opening sequence
+- documentary photography
 
 ## Typography System
 
-Chinese preferred:
+Chinese:
 - Source Han Sans
 - HarmonyOS Sans
-- Alibaba PuHuiTi
 
-English preferred:
+English:
 - Helvetica Now
 - DIN
 - Neue Haas Grotesk
 
-Typography rules:
+Rules:
 - large type
-- strong breathing room
 - extremely low density
 - generous spacing
+- strong breathing room
 
-Forbidden:
-- small-text stacking
-- traditional BP layout
-- dense explanation
+## Slide Rhythm
 
-## Image Generation Direction
+The deck must feel like:
 
-Images must have:
+> a film.
+
+Fixed rhythm types:
+
+| Type | Function |
+| --- | --- |
+| Opening | world entry |
+| Silent | breathing |
+| Emotional | pressure |
+| Insert | reality information |
+| Transition | rhythm change |
+| Future Vision | elevation |
+
+## Image Principle
+
+Images must contain:
 - time
 - civilization
 - space
 - human traces
-- emotion
-
-Forbid:
-- AI asset feeling
-- e-commerce feeling
-- corporate promotional feeling
-- generic tech imagery
-
-High-frequency prompt vocabulary:
-- cinematic
-- documentary
-- atmospheric
-- immersive
-- emotional architecture
-- future civilization
-- digital heritage
-- urban memory
-- spatial storytelling
-- future archaeology
-- human traces
-- brutal contrast
-- poetic technology
-
-## Slide Rhythm
-
-The deck must feel like a film.
-
-Rhythm types:
-
-| Page type | Function |
-| --- | --- |
-| Immersion page | Build emotion |
-| Black frame page | Create breathing pause |
-| Information page | Build credibility |
-| Worldview page | Elevate meaning |
-| Transition page | Change rhythm |
-
-Recommended rhythm loop:
-
-`2 emotion pages -> 1 immersion page -> 1 information page -> 1 black frame page -> 1 future page`
-
-Repeat and adapt as needed.
-
-## Language Tone
+- emotional tension
 
 Forbidden:
-- corporate wording
-- business cliches
-- "we are committed to"
+- generic AI assets
+- corporate promotional imagery
+- e-commerce feeling
+- internet tech imagery
+
+## Language Principle
+
+Forbidden:
+- corporate language
 - "solution"
-- "empower the industry"
+- "empower"
+- "industry upgrade"
 
 Required:
 - film narration
 - civilization documentary tone
-- future manifesto tone
+- future prophecy tone
 - exhibition introduction tone
 
-## Core Emotional Targets
+## Output Principle
 
-Every deck must trigger at least some of:
-- curiosity
-- immersion
-- civilization
-- history
-- loneliness
-- future
-- imagination
-- belief
+The final output is not:
 
-## Aperospec Methodology
-
-Aperospec SD is not merely a visual style.
+> a PPT.
 
 It is:
 
-> an immersive expression system that uses cinematic narrative to gradually bring the audience into a future-civilization worldview.
-
-It combines:
-- cinematic storyboarding
-- worldview design
-- digital curation
-- spatial narrative
-- civilizational narrative
-- emotion control
-- visual direction
-- futurist expression
-
-The result is:
-
-> a slide deck narrative system that moves like a film.
-
-## Workflow
-
-### STEP 1: Define The World
-
-Define first:
-- worldview
-- era background
-- civilizational state
-- human emotion
-- social change
-
-Do not define the product first.
-
-### STEP 2: Write The Film Script
-
-Do not write a PPT outline.
-
-Write:
-- Opening
-- Conflict
-- Transition
-- Emergence
-- Future
-
-### STEP 3: Build The Storyboard
-
-Every slide must define:
-- shot type
-- emotional target
-- light state
-- information density
-- visual rhythm
-
-### STEP 4: Build Emotional Rhythm
-
-Control when the audience:
-- immerses
-- pauses
-- feels pressure
-- releases
-- imagines the future
-
-### STEP 5: Final Visual Direction
-
-Only at the end decide:
-- layout
-- imagery
-- motion
-- typography
-- transition
-- visual unity
+> a film composed of slides.
 
 ## Ultimate Principle
 
-Presentation is not:
+This system does not:
 
-> telling information to the audience.
+> turn information into PPT.
 
-Presentation is:
+It:
 
-> bringing the audience into a new world.
-
-The core of Aperospec SD is not:
-
-> making beautiful slides.
-
-It is:
-
-> directing visual narrative act by act, like a film, so the audience enters a new civilization world.
-
-For reusable templates, read `references/cinematic-deck-patterns.md`.
+> brings the audience into a new world.
