@@ -1,170 +1,250 @@
 ---
 name: aperospec-runtime
-description: Use Aperospec Runtime as the orchestration layer for the full Aperospec Pipeline. It does not create cognition, narrative, storyboard, visual design, or rendering. It only runs skills in order, isolates context, passes artifacts, locks responsibility boundaries, and controls pipeline execution from TOPIC to CWP to NWP to SBP to VDP to final slide cinema rendering.
+description: Use Aperospec Runtime as the non-creative orchestration layer for the full Aperospec Pipeline. It controls the pipeline like an industrial production line: runs skills in order, isolates context, passes only the required artifact to each stage, freezes CWP/NWP/SBP/VDP artifacts, preserves internal build artifacts for debugging, and prevents context pollution. It does not create worldview, narrative, storyboard, visual design, or rendering.
 ---
 
-# Aperospec Runtime
+# Aperospec Runtime Orchestrator
 
 `流水线总控系统`
 
 ## Core Definition
 
-This skill is not a creation layer.
-
-It is a:
-
-> Pipeline orchestration layer.
+`aperospec-runtime.skill` is not a creative skill.
 
 It does not handle:
 - worldview
 - Narrative
 - storyboard
 - visual design
-- rendering
 
-It only handles:
+Its only responsibility is:
+
+> controlling the entire Pipeline so it runs correctly.
+
+## System Position
+
+This skill sits above all other skills.
+
+It is responsible for:
 - calling skills in sequence
 - isolating context
 - passing artifacts
 - locking responsibility boundaries
-- controlling pipeline execution
+- controlling runtime
 
-## Runtime Execution Order
+## Runtime Principle
 
-### Step 1
+Pipeline must run:
+
+> like an industrial production line.
+
+## Most Important Rule
+
+Each skill may only see:
+
+> the content it is supposed to see.
+
+Forbidden:
+
+> Context Pollution.
+
+## Runtime Structure
+
+For the detailed execution template, read `references/runtime-protocol.md`.
+
+### Stage 1: Cognitive Engine
 
 Call:
 
 > `aperospec-project.skill`
 
 Input:
-
-> TOPIC
+- project topic
+- original materials
+- Existing Scene Library
 
 Output:
 
 > Cognitive World Package (CWP)
 
-### Step 2
+Runtime Rule:
 
-Pass only:
+After CWP is generated, immediately freeze it.
 
-> CWP
+Later skills must not modify it.
 
-To:
+### Stage 2: Narrative Universe
+
+Call:
 
 > `aperospec-cinema.skill`
+
+Allowed Context:
+
+> CWP only.
+
+Forbidden Context:
+- original project documents
+- extra user explanation
+- later-stage content
 
 Output:
 
 > Narrative World Package (NWP)
 
-### Step 3
+Runtime Rule:
 
-Pass only:
+Cinema is only responsible for:
 
-> NWP
+> Narrative Universe.
 
-To:
+Forbidden:
+- storyboard
+- visual design
+
+### Stage 3: Storyboard
+
+Call:
 
 > `aperospec-storyboard.skill`
+
+Allowed Context:
+
+> NWP only.
+
+Forbidden Context:
+- original project documents
+- CWP
+- Visual Direction
 
 Output:
 
 > Storyboard Package (SBP)
 
-### Step 4
+Runtime Rule:
 
-Pass only:
+Storyboard is only responsible for:
 
-> SBP
+> Narrative Sequence.
 
-To:
+Forbidden:
+- image design
+- typography
+- layout
+
+### Stage 4: Visual Director
+
+Call:
 
 > `aperospec-visualdirector.skill`
+
+Allowed Context:
+
+> SBP only.
+
+Forbidden Context:
+- original project documents
+- CWP
+- NWP
 
 Output:
 
 > Visual Directing Package (VDP)
 
-### Step 5
+Runtime Rule:
 
-Rendering Agent reads:
+Visual Director is only responsible for:
 
-> VDP
+> page visuals.
+
+Forbidden:
+- rethinking worldview
+- rethinking Narrative
+- rethinking Emotional Curve
+
+### Stage 5: Rendering Agent
+
+Call:
+
+> Rendering Agent
+
+Allowed Context:
+
+> VDP only.
 
 Output:
 
 > Final Slide Cinema
 
-## Pipeline Rules
+Runtime Rule:
 
-### Rule 1
+Rendering must strictly follow VDP.
 
-Each skill may only do its own job.
+Forbidden:
 
-No responsibility pollution.
+> automatically redesigning Narrative.
 
-### Rule 2
+## Artifact System
 
-Never let one agent simultaneously handle:
-- Narrative
-- Storyboard
-- Visual
-- Rendering
-
-Otherwise:
-
-> Context Explosion.
-
-### Rule 3
-
-Visual Director can only see:
-
-> Storyboard.
-
-It must not reread:
-- project documents
-- world cognition
-- Narrative analysis
-
-### Rule 4
-
-Final slides must be:
-
-> Image-led.
-
-Not:
-
-> Text-led.
-
-### Rule 5
-
-The goal is not:
-
-> making PPT.
-
-It is:
-
-> making watchable Slide Cinema.
-
-## Runtime Output
-
-When asked to run the full pipeline, return the artifacts in order:
+Pipeline must automatically preserve:
 - CWP
 - NWP
 - SBP
 - VDP
-- Final rendering instructions or final slide artifact when requested
+- Final Deck
 
-For the reusable runtime prompt, read `references/runtime-protocol.md`.
+## Artifact Rule
 
-## Final Definition
+These are:
 
-Aperospec Pipeline is not:
+> Internal Build Artifacts.
 
-> AI makes PPT.
+By default, the user does not need to review them.
+
+## User Interaction Rule
+
+By default, the user only sees:
+
+> Final Slide Cinema.
+
+Intermediate artifacts are used internally unless the user asks to inspect or debug the pipeline.
+
+## Runtime Failure Rule
+
+If the Final Deck shows:
+- Narrative drift
+- corporate PPT degradation
+- emotional fracture
+- missing shot feeling
+- collapsed slide rhythm
+
+Then preserve:
+- CWP
+- NWP
+- SBP
+- VDP
+- Final Deck
+
+Use them for:
+
+> Pipeline Debug.
+
+## Most Important Principle
+
+The core of a truly advanced Pipeline is not:
+
+> Prompt.
 
 It is:
 
-> AI cinematic cognition production system.
+> Context Isolation.
+
+## Ultimate Goal
+
+This system is not:
+
+> automatically generating PPT.
+
+It is:
+
+> automatically producing Slide Cinema like a film-industry pipeline.
