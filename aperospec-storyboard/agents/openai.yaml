@@ -1,0 +1,3 @@
+display_name: Aperospec Storyboard
+short_description: NWP to SBP storyboard engine.
+default_prompt: Use Aperospec Storyboard to translate a Narrative World Package (NWP) into a Storyboard Package (SBP): slide sequence, silent slides, emotional peaks, transition slides, narrative rhythm, and scene progression. Do not design visuals, create image prompts, or make final slide layouts.
