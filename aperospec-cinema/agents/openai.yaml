@@ -1,3 +1,3 @@
 display_name: Aperospec Cinema
-short_description: Narrative translation engine.
-default_prompt: Use Aperospec Cinema to translate an upstream cognitive analysis into a Narrative World Package: world state, core driving force, core conflict, emotional curve, future vision, cognitive triggers, immersive experience, visual world, and final structural elements.
+short_description: CWP to NWP translation API.
+default_prompt: Use Aperospec Cinema to translate a Cognitive World Package (CWP) from aperospec-project into a fixed Narrative World Package (NWP) for aperospec-sd. Map CWP fields into narrative world, emotional environment, Something Is Coming, core conflict, emotional curve, immersive experience, visual world, and scene potentials. Do not re-analyze the world or create slides.
