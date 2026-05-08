@@ -155,7 +155,7 @@ The most cinematic scene potentials are:
   Emotional trigger:
 
 These are not slides yet.
-They are narrative scene potentials for `aperospec-sd` to later translate into a Slide Movie.
+They are narrative scene potentials for `aperospec-storyboard` to later translate into a Storyboard Package (SBP).
 ```
 
 ## Validation Checklist
@@ -166,8 +166,8 @@ Before finalizing, confirm:
 - No new root-cause analysis was invented outside the CWP.
 - No slide titles, page structures, typography, layout, or motion design appear.
 - CWP fields were mapped rather than ignored.
-- Scene potentials are cinematic but not yet storyboard slides.
-- The NWP can be passed directly to `aperospec-sd`.
+- Scene potentials are cinematic but not yet storyboard beats.
+- The NWP can be passed directly to `aperospec-storyboard`.
 
 ## Forbidden Drift
 
