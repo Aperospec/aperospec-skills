@@ -4,49 +4,160 @@ Use this protocol when the user asks to run the full pipeline.
 
 ## Input
 
-```text
-TOPIC:
-[theme / phenomenon / project]
-```
+Runtime may receive:
+- project topic
+- original materials
+- Existing Scene Library
 
-## Execution
+Normalize these into the Stage 1 input only.
 
-```markdown
-## Step 1: Cognitive Engine
-Use `aperospec-project`.
-Input: TOPIC only.
-Output: CWP.
+Do not pass raw input to later stages.
 
-## Step 2: Narrative Translation
-Use `aperospec-cinema`.
-Input: CWP only.
-Output: NWP.
+## Stage 1: aperospec-project
 
-## Step 3: Storyboard
-Use `aperospec-storyboard`.
-Input: NWP only.
-Output: SBP.
+Call:
 
-## Step 4: Visual Direction
-Use `aperospec-visualdirector`.
-Input: SBP only.
-Output: VDP.
+> `aperospec-project.skill`
 
-## Step 5: Rendering
-Use the VDP only.
-Output: Final Slide Cinema.
-```
+Allowed Context:
+- project topic
+- original materials
+- Existing Scene Library
 
-## Context Isolation
+Output:
 
-Never pass:
-- TOPIC directly to cinema
-- CWP directly to storyboard
-- NWP directly to visualdirector
-- source documents directly to visualdirector
+> Cognitive World Package (CWP)
 
-Pass only the artifact required by the next skill.
+Freeze:
+
+> CWP is frozen immediately after generation.
+
+## Stage 2: aperospec-cinema
+
+Call:
+
+> `aperospec-cinema.skill`
+
+Allowed Context:
+
+> CWP only.
+
+Forbidden:
+- original project documents
+- user extra explanation
+- SBP
+- VDP
+- Final Deck
+
+Output:
+
+> Narrative World Package (NWP)
+
+Freeze:
+
+> NWP is frozen immediately after generation.
+
+## Stage 3: aperospec-storyboard
+
+Call:
+
+> `aperospec-storyboard.skill`
+
+Allowed Context:
+
+> NWP only.
+
+Forbidden:
+- original project documents
+- CWP
+- VDP
+- rendering instructions
+
+Output:
+
+> Storyboard Package (SBP)
+
+Freeze:
+
+> SBP is frozen immediately after generation.
+
+## Stage 4: aperospec-visualdirector
+
+Call:
+
+> `aperospec-visualdirector.skill`
+
+Allowed Context:
+
+> SBP only.
+
+Forbidden:
+- original project documents
+- CWP
+- NWP
+- upstream analysis
+
+Output:
+
+> Visual Directing Package (VDP)
+
+Freeze:
+
+> VDP is frozen immediately after generation.
+
+## Stage 5: Rendering Agent
+
+Call:
+
+> Rendering Agent
+
+Allowed Context:
+
+> VDP only.
+
+Forbidden:
+- CWP
+- NWP
+- SBP
+- original project documents
+
+Output:
+
+> Final Slide Cinema
+
+Rendering Rule:
+
+Rendering must strictly follow VDP and must not redesign Narrative.
 
 ## Artifact Chain
 
-`TOPIC -> CWP -> NWP -> SBP -> VDP -> Final Slide Cinema`
+Preserve internally:
+
+`CWP -> NWP -> SBP -> VDP -> Final Deck`
+
+## User Visibility
+
+Default user-facing output:
+
+> Final Slide Cinema.
+
+Intermediate artifacts are internal build artifacts unless the user asks to inspect them.
+
+## Pipeline Debug
+
+If the final deck fails because of Narrative drift, corporate PPT style, emotional fracture, missing shot feeling, or broken rhythm, inspect the artifact chain:
+- CWP
+- NWP
+- SBP
+- VDP
+- Final Deck
+
+Find which boundary failed before rewriting anything.
+
+## Context Isolation Checklist
+
+Before each stage, confirm:
+- The stage sees only the allowed artifact.
+- Frozen upstream artifacts are not modified.
+- No later-stage content leaks backward.
+- The skill only performs its assigned responsibility.
