@@ -118,7 +118,7 @@ Allowed Context:
 Forbidden:
 - CWP
 - NWP
-- SBP
+- CDP
 - original project documents
 
 Output:
@@ -148,7 +148,7 @@ Intermediate artifacts are internal build artifacts unless the user asks to insp
 If the final deck fails because of Narrative drift, corporate PPT style, emotional fracture, missing shot feeling, or broken rhythm, inspect the artifact chain:
 - CWP
 - NWP
-- SBP
+- CDP
 - VDP
 - Final Deck
 

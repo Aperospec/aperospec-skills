@@ -14,7 +14,7 @@ description: Use Aperospec Runtime as the non-creative orchestration layer for t
 It does not handle:
 - worldview
 - Narrative
-- storyboard
+- concept deck
 - visual design
 
 Its only responsibility is:
@@ -188,7 +188,7 @@ Forbidden:
 Pipeline must automatically preserve:
 - CWP
 - NWP
-- SBP
+- CDP
 - VDP
 - Final Deck
 
@@ -220,7 +220,7 @@ If the Final Deck shows:
 Then preserve:
 - CWP
 - NWP
-- SBP
+- CDP
 - VDP
 - Final Deck
 

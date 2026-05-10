@@ -41,7 +41,7 @@ Responsibilities:
 | aperospec-project | upstream cognitive engine | understand the world and output CWP |
 | aperospec-cinema | middle narrative translation engine | translate CWP into a cinematic narrative world |
 | aperospec-conceptdeck | concept narrative engine | translate NWP into Concept Deck Package (CDP) |
-| aperospec-visualdirector | visual director engine | translate SBP into Visual Directing Package (VDP) |
+| aperospec-visualdirector | visual director engine | translate CDP into Visual Directing Package (VDP) |
 
 ## Input Protocol
 

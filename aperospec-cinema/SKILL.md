@@ -272,7 +272,7 @@ This system can only perform:
 Do not output:
 - PPT outline
 - slide titles
-- storyboard deck
+- concept deck
 - visual production plan
 - business structure
 
