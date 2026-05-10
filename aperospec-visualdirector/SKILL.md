@@ -1,330 +1,801 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the visual directing engine in the Aperospec Pipeline. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck and outputs a Visual Directing Package (VDP). Use it to define what every slide looks like through slide composition, typography direction, cinematic image direction, visual rhythm, cinematic prompts, and rendering notes. It is not a PPT beautification tool, layout tool, information design system, world analyzer, narrative generator, emotional-curve rewriter, or concept deck editor.
+description: Use Aperospec Visual Director as the visual directing engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck and outputs a Visual Directing Package (VDP). It directs vision — defining what every slide looks like, what the audience sees and feels. It defines page visual composition, atmosphere direction, typography breathing, lens language, Hero Image generation, visual rhythm, and final visual page definitions. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
 ---
 
 # Aperospec Visual Directing Engine
 
-`视觉导演引擎`
+## 视觉导演与图像生成引擎
 
-## Core Definition
+---
 
-`aperospec-visualdirector.skill` is not:
-- a PPT beautification tool
-- a layout tool
-- an information design system
+# Core Definition
 
-Its core task is:
+aperospec-visualdirector.skill：
+不是：
 
-> translating Concept Deck into watchable Slide Cinema.
+# PPT 美化工具。
 
-## System Position
+也不是：
 
-This skill sits after:
+# 排版工具。
 
-> `aperospec-conceptdeck.skill`
+它的核心任务是：
 
-It reads:
+# 将 Concept Deck
 
-> Concept Deck Package (CDP)
+真正转译为：
 
-And outputs:
+# 可观看的沉浸式 Slide Cinema。
 
-> Visual Directing Package (VDP)
+---
 
-Pipeline:
+# Important Principle
 
-`aperospec -> aperospec-project -> CWP -> aperospec-cinema -> NWP -> aperospec-conceptdeck -> CDP -> aperospec-visualdirector -> VDP -> Final Slide Cinema`
+该 Skill：
+不是：
 
-## Core Responsibility
+# "设计页面"。
 
-This skill only answers:
+而是：
 
-> What does each page actually look like?
+# "导演视觉"。
 
-## Forbidden Responsibilities
+---
 
-This skill must not perform:
-- worldview analysis
-- Narrative generation
-- Emotional Curve reconstruction
-- Concept Deck modification
-- Scene rewriting
+# 它真正负责的是：
 
-These have already been completed by:
-- `aperospec-cinema.skill`
-- `aperospec-conceptdeck.skill`
+---
 
-## Important Principle
+# 每一页：
 
-This skill is not:
+应该让观众：  
+看到什么。
 
-> information design.
+---
 
-It is:
+# 每一页：
 
-> cinematic shot design.
+应该让观众：  
+感受到什么。
 
-## Slide Definition
+---
 
-Every slide must be understood as:
+# System Position
 
-> a film shot.
+该 Skill：
+位于：
 
-Not:
+# aperospec-conceptdeck.skill
 
-> a PPT page.
+之后。
+它读取：
 
-## Interface Definition
+# Concept Deck Package（CDP）
 
-### INPUT SOURCE
+并进一步生成：
 
-Input source:
+# Visual Directing Package（VDP）
 
-> `aperospec-conceptdeck.skill`
+---
 
-### INPUT TYPE
+# Core Responsibility
 
-This system can only receive:
+该 Skill：
+负责：
 
-> Concept Deck Package (CDP)
+---
 
-Forbidden inputs:
-- TOPIC
-- CWP
-- NWP without SBP
-- project documents
-- world analysis
-- narrative analysis
+# 1.
 
-### OUTPUT TYPE
+页面视觉构图
 
-This system always outputs:
+---
 
-> Visual Directing Package (VDP)
+# 2.
 
-For the reusable template, read `references/visual-directing-package.md`.
+Atmosphere 视觉建立
 
-## Visual Language Principles
+---
 
-### Rule 1: Image First
+# 3.
 
-Image always comes before text.
+Typography 呼吸感
 
-### Rule 2: Emotion Before Information
+---
 
-Emotion comes before explanation.
+# 4.
 
-### Rule 3: Silence Has Weight
+镜头语言
 
-Allow:
-- black frames
-- negative space
-- pages without explanation
-- one-sentence pages
+---
 
-### Rule 4: Cinematic Breathing
+# 5.
 
-Every page must breathe.
+Hero Image 生成
 
-Forbidden:
-- information overload
-- full-page text
-- bullet points
-- corporate layout
+---
 
-### Rule 5: Narrative Space
+# 6.
 
-Every page must preserve Narrative space.
+视觉节奏
 
-The audience needs to:
+---
 
-> enter the page.
+# 7.
 
-Not:
+最终视觉页面定义
 
-> read the page.
+---
 
-## Slide Composition System
+# Important Difference
 
-Every page must define:
+该 Skill：
+不是：
 
-### Composition Type
+# "解释内容"。
 
-Examples:
-- Fullscreen
-- Split Layout
-- Cinematic Crop
-- Minimal Frame
-- Black Frame
-- Floating Composition
+而是：
 
-### Negative Space Ratio
+# "建立状态"。
 
-Define the ratio of empty or silent space.
+---
 
-Default:
+# Visual Philosophy
 
-> negative space first.
+真正高级的视觉：
+不是：
 
-### Text Density
+# 信息型视觉。
 
-Define the text density.
+而是：
 
-Default:
+# 情绪型视觉。
 
-> extremely low text density.
+---
 
-### Focus Point
+# 页面：
 
-Define the viewer's first visual focus.
+必须优先：
+建立：
 
-## Typography System
+# Atmosphere。
 
-Typography must be understood as:
+---
 
-> cinematic subtitles.
+# 而不是：
 
-Not:
+# 信息量。
 
-> PPT text.
+---
 
-### Typography Rules
+# Page Principle
 
-1. Default to very little text.
-2. One sentence is better than one paragraph.
-3. Type must breathe.
-4. Dense text, explanatory paragraphs, and bullet points are forbidden.
-5. Typography must serve emotion, not information quantity.
+---
 
-## Image Direction System
+# 一页：
 
-Every page must generate:
+只允许：  
+一个核心视觉。
 
-> cinematic Image Direction.
+---
 
-Each page must define:
+# 一页：
 
-### Lens
+只允许：  
+一个 Atmosphere。
 
-Examples:
-- 35mm
-- 50mm
-- Wide Lens
-- Close-up
-- Long Shot
+---
 
-### Lighting
+# 一页：
 
-Examples:
-- Cold Blue
-- Soft Natural
-- High Contrast
-- Screen Glow
-- Dark Ambient
+只允许：  
+一个情绪焦点。
 
-### Atmosphere
+---
 
-Examples:
-- Psychological Pressure
-- Isolation
-- Documentary Reality
-- Silent Anxiety
-- Emotional Distance
+# 禁止：
 
-### Texture
+一个页面：
+同时承载：
+大量信息。
 
-Examples:
-- Film Grain
-- Blur Reflection
-- Digital Noise
-- Soft Fog
-- Matte Surface
+---
 
-### Camera Feeling
+# Visual Hierarchy Principle
 
-Define the feeling of camera distance.
+页面：
+必须：
 
-Examples:
-- Intimate
-- Distant
-- Surveillance
-- Human POV
+# Image-led。
 
-## Visual Rhythm System
+---
 
-Pages must form a visual rhythm.
+# 图片：
 
-Define which pages are:
-- black frame
-- still
-- emotional explosion
-- minimal
-- high pressure
-- one sentence
-- no text
+永远优先于：
+文字。
 
-Rhythm must feel like:
+---
 
-> cinema.
+# Typography：
 
-Not:
+永远服务于：
+情绪。
 
-> a presentation.
+---
 
-## AI Image Prompt System
+# Composition System
 
-Every page must automatically generate:
+每一页：
+必须定义：
 
-> Cinematic Image Prompt.
+---
 
-Each prompt must include:
-- Environment
-- Lighting
-- Lens
-- Composition
-- Emotional Tone
-- Texture
-- Cinematic Atmosphere
+# Composition Type
 
-## Rendering Rules
+例如：
 
-Forbidden:
-- corporate PPT
-- document-style layout
-- bullet points
-- Canva style
-- side-by-side image/text template
-- information presentation style
+*   Fullscreen
+    
+*   Floating Composition
+    
+*   Cinematic Crop
+    
+*   Split Atmosphere
+    
+*   Black Frame
+    
+*   Minimal Composition
+    
 
-Required:
-- Image-led
-- Cinematic
-- Emotional
-- Atmospheric
-- Minimal
-- Narrative-driven
+---
 
-## Output Protocol
+# Negative Space Ratio
 
-This skill must always output:
+定义：
+留白比例。
+默认：
 
-> Visual Directing Package (VDP)
+# 大量留白。
 
-VDP must contain:
-1. Slide Composition
-2. Typography Direction
-3. Image Direction
-4. Visual Rhythm
-5. Cinematic Prompt
-6. Rendering Notes
+---
 
-## Ultimate Principle
+# Focus Point
 
-Advanced Slide Cinema is not:
+定义：
+观众：
+第一视觉焦点。
 
-> layout.
+---
 
-It is:
+# Visual Weight
 
-> Narrative + shot + atmosphere + emotional space + visual rhythm.
+定义：
+页面：
+情绪重量。
+
+---
+
+# Typography System
+
+Typography：
+必须被理解为：
+
+# 电影字幕。
+
+而不是：
+
+# PPT文字。
+
+---
+
+# Typography Rules
+
+---
+
+# 默认：
+
+极少文字。
+
+---
+
+# 一句话：
+
+优先于：  
+一段话。
+
+---
+
+# 字体：
+
+必须具备：
+
+# 呼吸感。
+
+---
+
+# Typography：
+
+必须：
+服务于：
+
+# 情绪推进。
+
+---
+
+# 禁止：
+
+*   Bullet Point
+    
+*   文档段落
+    
+*   企业排版
+    
+*   大面积文字
+    
+
+---
+
+# Image Direction System
+
+每一页：
+必须生成：
+
+# Cinematic Hero Image。
+
+---
+
+# Hero Image：
+
+是：
+
+# 页面主体。
+
+---
+
+# Hero Image：
+
+不是：
+
+# 插图。
+
+而是：
+
+# Narrative Atmosphere。
+
+---
+
+# Image Direction Rules
+
+每一页：
+必须定义：
+
+---
+
+# Lens
+
+例如：
+
+*   35mm
+    
+*   50mm
+    
+*   Wide Lens
+    
+*   Extreme Close-up
+    
+*   Long Shot
+    
+
+---
+
+# Lighting
+
+例如：
+
+*   Cold Blue
+    
+*   Warm Natural
+    
+*   Screen Glow
+    
+*   High Contrast
+    
+*   Dark Ambient
+    
+
+---
+
+# Atmosphere
+
+例如：
+
+*   Psychological Pressure
+    
+*   Isolation
+    
+*   Silent Anxiety
+    
+*   Emotional Escape
+    
+*   Documentary Reality
+    
+
+---
+
+# Texture
+
+例如：
+
+*   Film Grain
+    
+*   Blur Reflection
+    
+*   Digital Noise
+    
+*   Matte Texture
+    
+*   Fog Atmosphere
+    
+
+---
+
+# Camera Feeling
+
+定义：
+镜头距离感。
+例如：
+
+*   Intimate
+    
+*   Distant
+    
+*   Surveillance
+    
+*   Human POV
+    
+
+---
+
+# Visual Rhythm System
+
+Deck：
+必须形成：
+
+# 视觉节奏。
+
+---
+
+# 必须允许：
+
+---
+
+# 黑场
+
+---
+
+# 静止页面
+
+---
+
+# 单句页面
+
+---
+
+# Atmosphere 页面
+
+---
+
+# 留白页面
+
+---
+
+# 情绪冲击页面
+
+---
+
+# Important Rule
+
+视觉节奏：
+必须像：
+
+# 电影。
+
+而不是：
+
+# 演示文稿。
+
+---
+
+# GPT Image 2 Rendering Protocol
+
+该 Skill：
+必须调用：
+
+# GPT Image 2 引擎
+
+进行：
+
+# Cinematic Hero Image Generation。
+
+---
+
+# Image Generation Rules
+
+---
+
+# 1.
+
+每一页：
+必须生成：
+
+# 至少 1 张 Hero Image。
+
+---
+
+# 2.
+
+图片：
+必须：
+主导页面。
+
+---
+
+# 3.
+
+默认：
+
+# Fullscreen Image。
+
+---
+
+# 4.
+
+图片：
+必须：
+服务于：
+
+*   Concept
+    
+*   Atmosphere
+    
+*   Emotional State
+    
+*   Narrative Tone
+    
+
+---
+
+# 5.
+
+禁止：
+
+*   Canva风格
+    
+*   企业宣传图
+    
+*   普通图库感
+    
+*   通用插画
+    
+*   PPT配图感
+    
+
+---
+
+# 6.
+
+必须优先生成：
+
+*   电影感
+    
+*   情绪感
+    
+*   留白感
+    
+*   Atmosphere
+    
+*   Narrative 空间
+    
+*   视觉张力
+    
+
+---
+
+# 7.
+
+Image Prompt：
+必须包含：
+
+*   Lens
+    
+*   Lighting
+    
+*   Atmosphere
+    
+*   Emotional Tone
+    
+*   Environment
+    
+*   Time
+    
+*   Texture
+    
+*   Cinematic Composition
+    
+
+---
+
+# 8.
+
+所有图片：
+默认：
+服务于：
+
+# "概念"。
+
+而不是：
+
+# "说明"。
+
+---
+
+# 9.
+
+生成后：
+自动进入：
+
+# Final Slide Rendering。
+
+---
+
+# Rendering Principle
+
+最终页面：
+必须：
+
+# 看起来像：
+
+概念电影海报。
+
+---
+
+# 而不是：
+
+# PPT。
+
+---
+
+# Client Pitch Principle
+
+该 Skill：
+默认服务于：
+
+# Pitch Mode。
+
+---
+
+# Pitch Mode：
+
+优先：
+
+---
+
+# 情绪
+
+---
+
+# Atmosphere
+
+---
+
+# 视觉冲击
+
+---
+
+# 沉浸感
+
+---
+
+# Narrative 感受
+
+---
+
+# 而不是：
+
+---
+
+# 功能说明
+
+---
+
+# 技术结构
+
+---
+
+# 执行逻辑
+
+---
+
+# Output Protocol
+
+该 Skill：
+必须固定输出：
+
+# Visual Directing Package（VDP）
+
+---
+
+# VDP 必须包含
+
+---
+
+# 1.
+
+# Composition Direction
+
+---
+
+# 2.
+
+# Typography Direction
+
+---
+
+# 3.
+
+# Atmosphere Direction
+
+---
+
+# 4.
+
+# Visual Rhythm
+
+---
+
+# 5.
+
+# GPT Image 2 Prompt
+
+---
+
+# 6.
+
+# Hero Image Rendering
+
+---
+
+# 7.
+
+# Final Slide Rendering Notes
+
+---
+
+# Ultimate Principle
+
+真正高级的 Slide Cinema：
+不是：
+
+# "排版"。
+
+而是：
+
+Concept
+*     
+    
+
+Atmosphere
+*     
+    
+
+Emotional Narrative
+*     
+    
+
+Cinematic Visual Direction
+*     
+    
+
+Image-driven Immersion。
