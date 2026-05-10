@@ -140,11 +140,24 @@ Forbidden:
 
 Output:
 
-> Final Slide Cinema
+> Final Slide Cinema as a deliverable `.pptx` file.
 
 Rendering Rule:
 
-Rendering must strictly follow VDP and must not redesign Narrative.
+Stage 5 must execute final rendering.
+
+Rendering must:
+- read VDP as the only creative source
+- call GPT Image 2 to generate each page's Hero Image
+- insert each Hero Image into its corresponding slide as the primary visual body
+- render all pages into a deliverable `.pptx` file
+- strictly follow VDP and not redesign Narrative
+
+Forbidden:
+- outputting only text
+- outputting only VDP
+- outputting only image prompts
+- outputting only a concept plan
 
 ## Artifact Chain
 

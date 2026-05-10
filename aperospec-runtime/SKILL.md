@@ -183,15 +183,25 @@ Allowed Context:
 
 Output:
 
-> Final Slide Cinema
+> Final Slide Cinema as a deliverable `.pptx` file.
 
 Runtime Rule:
 
-Rendering must strictly follow VDP.
+Stage 5 must execute final rendering.
+
+It must:
+- read VDP as the only creative source
+- call GPT Image 2 to generate each page's Hero Image
+- insert each Hero Image into its corresponding slide as the primary visual body
+- render all pages into a deliverable `.pptx` file
 
 Forbidden:
 
-> automatically redesigning Narrative.
+- automatically redesigning Narrative
+- outputting only text
+- outputting only VDP
+- outputting only image prompts
+- outputting only a concept plan
 
 ## Artifact System
 
