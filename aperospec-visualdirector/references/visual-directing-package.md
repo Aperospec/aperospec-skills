@@ -1,6 +1,6 @@
 # Visual Directing Package Template
 
-Use this template only when the input is a complete Storyboard Package (SBP) from `aperospec-storyboard`.
+Use this template only when the input is a complete Concept Deck Package (CDP) from `aperospec-conceptdeck`.
 
 ## Input Gate
 
@@ -12,7 +12,7 @@ Confirm the SBP contains:
 - Narrative Rhythm
 - Scene Progression
 
-If fields are missing, ask for a valid SBP from `aperospec-storyboard`.
+If fields are missing, ask for a valid CDP from `aperospec-conceptdeck`.
 
 ## Required Output
 
@@ -22,7 +22,7 @@ If fields are missing, ask for a valid SBP from `aperospec-storyboard`.
 ## INPUT SOURCE
 
 Storyboard Package:
-[briefly name the storyboard]
+[briefly name the concept deck]
 
 ## 1. SLIDE COMPOSITION
 
@@ -34,7 +34,7 @@ Composition Type:
 [Fullscreen / Split Layout / Cinematic Crop / Minimal Frame / Black Frame / Floating Composition]
 
 Negative Space Ratio:
-[high / medium-high / medium / low. Default to high unless the storyboard requires pressure.]
+[high / medium-high / medium / low. Default to high unless the concept deck requires pressure.]
 
 Text Density:
 [none / one sentence / very low / low. Bullet points are forbidden.]

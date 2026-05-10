@@ -45,7 +45,7 @@ Allowed Context:
 Forbidden:
 - original project documents
 - user extra explanation
-- SBP
+- CDP
 - VDP
 - Final Deck
 
@@ -57,11 +57,11 @@ Freeze:
 
 > NWP is frozen immediately after generation.
 
-## Stage 3: aperospec-storyboard
+## Stage 3: aperospec-conceptdeck
 
 Call:
 
-> `aperospec-storyboard.skill`
+> `aperospec-conceptdeck.skill`
 
 Allowed Context:
 
@@ -75,11 +75,11 @@ Forbidden:
 
 Output:
 
-> Storyboard Package (SBP)
+> Concept Deck Package (CDP)
 
 Freeze:
 
-> SBP is frozen immediately after generation.
+> CDP is frozen immediately after generation.
 
 ## Stage 4: aperospec-visualdirector
 
@@ -89,7 +89,7 @@ Call:
 
 Allowed Context:
 
-> SBP only.
+> CDP only.
 
 Forbidden:
 - original project documents
@@ -133,7 +133,7 @@ Rendering must strictly follow VDP and must not redesign Narrative.
 
 Preserve internally:
 
-`CWP -> NWP -> SBP -> VDP -> Final Deck`
+`CWP -> NWP -> CDP -> VDP -> Final Deck`
 
 ## User Visibility
 

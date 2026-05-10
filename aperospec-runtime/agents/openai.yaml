@@ -1,3 +1,3 @@
 display_name: Aperospec Runtime
 short_description: Context-isolated pipeline orchestrator.
-default_prompt: Use Aperospec Runtime to run the Aperospec Pipeline with strict context isolation: Stage 1 project creates frozen CWP, Stage 2 cinema reads only CWP and creates frozen NWP, Stage 3 storyboard reads only NWP and creates frozen SBP, Stage 4 visualdirector reads only SBP and creates frozen VDP, and rendering reads only VDP to produce Final Slide Cinema.
+default_prompt: Use Aperospec Runtime to run the Aperospec Pipeline with strict context isolation: Stage 1 project creates frozen CWP, Stage 2 cinema reads only CWP and creates frozen NWP, Stage 3 conceptdeck reads only NWP and creates frozen CDP, Stage 4 visualdirector reads only SBP and creates frozen VDP, and rendering reads only VDP to produce Final Slide Cinema.

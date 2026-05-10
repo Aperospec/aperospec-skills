@@ -1,6 +1,6 @@
 ---
 name: aperospec-cinema
-description: Use Aperospec Cinema as a Narrative Translation API that accepts only a Cognitive World Package (CWP) from aperospec-project and outputs a fixed Narrative World Package (NWP) for aperospec-storyboard. Use for standardized CWP-to-NWP mapping: world evolution to narrative world, root cause to hidden narrative pressure, driving forces to invisible forces, core contradiction to core conflict, behavioral change to human state transition, future projection to Something Is Coming, cognitive triggers to scene potentials, and narrative potential to narrative direction. This skill does not analyze the world, create slides, define typography/layout, or freely invent narrative outside the CWP interface.
+description: Use Aperospec Cinema as a Narrative Translation API that accepts only a Cognitive World Package (CWP) from aperospec-project and outputs a fixed Narrative World Package (NWP) for aperospec-conceptdeck. Use for standardized CWP-to-NWP mapping: world evolution to narrative world, root cause to hidden narrative pressure, driving forces to invisible forces, core contradiction to core conflict, behavioral change to human state transition, future projection to Something Is Coming, cognitive triggers to scene potentials, and narrative potential to narrative direction. This skill does not analyze the world, create slides, define typography/layout, or freely invent narrative outside the CWP interface.
 ---
 
 # Aperospec Cinema Narrative Translation API
@@ -31,14 +31,14 @@ Its task is:
 
 Pipeline:
 
-`aperospec -> aperospec-project -> CWP -> aperospec-cinema -> NWP -> aperospec-storyboard -> SBP -> aperospec-visualdirector -> VDP -> Final Slide Cinema`
+`aperospec -> aperospec-project -> CWP -> aperospec-cinema -> NWP -> aperospec-conceptdeck -> CDP -> aperospec-visualdirector -> VDP -> Final Slide Cinema`
 
 | Skill | Position | Output |
 | --- | --- | --- |
 | aperospec | original cognitive personality layer | divergent thinking |
 | aperospec-project | standardized cognitive engine | Cognitive World Package (CWP) |
 | aperospec-cinema | narrative translation API | Narrative World Package (NWP) |
-| aperospec-storyboard | storyboard engine | Storyboard Package (SBP) |
+| aperospec-conceptdeck | concept narrative engine | Concept Deck Package (CDP) |
 | aperospec-visualdirector | visual director engine | Visual Directing Package (VDP) |
 
 ## Interface Definition
@@ -86,7 +86,7 @@ This system always outputs:
 
 Output target:
 
-> `aperospec-storyboard.skill`
+> `aperospec-conceptdeck.skill`
 
 ## System Responsibility
 
@@ -276,7 +276,7 @@ Do not output:
 - visual production plan
 - business structure
 
-Those belong downstream to `aperospec-storyboard` and `aperospec-visualdirector`.
+Those belong downstream to `aperospec-conceptdeck` and `aperospec-visualdirector`.
 
 ## Final Principle
 

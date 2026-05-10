@@ -1,6 +1,6 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the visual directing engine in the Aperospec Pipeline. It accepts only a Storyboard Package (SBP) from aperospec-storyboard and outputs a Visual Directing Package (VDP). Use it to define what every slide looks like through slide composition, typography direction, cinematic image direction, visual rhythm, cinematic prompts, and rendering notes. It is not a PPT beautification tool, layout tool, information design system, world analyzer, narrative generator, emotional-curve rewriter, or storyboard editor.
+description: Use Aperospec Visual Director as the visual directing engine in the Aperospec Pipeline. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck and outputs a Visual Directing Package (VDP). Use it to define what every slide looks like through slide composition, typography direction, cinematic image direction, visual rhythm, cinematic prompts, and rendering notes. It is not a PPT beautification tool, layout tool, information design system, world analyzer, narrative generator, emotional-curve rewriter, or concept deck editor.
 ---
 
 # Aperospec Visual Directing Engine
@@ -16,17 +16,17 @@ description: Use Aperospec Visual Director as the visual directing engine in the
 
 Its core task is:
 
-> translating Storyboard into watchable Slide Cinema.
+> translating Concept Deck into watchable Slide Cinema.
 
 ## System Position
 
 This skill sits after:
 
-> `aperospec-storyboard.skill`
+> `aperospec-conceptdeck.skill`
 
 It reads:
 
-> Storyboard Package (SBP)
+> Concept Deck Package (CDP)
 
 And outputs:
 
@@ -34,7 +34,7 @@ And outputs:
 
 Pipeline:
 
-`aperospec -> aperospec-project -> CWP -> aperospec-cinema -> NWP -> aperospec-storyboard -> SBP -> aperospec-visualdirector -> VDP -> Final Slide Cinema`
+`aperospec -> aperospec-project -> CWP -> aperospec-cinema -> NWP -> aperospec-conceptdeck -> CDP -> aperospec-visualdirector -> VDP -> Final Slide Cinema`
 
 ## Core Responsibility
 
@@ -48,12 +48,12 @@ This skill must not perform:
 - worldview analysis
 - Narrative generation
 - Emotional Curve reconstruction
-- Storyboard modification
+- Concept Deck modification
 - Scene rewriting
 
 These have already been completed by:
 - `aperospec-cinema.skill`
-- `aperospec-storyboard.skill`
+- `aperospec-conceptdeck.skill`
 
 ## Important Principle
 
@@ -81,13 +81,13 @@ Not:
 
 Input source:
 
-> `aperospec-storyboard.skill`
+> `aperospec-conceptdeck.skill`
 
 ### INPUT TYPE
 
 This system can only receive:
 
-> Storyboard Package (SBP)
+> Concept Deck Package (CDP)
 
 Forbidden inputs:
 - TOPIC

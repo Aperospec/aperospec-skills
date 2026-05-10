@@ -1,6 +1,6 @@
 ---
 name: aperospec-runtime
-description: Use Aperospec Runtime as the non-creative orchestration layer for the full Aperospec Pipeline. It controls the pipeline like an industrial production line: runs skills in order, isolates context, passes only the required artifact to each stage, freezes CWP/NWP/SBP/VDP artifacts, preserves internal build artifacts for debugging, and prevents context pollution. It does not create worldview, narrative, storyboard, visual design, or rendering.
+description: Use Aperospec Runtime as the non-creative orchestration layer for the full Aperospec Pipeline. It controls the pipeline like an industrial production line: runs skills in order, isolates context, passes only the required artifact to each stage, freezes CWP/NWP/CDP/VDP artifacts, preserves internal build artifacts for debugging, and prevents context pollution. It does not create worldview, narrative, concept deck, visual design, or rendering.
 ---
 
 # Aperospec Runtime Orchestrator
@@ -99,14 +99,14 @@ Cinema is only responsible for:
 > Narrative Universe.
 
 Forbidden:
-- storyboard
+- concept deck
 - visual design
 
-### Stage 3: Storyboard
+### Stage 3: Concept Deck
 
 Call:
 
-> `aperospec-storyboard.skill`
+> `aperospec-conceptdeck.skill`
 
 Allowed Context:
 
@@ -119,18 +119,17 @@ Forbidden Context:
 
 Output:
 
-> Storyboard Package (SBP)
+> Concept Deck Package (CDP)
 
 Runtime Rule:
 
-Storyboard is only responsible for:
+Concept Deck is only responsible for:
 
-> Narrative Sequence.
+> Concept Narrative.
 
 Forbidden:
-- image design
-- typography
-- layout
+- visual design
+- rendering
 
 ### Stage 4: Visual Director
 
@@ -140,7 +139,7 @@ Call:
 
 Allowed Context:
 
-> SBP only.
+> CDP only.
 
 Forbidden Context:
 - original project documents
