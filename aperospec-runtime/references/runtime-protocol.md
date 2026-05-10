@@ -5,13 +5,30 @@ Use this protocol when the user asks to run the full pipeline.
 ## Input
 
 Runtime may receive:
+- Runtime Injection Map (RIM)
 - project topic
 - original materials
 - Existing Scene Library
 
-Normalize these into the Stage 1 input only.
+If a valid RIM is provided from `aperospec-injection`, apply it first.
+Locked content must remain locked.
+Skip / Assisted Generation / Continue Generation rules must be respected before entering Stage 1.
+
+Normalize unresolved upstream material into the Stage 1 input only.
 
 Do not pass raw input to later stages.
+
+## Optional Stage 0: aperospec-injection
+
+If present, read:
+
+> Runtime Injection Map (RIM)
+
+Use it to determine:
+- which layer is already fixed
+- which stage should be skipped
+- which stage should run in Assisted Generation mode
+- which content is locked and cannot be rewritten
 
 ## Stage 1: aperospec-project
 

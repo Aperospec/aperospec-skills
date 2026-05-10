@@ -1,0 +1,256 @@
+---
+name: aperospec-injection
+description: Use Aperospec Injection as the content injection and structure fusion engine before aperospec-runtime. It analyzes existing user content, detects which Aperospec Pipeline layer it belongs to, decides whether each layer should use Full Generation, Assisted Generation, Injection, Lock, Skip, or Continue Generation, and outputs a Runtime Injection Map (RIM). It is not a creative skill and does not create worldview, narrative, concept deck, or visual design.
+---
+
+# Aperospec Injection
+
+`内容注入与结构融合引擎`
+
+## Core Definition
+
+`aperospec-injection.skill` is not a creative skill.
+
+It does not handle:
+- worldview creation
+- Narrative creation
+- concept deck creation
+- visual creation
+
+Its core responsibility is:
+
+> analyzing existing user content and correctly connecting it to the Aperospec Pipeline.
+
+## System Position
+
+This skill sits before:
+
+> `aperospec-runtime.skill`
+
+It is responsible for:
+
+> content injection.
+
+## Core Responsibility
+
+This skill must:
+
+1. Identify which Pipeline layer the existing content belongs to.
+2. Decide which content should be locked, completed, skipped, or continued.
+3. Generate a Runtime Injection Map.
+
+## Important Principle
+
+Real-world projects never start from zero.
+
+Therefore, the Pipeline must support:
+
+> Existing Content Injection.
+
+## Existing Content Types
+
+The system must allow existing:
+- worldview
+- Narrative
+- concept deck
+- exhibit items
+- brand assets
+- visual guidelines
+- constructed content
+- client requirements
+- non-modifiable parts
+
+## Pipeline Layer Recognition
+
+This skill must automatically determine which Pipeline layer the existing content belongs to.
+
+### Layer 1: Cognitive Layer
+
+Includes:
+- root-cause analysis
+- drive forces
+- world understanding
+- civilizational structure
+
+Corresponds to:
+
+> `aperospec-project.skill`
+
+### Layer 2: Narrative Layer
+
+Includes:
+- worldview
+- Emotional Environment
+- Narrative Universe
+- Emotional Curve
+
+Corresponds to:
+
+> `aperospec-cinema.skill`
+
+### Layer 3: Concept Deck Layer
+
+Includes:
+- exhibit items
+- Scene
+- Concept Sequence
+- Cognitive Triggers
+- Atmosphere Directions
+- Narrative Rhythm
+
+Corresponds to:
+
+> `aperospec-conceptdeck.skill`
+
+### Layer 4: Visual Direction Layer
+
+Includes:
+- visual guidelines
+- composition
+- Typography
+- color
+- lighting
+- brand visuals
+
+Corresponds to:
+
+> `aperospec-visualdirector.skill`
+
+## Detection Rules
+
+Analyze the user's existing content and identify which layer it belongs to.
+
+### Example A: Existing Narrative Document
+
+Runtime Decision:
+
+| Layer | Decision |
+| --- | --- |
+| Cognitive Layer | Skip |
+| Narrative Layer | Lock |
+| Concept Deck Layer | Continue Generation |
+| Visual Direction Layer | Continue Generation |
+
+### Example B: Existing Exhibit Plan
+
+Runtime Decision:
+
+| Layer | Decision |
+| --- | --- |
+| Cognitive Layer | Assisted Generation |
+| Narrative Layer | Assisted Generation |
+| Concept Deck Layer | Lock |
+| Visual Direction Layer | Full Generation |
+
+### Example C: Existing Visual Plan
+
+Runtime Decision:
+
+| Layer | Decision |
+| --- | --- |
+| Visual Direction Layer | Lock |
+| Rendering Layer | Continue Rendering |
+
+## Runtime Modes
+
+Every layer must support:
+
+### 1. Full Generation Mode
+
+Generate completely.
+
+### 2. Assisted Generation Mode
+
+Complete missing parts based on existing content.
+
+### 3. Injection Mode
+
+Inject existing content into the specified layer.
+
+### 4. Lock Mode
+
+Do not modify existing content.
+
+## Lock Rules
+
+After a layer enters Lock Mode, the system must not:
+- modify
+- rewrite
+- delete
+- reconstruct Narrative
+- rewrite Scenes
+- change Emotional Logic
+
+## Injection Principles
+
+The system must prioritize:
+
+> preserving existing content.
+
+Not:
+
+> regenerating from scratch.
+
+## Important Rule
+
+The core of an advanced Pipeline is not:
+
+> generation ability.
+
+It is:
+
+> fusion ability.
+
+## Output Protocol
+
+This skill must output:
+
+> Runtime Injection Map (RIM)
+
+For the reusable template, read `references/runtime-injection-map.md`.
+
+RIM must contain:
+- Existing Content
+- Detected Layer
+- Runtime Decision
+- Lock Rules
+- Continue Generation Rules
+- Skip Rules
+- Assisted Generation Rules
+
+## Runtime Relationship
+
+`aperospec-injection.skill` is responsible for:
+
+> how Existing Content is connected.
+
+`aperospec-runtime.skill` is responsible for:
+
+> how the Pipeline runs.
+
+Difference:
+- Injection decides where content belongs.
+- Runtime decides how the Pipeline executes.
+
+## Most Important Principle
+
+The real world always contains:
+- half-finished work
+- legacy material
+- client insistence
+- constructed content
+- non-modifiable parts
+
+Therefore, an advanced AI Pipeline must support:
+
+> Existing Content Injection.
+
+## Ultimate Definition
+
+`aperospec-injection.skill` is not:
+
+> a generation system.
+
+It is:
+
+> a content fusion system in AI creative industry.

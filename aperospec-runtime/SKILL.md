@@ -52,6 +52,16 @@ Forbidden:
 
 For the detailed execution template, read `references/runtime-protocol.md`.
 
+### Optional Stage 0: Injection Handoff
+
+If the upstream input is a Runtime Injection Map (RIM) from `aperospec-injection.skill`, Runtime must:
+- respect the detected layer
+- respect Lock / Skip / Assisted Generation decisions
+- preserve locked content before any downstream generation
+- start the pipeline from the first unresolved stage
+
+If no RIM is provided, Runtime starts from Stage 1.
+
 ### Stage 1: Cognitive Engine
 
 Call:
