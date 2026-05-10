@@ -119,10 +119,17 @@ Cinematic Composition: [composition and framing]
 Prompt: [single integrated cinematic Hero Image prompt]
 ```
 
+After each prompt is generated, GPT Image 2 must be actually called to generate the Hero Image.
+Do not stop at prompt writing.
+The generated Hero Image must become the dominant visual subject of the corresponding slide.
+
 ## 6. HERO IMAGE RENDERING
 
 Image-led rule:
 [how the Hero Image dominates the page]
+
+Hero Image insertion rule:
+[insert the generated Hero Image into the final PPTX as the page's primary visual body]
 
 Fullscreen default:
 [all images are fullscreen unless otherwise specified]
@@ -146,16 +153,22 @@ Required aesthetic:
 
 Final pages should:
 [look like conceptual film posters, not PPT]
+
+Final deliverable rule:
+[render all pages into a deliverable .pptx file. Do not deliver only VDP, prompt text, or a written plan.]
 ```
 
 ## Validation Checklist
 
 Before finalizing, confirm:
-- Output is VDP, not CDP.
+- VDP is produced as an intermediate visual directing artifact, not as the final deliverable.
 - No world analysis appears.
 - No Narrative or Concept Deck is rewritten.
 - Every page has Composition Type, Negative Space Ratio, Focus Point, and Visual Weight.
 - Every page has Lens, Lighting, Atmosphere, Texture, and Camera Feeling.
 - Every page has a GPT Image 2 Prompt.
+- Every page actually calls GPT Image 2 and receives a generated Hero Image.
+- Every generated Hero Image is inserted into the final PPTX as the page's primary visual body.
+- Final output includes a deliverable .pptx file, not only VDP, prompts, or text planning.
 - Slides are Image-led, not Text-led.
 - Typography behaves like cinematic subtitles.

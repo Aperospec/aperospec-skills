@@ -1,6 +1,6 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the visual directing engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck and outputs a Visual Directing Package (VDP). It directs vision — defining what every slide looks like, what the audience sees and feels. It defines page visual composition, atmosphere direction, typography breathing, lens language, Hero Image generation, visual rhythm, and final visual page definitions. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
+description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, calls GPT Image 2 to generate a Hero Image for every page, inserts each Hero Image as the slide's primary visual body, and generates a deliverable .pptx file. It directs vision — defining what every slide looks like, what the audience sees and feels. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
 ---
 
 # Aperospec Visual Directing Engine
@@ -650,6 +650,31 @@ Image Prompt：
 
 ---
 
+# Final Delivery Hard Rule
+
+最终输出：
+必须进入：
+
+# Final Slide Rendering
+
+并生成：
+
+# 可交付的 .pptx 文件。
+
+禁止：
+
+*   只输出 VDP
+    
+*   只输出图片提示词
+    
+*   只输出文字方案
+    
+*   停留在视觉说明层
+    
+*   停留在 Prompt Package 层
+
+---
+
 # Rendering Principle
 
 最终页面：
@@ -721,9 +746,20 @@ Image Prompt：
 # Output Protocol
 
 该 Skill：
-必须固定输出：
+必须先生成：
 
 # Visual Directing Package（VDP）
+
+然后必须继续进入：
+
+# Final Slide Rendering
+
+最终生成：
+
+# 可交付的 .pptx 文件。
+
+VDP 不是最终交付物。
+VDP 只是最终 PPTX 生成之前的视觉导演中间件。
 
 ---
 
