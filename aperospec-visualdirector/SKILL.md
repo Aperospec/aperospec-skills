@@ -1,6 +1,6 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, calls GPT Image 2 to generate a Hero Image for every page, inserts each Hero Image as the slide's primary visual body, and generates a deliverable .pptx file. It directs vision — defining what every slide looks like, what the audience sees and feels. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
+description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, calls GPT Image 2 to generate a Hero Image for every page, inserts each Hero Image as the slide's primary visual body, and generates a deliverable .pptx file. It directs vision through narrative-driven editorial presentation design, architecture-photography bias, typography-first hierarchy, dynamic visual tone injection, and image-led Hero scenes. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
 ---
 
 # Aperospec Visual Directing Engine
@@ -224,6 +224,225 @@ Hero Image 生成
 情绪。
 
 ---
+
+# Editorial Presentation System
+
+## 杂志化提案系统
+
+VisualDirector's final goal is not to generate:
+
+> "corporate PPT."
+
+Nor is it:
+
+> "film storyboard."
+
+It is:
+
+> Narrative-driven Editorial Presentation.
+
+## Editorial Core Principle
+
+The entire Presentation must have:
+
+> advanced Editorial Design.
+
+Pages should be closer to:
+- fashion magazines
+- architecture magazines
+- art catalogs
+- museum proposals
+- high-end brand campaign books
+- Architecture Editorial
+- Narrative Magazine
+
+Not traditional:
+
+> business PPT.
+
+## Typography-first Principle
+
+VisualDirector must prioritize:
+
+> Typography.
+
+Text is not:
+
+> pasted content.
+
+It is:
+
+> part of page design.
+
+## Editorial Typography Rules
+
+Pages must distinguish:
+- Hero Title
+- Subtitle
+- Narrative Sentence
+- Supporting Text
+- Caption
+- Highlight Word
+- Section Label
+- Page Marker
+
+### Important Rule
+
+Forbidden:
+
+> directly stacking large blocks of body text.
+
+Text must be reorganized through:
+- font-size hierarchy
+- negative space
+- paragraph rhythm
+- emphasized words
+- image-text relationship
+- alignment
+
+## Editorial Layout Engine
+
+Pages must have:
+
+> Editorial Layout.
+
+Forbidden:
+
+> all pages using the same "left text, right image" template.
+
+## Editorial Layout Variation Rules
+
+VisualDirector must actively generate varied layouts, such as:
+- Full Bleed Image
+- White Space Layout
+- Split Layout
+- Floating Typography
+- Large Image Crop
+- Asymmetrical Composition
+- Minimal Layout
+- Magazine-style Overlay
+- Architectural Layout
+- Gallery Layout
+- Text-over-image
+- Grid Editorial Layout
+
+### Important Rule
+
+Consecutive pages must not use:
+
+> the same composition structure.
+
+## Architecture Photography Bias
+
+By default, VisualDirector should bias toward:
+
+> Architecture Photography.
+
+Not:
+- cyberpunk
+- game concept art
+- AI illustration look
+- neon technology style
+- dark suspense film style
+
+## Preferred Visual Direction
+
+Prioritize:
+- Architecture Photography
+- Spatial Atmosphere
+- Museum Lighting
+- Modern Exhibition Design
+- Editorial Photography
+- Minimal Interior
+- Gallery Atmosphere
+- Natural Light
+- Quiet Luxury
+- Material Texture
+- Emotional Space
+
+## Editorial Atmosphere Principle
+
+The correct direction is:
+
+> restrained premium feeling.
+
+Not:
+
+> oppressive darkness.
+
+## Visual Style Injection System
+
+VisualDirector must not default to:
+
+> one fixed visual style.
+
+The final visual style must allow dynamic injection by:
+- user
+- Runtime
+
+at the final stage.
+
+## Supported Style Inputs
+
+Users or Runtime may provide:
+- architecture photography references
+- fashion magazine references
+- museum case studies
+- Apple website
+- Aman style
+- TeamLab
+- Kinfolk
+- Wallpaper*
+- Cereal
+- COS Campaign
+- Prada Editorial
+- Pinterest Moodboard
+- spatial photography cases
+
+## Runtime Responsibility
+
+When Runtime enters the VisualDirector stage, it should actively read:
+
+> Visual Tone Input.
+
+## Example Parameters
+
+Visual Tone Input may include:
+- bright / oppressive
+- warm / calm
+- architectural / cinematic
+- magazine-like / technological
+- photographic / conceptual
+- minimal / information-rich
+- black-and-white / color
+- spatial / graphic
+
+## Hero Image Principle
+
+VisualDirector outputs not:
+
+> PPT backgrounds.
+
+It outputs:
+
+> Narrative Hero Image.
+
+Every page must have:
+
+> independent scene presence.
+
+## Editorial Boundary Rule
+
+VisualDirector must not modify:
+- Narrative
+- exhibit structure
+- page rhythm
+- naming
+- ConceptDeck content
+
+VisualDirector only handles:
+
+> visual directing.
 
 # Composition System
 
@@ -806,6 +1025,24 @@ VDP 只是最终 PPTX 生成之前的视觉导演中间件。
 # 7.
 
 # Final Slide Rendering Notes
+
+---
+
+# 8.
+
+# Editorial Presentation Direction
+
+---
+
+# 9.
+
+# Visual Tone Input
+
+---
+
+# 10.
+
+# Architecture Photography / Editorial Layout Bias
 
 ---
 
