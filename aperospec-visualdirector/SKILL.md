@@ -1,6 +1,6 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, calls GPT Image 2 to generate a complete standalone Narrative Hero Image for every page before typography placement, dynamically inserts typography into the image structure, inserts each Hero Image as the slide's primary visual body, and generates a deliverable .pptx file. It directs vision through image-first composition, narrative-driven editorial presentation design, architecture-photography bias, typography-first hierarchy, dynamic visual tone injection, and image-led Hero scenes. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
+description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, executes a mandatory two-step workflow: first generate 10 standalone textless Narrative Hero Images, one per original PPT page, then analyze each image and perform editorial layout with dynamically placed typography. It inserts each Hero Image as the slide's primary visual body and generates a deliverable .pptx file. It directs vision through image-first composition, narrative-driven editorial presentation design, architecture-photography bias, typography-first hierarchy, dynamic visual tone injection, and image-led Hero scenes. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
 ---
 
 # Aperospec Visual Directing Engine
@@ -436,6 +436,58 @@ Every page must have:
 VisualDirector must use:
 
 > Image-first Composition.
+
+## Mandatory Two-Step Workflow
+
+VisualDirector must split its work into exactly two forced steps:
+
+### Step 1 | Generate 10 Textless Hero Images First
+
+First generate:
+
+> 10 standalone Hero Images without any text.
+
+Hard rules:
+- images must contain no text of any kind
+- do not generate PPT pages
+- do not create left-text/right-image layouts
+- do not reserve text areas
+- every image must stand independently
+- each image corresponds to exactly one page of the original PPT content
+
+Step 1 output is only:
+
+> 10 textless Narrative Hero Images.
+
+It is not:
+- a PPT page
+- a layout
+- a slide with text
+- an image with embedded typography
+
+### Step 2 | Then Create Editorial Layout
+
+Only after the 10 textless Hero Images exist may VisualDirector enter:
+
+> Editorial Layout.
+
+Hard rules:
+- first analyze each image's light-dark structure, negative space, and visual center of gravity
+- then decide where the typography should live
+- typography placement must be different on every page
+- two consecutive pages must not share the same composition structure
+- fixed left-text/right-image templates are forbidden
+- the result must feel like magazine layout, not a PPT template
+
+### Final Workflow Rule
+
+The correct process is:
+
+> draw images first, then lay out typography.
+
+It is not:
+
+> generate images that already contain text.
 
 ### Important Principle
 
@@ -1173,77 +1225,89 @@ VDP 只是最终 PPTX 生成之前的视觉导演中间件。
 
 # 1.
 
-# Composition Direction
+# Mandatory Two-Step Workflow
 
 ---
 
 # 2.
 
-# Typography Direction
+# Textless 10 Hero Images
 
 ---
 
 # 3.
 
-# Atmosphere Direction
+# Composition Direction
 
 ---
 
 # 4.
 
-# Visual Rhythm
+# Typography Direction
 
 ---
 
 # 5.
 
-# GPT Image 2 Prompt
+# Atmosphere Direction
 
 ---
 
 # 6.
 
-# Hero Image Rendering
+# Visual Rhythm
 
 ---
 
 # 7.
 
-# Final Slide Rendering Notes
+# GPT Image 2 Prompt
 
 ---
 
 # 8.
 
-# Editorial Presentation Direction
+# Hero Image Rendering
 
 ---
 
 # 9.
 
-# Visual Tone Input
+# Final Slide Rendering Notes
 
 ---
 
 # 10.
 
-# Architecture Photography / Editorial Layout Bias
+# Editorial Presentation Direction
 
 ---
 
 # 11.
 
-# Image-first Composition Logic
+# Visual Tone Input
 
 ---
 
 # 12.
 
-# Dynamic Typography Placement
+# Architecture Photography / Editorial Layout Bias
 
 ---
 
 # 13.
+
+# Image-first Composition Logic
+
+---
+
+# 14.
+
+# Dynamic Typography Placement
+
+---
+
+# 15.
 
 # Layout Intelligence / Editorial Rhythm
 

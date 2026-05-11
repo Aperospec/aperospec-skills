@@ -25,7 +25,50 @@ If fields are missing, ask for a valid CDP from `aperospec-conceptdeck`.
 Concept Deck Package:
 [briefly name the concept deck]
 
-## 1. COMPOSITION DIRECTION
+## 1. MANDATORY TWO-STEP WORKFLOW
+
+Workflow rule:
+Step 1 must generate exactly 10 standalone textless Narrative Hero Images first.
+Step 2 may begin only after those 10 images exist, and must perform Editorial Layout by analyzing each image before placing typography.
+
+Forbidden in Step 1:
+- text inside images
+- PPT pages
+- left-text/right-image layouts
+- reserved text areas
+- embedded typography
+- generated slide layouts
+
+Required in Step 1:
+- exactly 10 Hero Images
+- one image per original PPT page
+- every image stands independently without text
+
+Forbidden in Step 2:
+- typography placement before image analysis
+- repeated typography placement across pages
+- two consecutive pages with the same composition structure
+- fixed left-text/right-image templates
+
+## 2. TEXTLESS 10 HERO IMAGES
+
+For each Hero Image:
+
+### Hero Image [number]
+
+Original PPT page:
+[which source page this image corresponds to]
+
+Textless confirmation:
+[confirm no text appears in the image]
+
+Standalone value:
+[why this image works independently as a poster / photograph / magazine spread / architectural scene]
+
+Narrative content:
+[what page concept this image carries]
+
+## 3. COMPOSITION DIRECTION
 
 For each page:
 
@@ -49,7 +92,7 @@ Focus Point:
 Visual Weight:
 [emotional weight this page carries in the deck]
 
-## 2. TYPOGRAPHY DIRECTION
+## 4. TYPOGRAPHY DIRECTION
 
 Overall typography principle:
 [treat type as editorial typography implanted into the image structure, not PPT text]
@@ -80,7 +123,7 @@ Typography must avoid:
 - fixed left-text/right-image templates
 - forcing image cuts or blank text panels
 
-## 3. ATMOSPHERE DIRECTION
+## 5. ATMOSPHERE DIRECTION
 
 For each page:
 
@@ -99,7 +142,7 @@ Texture:
 Camera Feeling:
 [Intimate / Distant / Surveillance / Human POV / other]
 
-## 4. VISUAL RHYTHM
+## 6. VISUAL RHYTHM
 
 Black frame pages:
 [which pages are black frames and why]
@@ -122,7 +165,7 @@ One-sentence pages:
 Rhythm principle:
 [how the sequence feels like cinema, not presentation]
 
-## 5. GPT IMAGE 2 PROMPT
+## 7. GPT IMAGE 2 PROMPT
 
 For each page:
 
@@ -141,8 +184,9 @@ Prompt: [single integrated cinematic Hero Image prompt]
 After each prompt is generated, GPT Image 2 must be actually called to generate the Hero Image.
 Do not stop at prompt writing.
 The generated Hero Image must become the dominant visual subject of the corresponding slide.
+The generated Hero Image must contain no text.
 
-## 6. HERO IMAGE RENDERING
+## 8. HERO IMAGE RENDERING
 
 Image-led rule:
 [how the Hero Image dominates the page]
@@ -174,7 +218,7 @@ Required aesthetic:
 - editorial photography
 - restrained premium feeling
 
-## 7. IMAGE-FIRST TYPOGRAPHY INTEGRATION
+## 9. IMAGE-FIRST TYPOGRAPHY INTEGRATION
 
 For each page:
 
@@ -190,7 +234,7 @@ Layout intelligence:
 Editorial rhythm:
 [how image scale, typography, density, and negative space vary from previous and next pages]
 
-## 8. FINAL SLIDE RENDERING NOTES
+## 10. FINAL SLIDE RENDERING NOTES
 
 Final pages should:
 [look like a narrative-driven editorial presentation magazine, not a unified-template PPT]
@@ -205,10 +249,14 @@ Before finalizing, confirm:
 - VDP is produced as an intermediate visual directing artifact, not as the final deliverable.
 - No world analysis appears.
 - No Narrative or Concept Deck is rewritten.
+- Step 1 generated exactly 10 textless Hero Images before any typography or PPT layout work.
+- Step 1 did not generate PPT pages, text-in-image, left-text/right-image layouts, or reserved text areas.
+- Each Hero Image corresponds to exactly one original PPT page.
 - Every page has Composition Type, Negative Space Ratio, Focus Point, and Visual Weight.
 - Every page generates the complete Narrative Hero Image before typography placement.
 - Every Hero Image can stand independently without text.
 - Typography placement is based on image composition analysis.
+- Typography placement differs on every page.
 - Consecutive pages do not repeat the same Layout Structure.
 - Every page has Lens, Lighting, Atmosphere, Texture, and Camera Feeling.
 - Every page has a GPT Image 2 Prompt.
