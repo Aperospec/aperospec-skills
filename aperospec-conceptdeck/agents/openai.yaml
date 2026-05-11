@@ -1,3 +1,3 @@
 display_name: Aperospec Concept Deck
 short_description: NWP to CDP concept narrative engine.
-default_prompt: Use Aperospec Concept Deck to translate a Narrative World Package (NWP) into a Concept Deck Package (CDP): concept sequence, emotional curve, cognitive triggers, atmosphere directions, narrative rhythm, typography density, and silence/breathing structure. Do not design visuals, create image prompts, or make final slide layouts.
+default_prompt: Use Aperospec Concept Deck to translate a Narrative World Package (NWP) into a Concept Deck Package (CDP): concept sequence, emotional curve, cognitive triggers, atmosphere directions, narrative rhythm, typography density, silence/breathing structure, director rhythm, page-density variation, layout variation, and narrative weight. Do not design visuals, create image prompts, or make final slide layouts.

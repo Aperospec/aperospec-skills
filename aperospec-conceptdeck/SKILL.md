@@ -287,6 +287,164 @@ Concept Deck belongs to:
 
 > Client Narrative Layer.
 
+## Director Rhythm System
+
+The Deck is not:
+
+> a collection of pages.
+
+It is:
+
+> an emotional directing process.
+
+### Core Principle
+
+A truly advanced Narrative Deck must have:
+
+> rhythm variation.
+
+Forbidden: the entire Deck maintaining one uniform page structure.
+
+### Narrative Rhythm Principle
+
+The Deck must form:
+
+> an emotional waveform.
+
+Not:
+
+> template repetition.
+
+### Emotional Wave Structure
+
+The Deck must include:
+- pressure
+- pause
+- negative space
+- quietness
+- eruption
+- narrative descent
+- emotional release
+- cognitive shock
+
+## Page Density System
+
+Pages must form:
+
+> information-density variation.
+
+Forbidden: all pages carrying the same amount of information.
+
+The Deck must include:
+- pure Atmosphere pages: image only
+- black-frame pages: one sentence only
+- Narrative pages: cognitive explanation
+- Cognitive Shock pages: large-type impact
+- silent pages: no explanation
+- high-information-density pages: used for world-building
+
+## Layout Variation Rules
+
+Forbidden: three consecutive pages using the same layout.
+
+Typography:
+
+> must not repeat in a fixed position.
+
+Images:
+
+> must not use a uniform composition.
+
+Each chapter must have its own:
+
+> rhythm structure.
+
+## Opening Rhythm
+
+The Opening must not directly enter content.
+
+The Opening must first establish:
+- world state
+- emotional tone
+- Narrative Universe
+- audience psychological position
+
+## Transition Rhythm
+
+Transitions must form:
+
+> narrative descent.
+
+Transitions must make the audience feel:
+
+> "we are entering a deeper structure."
+
+## Silence Principle
+
+Advanced Decks must allow:
+
+> quietness.
+
+Some pages may explain nothing.
+
+Because immersion often comes from:
+
+> emotional pauses.
+
+## Cognitive Explanation Principle
+
+Minimalism is not:
+
+> emptiness.
+
+Besides concept, each page must contain:
+
+> narrative advancement.
+
+Narrative must explain:
+- why the Deck enters the next stage
+- why the emotion begins to change
+- why danger begins to approach
+- why the audience should care about this point
+
+## Narrative Weight Principle
+
+Every page must define:
+
+> emotional weight.
+
+Some pages must be extremely light.
+
+Some pages must be extremely heavy.
+
+Forbidden: all pages having the same emotional weight.
+
+## Visual Rhythm Principle
+
+Visuals must form:
+
+> breathing.
+
+The Deck must include:
+- Fullscreen Image
+- Tiny Typography
+- huge titles
+- full black pages
+- negative-space pages
+- text-only pages
+- high-pressure pages
+- Narrative pages
+
+## Ultimate Rhythm Principle
+
+A truly advanced Deck is not:
+
+> "laying content out."
+
+It is:
+
+> "directing the audience's emotional progression."
+
 ## Output Protocol
 
 This skill must always output:
