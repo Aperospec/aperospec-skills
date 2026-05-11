@@ -95,7 +95,7 @@ Visual Weight:
 ## 4. TYPOGRAPHY DIRECTION
 
 Overall typography principle:
-[treat type as editorial typography implanted into the image structure, not PPT text]
+[treat type as spatial editorial typography implanted into the image structure, not PPT text or floating UI]
 
 Image Composition Analysis:
 - Light-dark relationship:
@@ -105,6 +105,11 @@ Image Composition Analysis:
 - Negative space:
 - Depth-of-field / blur areas:
 - Visual flow:
+- Spatial perspective:
+- Composition direction:
+- Lighting direction:
+- Object / architectural edges:
+- Foreground-background relationship:
 
 For each page:
 - Amount of text:
@@ -113,6 +118,9 @@ For each page:
 - Emotional function:
 - Dynamic placement:
 - Image-text relationship:
+- Spatial relationship:
+- Typography hierarchy:
+- Perspective / depth behavior:
 
 Typography must avoid:
 - dense text
@@ -122,6 +130,9 @@ Typography must avoid:
 - information-first hierarchy
 - fixed left-text/right-image templates
 - forcing image cuts or blank text panels
+- floating information boxes
+- typography detached from spatial relationships
+- all text using the same size, weight, density, or emphasis
 
 ## 5. ATMOSPHERE DIRECTION
 
@@ -234,10 +245,29 @@ Layout intelligence:
 Editorial rhythm:
 [how image scale, typography, density, and negative space vary from previous and next pages]
 
-## 10. FINAL SLIDE RENDERING NOTES
+## 10. SPATIAL TYPOGRAPHY / EDITORIAL TYPOGRAPHY HIERARCHY
+
+For each page:
+
+Spatial anchor:
+[wall / perspective line / tabletop / corridor / architectural edge / shadow direction / gaze / movement / other]
+
+Perspective behavior:
+[flat / angled / depth-aware / foreground-background / partial occlusion / other]
+
+Hierarchy levels:
+[Hero Title / Secondary Title / Narrative Sentence / Supporting Text / Annotation / Highlight Word / Environmental Label / Caption / Small Detail Text]
+
+Rhythm:
+[large title / tiny type / density variation / distance variation / light-heavy variation / strong-weak variation / negative-space variation]
+
+Tone:
+[how typography gains atmosphere and taste, avoiding information-box feeling]
+
+## 11. FINAL SLIDE RENDERING NOTES
 
 Final pages should:
-[look like a narrative-driven editorial presentation magazine, not a unified-template PPT]
+[look like a narrative-driven editorial presentation magazine with true spatial editorial typography, not a unified-template PPT]
 
 Final deliverable rule:
 [render all pages into a deliverable .pptx file. Do not deliver only VDP, prompt text, or a written plan.]
@@ -257,6 +287,10 @@ Before finalizing, confirm:
 - Every Hero Image can stand independently without text.
 - Typography placement is based on image composition analysis.
 - Typography placement differs on every page.
+- Typography follows spatial perspective, composition direction, lighting direction, visual flow, architectural edges, and negative-space areas wherever possible.
+- No floating information boxes appear.
+- Typography hierarchy distinguishes title, narrative sentence, supporting text, annotation, highlight word, environmental label, caption, and small detail text as needed.
+- Typography has breathing, rhythm, scale variation, density variation, and tone.
 - Consecutive pages do not repeat the same Layout Structure.
 - Every page has Lens, Lighting, Atmosphere, Texture, and Camera Feeling.
 - Every page has a GPT Image 2 Prompt.
@@ -264,4 +298,4 @@ Before finalizing, confirm:
 - Every generated Hero Image is inserted into the final PPTX as the page's primary visual body.
 - Final output includes a deliverable .pptx file, not only VDP, prompts, or text planning.
 - Slides are Image-led, not Text-led.
-- Typography behaves like editorial typography integrated into the image, not Word layout.
+- Typography behaves like spatial editorial typography grown inside the image, not Word layout or UI information cards.

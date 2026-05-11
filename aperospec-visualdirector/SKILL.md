@@ -1,6 +1,6 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, executes a mandatory two-step workflow: first generate 10 standalone textless Narrative Hero Images, one per original PPT page, then analyze each image and perform editorial layout with dynamically placed typography. It inserts each Hero Image as the slide's primary visual body and generates a deliverable .pptx file. It directs vision through image-first composition, narrative-driven editorial presentation design, architecture-photography bias, typography-first hierarchy, dynamic visual tone injection, and image-led Hero scenes. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
+description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, executes a mandatory two-step workflow: first generate 10 standalone textless Narrative Hero Images, one per original PPT page, then analyze each image and perform editorial layout with dynamically placed typography. It inserts each Hero Image as the slide's primary visual body and generates a deliverable .pptx file. It directs vision through image-first composition, spatial typography, editorial typography hierarchy, narrative-driven editorial presentation design, architecture-photography bias, dynamic visual tone injection, and image-led Hero scenes. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
 ---
 
 # Aperospec Visual Directing Engine
@@ -602,6 +602,174 @@ Typography must feel like:
 Not:
 
 > Word layout.
+
+## Spatial Typography System
+
+VisualDirector must treat Typography as:
+
+> part of spatial composition.
+
+### Important Principle
+
+Text is not:
+
+> a UI element floating over the image.
+
+It is:
+
+> part of the image space.
+
+## Spatial Typography Rules
+
+Typography should follow, whenever possible:
+- spatial perspective
+- composition direction
+- lighting direction
+- visual flow
+- depth-of-field structure
+- object edges
+- architectural structure
+- negative-space areas
+
+### Important Rule
+
+Forbidden:
+
+> Typography completely detached from spatial relationships.
+
+Forbidden:
+
+> floating information boxes.
+
+## Editorial Integration Principle
+
+Truly advanced Editorial Typography is not:
+
+> pasted onto the image.
+
+It is:
+
+> grown inside the image.
+
+## Typography Placement Examples
+
+Text may exist:
+- along a wall
+- along perspective lines
+- along a tabletop
+- along a corridor
+- along architectural edges
+- along shadow direction
+- along a person's gaze
+- along the image's movement
+
+## Typography and Perspective
+
+Typography may create:
+- perspective
+- depth
+- spatial hierarchy
+- foreground/background relationship
+- occlusion relationship
+
+It should not always be:
+
+> flat and front-facing.
+
+## Editorial Typography Hierarchy System
+
+VisualDirector must have:
+
+> Typography Hierarchy Intelligence.
+
+### Important Principle
+
+Typography should not emphasize all information equally.
+
+It must build:
+
+> information hierarchy.
+
+## Typography Hierarchy Levels
+
+Pages should distinguish:
+- Hero Title
+- Secondary Title
+- Narrative Sentence
+- Supporting Text
+- Annotation
+- Highlight Word
+- Environmental Label
+- Caption
+- Small Detail Text
+
+### Important Rule
+
+Forbidden: all text having the same:
+- font size
+- weight
+- density
+- emphasis
+
+## Editorial Typography Rhythm Principle
+
+Typography must have:
+
+> breathing.
+
+Allowed:
+- large titles
+- extremely small type
+- density variation
+- distance variation
+- light/heavy variation
+- strong/weak variation
+- negative-space variation
+
+### Editorial Design Priority
+
+Truly advanced Editorial Design prioritizes:
+
+> visual rhythm.
+
+Not:
+
+> evenly distributed information completeness.
+
+## Magazine Typography Principle
+
+Typography should reference:
+- fashion magazines
+- architecture magazines
+- Editorial Campaign
+- Museum Catalog
+- High-end Art Book
+
+Not:
+- corporate PPT
+- UI information cards
+- Word documents
+- traditional government reports
+
+## Typography Tone Principle
+
+Typography must have:
+
+> atmosphere and taste.
+
+Not:
+
+> information-box feeling.
+
+## Final Typography Rule
+
+VisualDirector's final goal is not:
+
+> generating readable PPT.
+
+It is:
+
+> generating a Presentation Magazine with true Editorial Typography character.
 
 ## Layout Intelligence System
 
@@ -1308,6 +1476,12 @@ VDP 只是最终 PPTX 生成之前的视觉导演中间件。
 ---
 
 # 15.
+
+# Spatial Typography / Editorial Typography Hierarchy
+
+---
+
+# 16.
 
 # Layout Intelligence / Editorial Rhythm
 
