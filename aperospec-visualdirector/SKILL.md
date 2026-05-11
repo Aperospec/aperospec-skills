@@ -1,6 +1,6 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the Narrative Graphic Editorial System in the Aperospec Pipeline. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck and transforms existing CDP content into Graphic Narrative Campaign style poster layouts. It must preserve content fidelity: use only existing titles, exhibit names, core copy, Narrative Sentences, and Supporting Text from the ConceptDeck. It must not invent slogans, English campaigns, fake data, random labels, UI metadata, or unrelated graphic language. Its goal is Graphic Narrative Campaign output, not corporate PPT, architecture editorial, magazine layout engine, or traditional presentation design.
+description: Use Aperospec Visual Director as the Narrative Graphic Editorial System in the Aperospec Pipeline. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck and transforms existing CDP content into Graphic Narrative Campaign style poster layouts. It must preserve content fidelity: use only existing titles, exhibit names, core copy, Narrative Sentences, and Supporting Text from the ConceptDeck. It must not invent slogans, English campaigns, fake data, random labels, UI metadata, or unrelated graphic language. It must classify each page by Narrative Energy Level so not every page becomes a visual climax. Its goal is Graphic Narrative Campaign output, not corporate PPT, architecture editorial, magazine layout engine, or traditional presentation design.
 ---
 
 # Aperospec Visual Director
@@ -225,6 +225,143 @@ Not:
 
 > stacked design elements.
 
+## Narrative Energy System
+
+VisualDirector must understand that the whole Presentation is not:
+
+> every page as climax.
+
+It must have:
+
+> narrative energy fluctuation.
+
+### Important Principle
+
+A truly advanced Presentation is closer to:
+- music
+- cinematic rhythm
+
+It needs:
+- build-up
+- breathing
+- transition
+- eruption
+- resolution
+
+Forbidden: all pages using the same intensity of:
+- Graphic Typography
+- emotional tension
+- visual impact
+- Typography density
+- design intensity
+
+## Page Energy Classification
+
+VisualDirector must automatically identify page type and decide visual energy level based on page role.
+
+### Energy Level A: Hero Page
+
+`高潮页`
+
+Applies to:
+- cover
+- chapter opener
+- core concept
+- core Narrative
+- core exhibit item
+- Ending
+
+Allowed:
+- oversized Typography
+- strong Graphic treatment
+- strong visual tension
+- Typography dominating the image
+- poster-like design
+- high emotional energy
+
+### Energy Level B: Narrative Page
+
+`叙事页`
+
+Applies to:
+
+> ordinary exhibit introductions.
+
+Design principle:
+
+> pull back.
+
+Should have:
+- more negative space
+- more restrained Typography
+- quieter composition
+- higher readability
+- softer visual rhythm
+- more balanced information relationships
+
+Forbidden:
+
+> turning every page into a Hero Poster.
+
+### Energy Level C: Transition Page
+
+`转场页`
+
+Applies to:
+- floor transition
+- Narrative transition
+- emotional buffer
+- chapter switch
+
+Allowed:
+- minimalism
+- large negative space
+- single Narrative Sentence
+- Atmosphere Image
+- very low information density
+
+### Energy Level D: Atmosphere Page
+
+`氛围页`
+
+Applies to:
+
+> emotional pause pages.
+
+Examples:
+- one sentence
+- one space
+- one emotion
+- one symbol
+
+Allowed:
+
+> strong atmosphere.
+
+Forbidden:
+
+> complex information stacking.
+
+## Energy Curve Principle
+
+The whole Presentation must form:
+
+> an energy curve.
+
+Not:
+
+> one energy level from beginning to end.
+
+## Final Energy Principle
+
+A truly advanced Narrative Graphic Presentation is not:
+
+> every page explodes.
+
+It is:
+
+> knowing when to stay quiet and when to erupt.
+
 ## Layout Rhythm Principle
 
 Pages must create variation in:
@@ -274,6 +411,7 @@ For each page:
 ### 3. Graphic Poster Composition
 
 For each page:
+- page energy level
 - poster structure
 - visual center of gravity
 - typography/image relationship
@@ -293,6 +431,7 @@ For each page:
 ### 5. Campaign Rhythm
 
 Across the full deck:
+- energy curve
 - rhythm variation
 - density variation
 - typography variation
@@ -320,6 +459,9 @@ Before finalizing, confirm:
 - Each page feels like a Narrative Poster, not a PPT page.
 - Typography functions as graphic element, not an information box.
 - Graphic energy is restrained and ordered.
+- Page energy levels vary; not every page is treated as Hero Page.
+- Narrative Pages pull back and preserve readability.
+- Transition and Atmosphere Pages are allowed to be quiet.
 - Pages vary in rhythm but share one Campaign temperament.
 
 ## Ultimate Principle

@@ -81,6 +81,15 @@ Standalone value:
 
 For each page:
 
+Page energy level:
+[A Hero Page / B Narrative Page / C Transition Page / D Atmosphere Page]
+
+Page role:
+[cover / chapter opener / core concept / core exhibit / ordinary exhibit introduction / transition / emotional pause / ending]
+
+Energy behavior:
+[build-up / breathing / transition / eruption / resolution]
+
 Poster structure:
 [how the page becomes a Narrative Poster rather than a PPT page]
 
@@ -119,6 +128,9 @@ Content fidelity:
 
 Across the deck:
 
+Energy curve:
+[how the deck moves through build-up, breathing, transition, eruption, and resolution]
+
 Rhythm variation:
 [how pages change pace]
 
@@ -133,6 +145,12 @@ Density variation:
 
 Shared campaign temperament:
 [what makes all pages feel like one campaign]
+
+Hero Page distribution:
+[which pages may use high Graphic energy]
+
+Quiet page distribution:
+[which pages must pull back as Narrative, Transition, or Atmosphere pages]
 
 ## 6. RENDERING NOTES
 
@@ -156,4 +174,8 @@ Before finalizing, confirm:
 - Every page reads as Narrative Poster, not PPT page.
 - Typography has Graphic Confidence but remains restrained.
 - Design energy comes from order, not decorative noise.
+- Page energy levels vary across A Hero, B Narrative, C Transition, and D Atmosphere.
+- Not every page is treated as a Hero Poster.
+- Narrative Pages pull back with more readability, balance, and restraint.
+- Transition and Atmosphere Pages may be quiet, minimal, and low density.
 - Pages vary rhythmically but keep one Campaign temperament.
