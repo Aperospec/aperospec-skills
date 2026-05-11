@@ -1,6 +1,6 @@
 ---
 name: aperospec-conceptdeck
-description: Use Aperospec Concept Deck as the concept-driven immersive visual narrative engine in the Aperospec Pipeline. It accepts only a Narrative World Package (NWP) from aperospec-cinema and outputs a Concept Deck Package (CDP): concept sequence, emotional curve, cognitive triggers, atmosphere directions, narrative rhythm, typography density, and silence/breathing structure. It is a cognitive directing engine, not a PPT generator, not a film storyboard tool. Its core task is to translate Narrative Universe into a concept-driven immersive Deck.
+description: Use Aperospec Concept Deck as the concept-driven immersive visual narrative engine in the Aperospec Pipeline. It accepts only a Narrative World Package (NWP) from aperospec-cinema and outputs a Concept Deck Package (CDP): concept sequence, emotional curve, cognitive triggers, atmosphere directions, narrative rhythm, typography density, silence/breathing structure, director rhythm, information density control, concept unit integrity, and page splitting logic. It is a cognitive directing engine, not a PPT generator, not a film storyboard tool. Its core task is to translate Narrative Universe into a concept-driven immersive Deck.
 ---
 
 # Aperospec Concept Narrative Engine
@@ -445,6 +445,117 @@ It is:
 
 > "directing the audience's emotional progression."
 
+## Information Density Control System
+
+An advanced Deck is not:
+
+> "more page splitting means more sophistication."
+
+It is:
+
+> "every page carries complete cognitive value."
+
+### Core Principle
+
+Pages must center on:
+
+> Concept Unit.
+
+One page should default to:
+
+> one complete cognitive unit.
+
+Forbidden:
+
+> splitting one complete Concept excessively into multiple emotional fragment pages.
+
+## Concept Unit Rules
+
+One page should, whenever possible, contain:
+- core viewpoint
+- Narrative advancement
+- educational meaning
+- emotional direction
+- Atmosphere
+- Visual Narrative
+
+These should not be unnecessarily split across multiple pages.
+
+## Page Splitting Constraint
+
+Forbidden:
+- adding meaningless page count for "cinematic feeling"
+- forcing one complete expression to split into multiple pause pages
+- over-slowing the Narrative
+
+## Information Density Principle
+
+Pages must have:
+
+> enough cognitive density.
+
+Every page must genuinely advance:
+
+> Narrative.
+
+Not only express:
+
+> a single emotional fragment.
+
+## High-Density Narrative Rule
+
+Some pages may carry, at the same time:
+- title
+- concept explanation
+- educational meaning
+- Atmosphere
+- image
+- Narrative advancement
+
+Because a truly advanced Pitch is not:
+
+> "breaking content apart."
+
+It is:
+
+> "high-density precise expression."
+
+## Splitting Permission Rules
+
+Independent page splitting is allowed only for:
+- black frame
+- Ending
+- Cognitive Shock
+- emotional eruption
+- Narrative turn
+- worldview switch
+- strong pause
+
+In all other situations:
+
+> prefer merged expression by default.
+
+## Pitch Efficiency Principle
+
+Pitch Decks must preserve:
+
+> Narrative efficiency.
+
+Forbidden: making the audience feel:
+- "why is this not finished yet?"
+- "the information is advancing too slowly"
+- "there are too many pages"
+
+## Ultimate Density Principle
+
+A truly advanced Deck is not:
+
+> "slow like a movie."
+
+It is:
+
+> "precise like a director."
+
 ## Output Protocol
 
 This skill must always output:
@@ -460,6 +571,9 @@ This skill must always output:
 5. Narrative Rhythm
 6. Typography Density
 7. Silence / Breathing Structure
+8. Information Density Control
+9. Concept Unit Integrity
+10. Page Splitting Logic
 
 ## Ultimate Principle
 
