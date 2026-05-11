@@ -1,6 +1,6 @@
 ---
 name: aperospec-conceptdeck
-description: Use Aperospec Concept Deck as the concept-driven immersive visual narrative engine in the Aperospec Pipeline. It accepts only a Narrative World Package (NWP) from aperospec-cinema and outputs a Concept Deck Package (CDP): concept sequence, emotional curve, cognitive triggers, atmosphere directions, narrative rhythm, typography density, silence/breathing structure, director rhythm, information density control, concept unit integrity, and page splitting logic. It is a cognitive directing engine, not a PPT generator, not a film storyboard tool. Its core task is to translate Narrative Universe into a concept-driven immersive Deck.
+description: Use Aperospec Concept Deck as the concept-driven immersive visual narrative engine in the Aperospec Pipeline. It accepts only a Narrative World Package (NWP) from aperospec-cinema and outputs a Concept Deck Package (CDP): concept sequence, emotional curve, cognitive triggers, atmosphere directions, narrative rhythm, typography density, silence/breathing structure, director rhythm, exhibition proposal narrative, information density control, concept unit integrity, and page splitting logic. It is a cognitive directing engine for narrative-driven exhibition proposals, not a PPT generator, not a film storyboard tool, and not a pure emotional poster system. Its core task is to translate Narrative Universe into a concept-driven immersive Deck.
 ---
 
 # Aperospec Concept Narrative Engine
@@ -204,6 +204,126 @@ What atmosphere this page should have.
 
 ### 5. Narrative Weight
 What emotional weight this page carries in the overall Deck.
+
+## Exhibition Proposal Narrative System
+
+ConceptDeck is not:
+
+> film storyboard.
+
+Nor is it:
+
+> a purely emotional concept poster.
+
+It is:
+
+> Narrative-driven Exhibition Proposal.
+
+## Exhibition Proposal Core Principle
+
+Every page must contain, at the same time:
+- Narrative advancement
+- information expression
+- exhibit-item explanation
+- educational meaning
+- Atmosphere
+- Concept Direction
+
+## Exhibition Concept Unit Principle
+
+Every page defaults to:
+
+> one complete Concept Unit.
+
+One page should, whenever possible, fully express:
+- core viewpoint
+- exhibit purpose
+- educational meaning
+- relationship to the theme
+- Narrative
+- Visual Direction
+
+### Important Rule
+
+Forbidden:
+
+> splitting one complete cognitive unit excessively into multiple emotional pages.
+
+## Exhibition Proposal Principle
+
+ConceptDeck must always preserve:
+
+> exhibition proposal logic.
+
+Narrative:
+
+> advances.
+
+Information:
+
+> explains.
+
+Exhibit items:
+
+> ground the proposal.
+
+Atmosphere:
+
+> creates emotional involvement.
+
+All four must exist at the same time.
+
+## Exhibition Information Density Rule
+
+Pages must have:
+
+> enough information density.
+
+Forbidden: pages that only contain:
+- title
+- emotional sentence
+- empty-shot concept
+
+while lacking:
+
+> actual exhibit-item content.
+
+## Narrative Split Constraint
+
+By default:
+
+> one exhibition zone corresponds to one page.
+
+Unless one of the following occurs:
+- Chapter Transition
+- Ending
+- Cognitive Shock
+- strong pause
+- worldview switch
+
+forbidden:
+
+> further page splitting.
+
+## Exhibition-first Principle
+
+Cinematic feeling may only serve as:
+
+> a rhythm support tool.
+
+It must not override:
+
+> exhibition information expression.
+
+## Exhibition Proposal Ultimate Principle
+
+ConceptDeck's final goal is not:
+
+> "to feel like a movie."
+
+It is:
+
+> letting the client truly understand why this exhibition works.
 
 ## Slide Rhythm System
 
@@ -571,9 +691,11 @@ This skill must always output:
 5. Narrative Rhythm
 6. Typography Density
 7. Silence / Breathing Structure
-8. Information Density Control
-9. Concept Unit Integrity
-10. Page Splitting Logic
+8. Exhibition Proposal Narrative
+9. Exhibit-item Explanation Logic
+10. Information Density Control
+11. Concept Unit Integrity
+12. Page Splitting Logic
 
 ## Ultimate Principle
 
