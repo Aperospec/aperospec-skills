@@ -1,301 +1,159 @@
-# Visual Directing Package Template
+# Graphic Narrative Campaign Package Template
 
 Use this template only when the input is a complete Concept Deck Package (CDP) from `aperospec-conceptdeck`.
 
+The output is a Graphic Narrative Campaign Package (GNCP), not a generic VDP and not a rewritten ConceptDeck.
+
 ## Input Gate
 
-Confirm the CDP contains:
-- Concept Sequence
-- Emotional Curve
-- Cognitive Triggers
-- Atmosphere Directions
-- Narrative Rhythm
-- Typography Density
-- Silence / Breathing Structure
+Confirm the CDP provides usable existing content:
+- title
+- exhibit name
+- core copy
+- Narrative Sentence
+- Supporting Text
+- page concept
+- atmosphere direction
+- visual direction
 
-If fields are missing, ask for a valid CDP from `aperospec-conceptdeck`.
+If the CDP does not include usable text, do not invent copy. Mark the missing content.
 
 ## Required Output
 
 ```markdown
-# Visual Directing Package (VDP)
+# Graphic Narrative Campaign Package (GNCP)
 
 ## INPUT SOURCE
 
 Concept Deck Package:
-[briefly name the concept deck]
+[briefly name the CDP]
 
-## 1. MANDATORY TWO-STEP WORKFLOW
-
-Workflow rule:
-Step 1 must generate exactly 10 standalone textless Narrative Hero Images first.
-Step 2 may begin only after those 10 images exist, and must perform Editorial Layout by analyzing each image before placing typography.
-
-Forbidden in Step 1:
-- text inside images
-- PPT pages
-- left-text/right-image layouts
-- reserved text areas
-- embedded typography
-- generated slide layouts
-
-Required in Step 1:
-- exactly 10 Hero Images
-- one image per original PPT page
-- every image stands independently without text
-
-Forbidden in Step 2:
-- typography placement before image analysis
-- repeated typography placement across pages
-- two consecutive pages with the same composition structure
-- fixed left-text/right-image templates
-
-## 2. TEXTLESS 10 HERO IMAGES
-
-For each Hero Image:
-
-### Hero Image [number]
-
-Original PPT page:
-[which source page this image corresponds to]
-
-Textless confirmation:
-[confirm no text appears in the image]
-
-Standalone value:
-[why this image works independently as a poster / photograph / magazine spread / architectural scene]
-
-Narrative content:
-[what page concept this image carries]
-
-## 3. COMPOSITION DIRECTION
+## 1. CONTENT FIDELITY MAP
 
 For each page:
 
-### Slide [number]
+### Page [number]
 
-Image-first Composition:
-[Confirm the complete Narrative Hero Image is generated before typography placement.]
+Approved CDP content used:
+- Title:
+- Exhibit name:
+- Core copy:
+- Narrative Sentence:
+- Supporting Text:
 
-Standalone Hero Image Value:
-[Explain how the Hero Image works independently without text.]
+Locked names preserved:
+- [names]
 
-Composition Type:
-[Fullscreen / Floating Composition / Cinematic Crop / Split Atmosphere / Black Frame / Minimal Composition]
+Forbidden invented content avoided:
+- slogan
+- English campaign
+- percentage
+- fake parameter
+- barcode
+- set21
+- cotton
+- UI data
+- fake label
+- fashion metadata
+- random graphic
+- unrelated typography
 
-Negative Space Ratio:
-[high / medium-high / medium / low. Default to high unless the concept deck requires pressure.]
-
-Focus Point:
-[the first visual focus the audience notices]
-
-Visual Weight:
-[emotional weight this page carries in the deck]
-
-## 4. TYPOGRAPHY DIRECTION
-
-Overall typography principle:
-[treat type as spatial editorial typography implanted into the image structure, not PPT text or floating UI]
-
-Image Composition Analysis:
-- Light-dark relationship:
-- Visual center of gravity:
-- Highlight areas:
-- Shadow areas:
-- Negative space:
-- Depth-of-field / blur areas:
-- Visual flow:
-- Spatial perspective:
-- Composition direction:
-- Lighting direction:
-- Object / architectural edges:
-- Foreground-background relationship:
-
-For each page:
-- Amount of text:
-- Sentence style:
-- Breathing:
-- Emotional function:
-- Dynamic placement:
-- Image-text relationship:
-- Spatial relationship:
-- Typography hierarchy:
-- Perspective / depth behavior:
-
-Typography must avoid:
-- dense text
-- document paragraphs
-- bullet points
-- enterprise layout
-- information-first hierarchy
-- fixed left-text/right-image templates
-- forcing image cuts or blank text panels
-- floating information boxes
-- typography detached from spatial relationships
-- all text using the same size, weight, density, or emphasis
-
-## 5. ATMOSPHERE DIRECTION
+## 2. HERO IMAGE DIRECTION
 
 For each page:
 
-Lens:
-[35mm / 50mm / Wide Lens / Extreme Close-up / Long Shot / other]
+Hero Image concept:
+[visual concept based only on the page's CDP content]
 
-Lighting:
-[Cold Blue / Warm Natural / Screen Glow / High Contrast / Dark Ambient / other]
+Visual subject:
+[main subject]
 
 Atmosphere:
-[Psychological Pressure / Isolation / Silent Anxiety / Emotional Escape / Documentary Reality / other]
+[mood and tone]
 
-Texture:
-[Film Grain / Blur Reflection / Digital Noise / Matte Texture / Fog Atmosphere / other]
+Composition energy:
+[quiet / tense / confrontational / symbolic / compressed / expansive]
 
-Camera Feeling:
-[Intimate / Distant / Surveillance / Human POV / other]
+Standalone value:
+[why the image works without typography]
 
-## 6. VISUAL RHYTHM
-
-Black frame pages:
-[which pages are black frames and why]
-
-Still pages:
-[which pages should feel still]
-
-Emotional impact pages:
-[which pages create visual impact]
-
-Atmosphere pages:
-[which pages establish pure atmosphere]
-
-Minimal pages:
-[which pages use extreme restraint]
-
-One-sentence pages:
-[which pages use only one line]
-
-Rhythm principle:
-[how the sequence feels like cinema, not presentation]
-
-## 7. GPT IMAGE 2 PROMPT
+## 3. GRAPHIC POSTER COMPOSITION
 
 For each page:
 
-```text
-Lens: [lens]
-Lighting: [lighting]
-Atmosphere: [atmosphere]
-Emotional Tone: [emotion]
-Environment: [specific environment]
-Time: [time of day / lighting condition]
-Texture: [grain / blur / noise / matte / fog]
-Cinematic Composition: [composition and framing]
-Prompt: [single integrated cinematic Hero Image prompt]
-```
+Poster structure:
+[how the page becomes a Narrative Poster rather than a PPT page]
 
-After each prompt is generated, GPT Image 2 must be actually called to generate the Hero Image.
-Do not stop at prompt writing.
-The generated Hero Image must become the dominant visual subject of the corresponding slide.
-The generated Hero Image must contain no text.
+Visual center of gravity:
+[where visual force sits]
 
-## 8. HERO IMAGE RENDERING
+Typography / image relationship:
+[pressing / overlap / background layer / cropped / dominant / restrained]
 
-Image-led rule:
-[how the Hero Image dominates the page]
+Density level:
+[low / medium / high]
 
-Standalone image rule:
-[the Hero Image must still work as a poster, photographic artwork, magazine spread, architectural photograph, or Narrative Scene without typography]
+Negative-space strategy:
+[how emptiness supports impact]
 
-Hero Image insertion rule:
-[insert the generated Hero Image into the final PPTX as the page's primary visual body]
-
-Fullscreen default:
-[all images are fullscreen unless otherwise specified]
-
-Forbidden styles:
-- Canva style
-- corporate imagery
-- stock photo feel
-- generic illustration
-- PPT image style
-
-Required aesthetic:
-- cinematic
-- emotional
-- atmospheric
-- narrative space
-- visual tension
-- concept-driven
-- architecture photography
-- editorial photography
-- restrained premium feeling
-
-## 9. IMAGE-FIRST TYPOGRAPHY INTEGRATION
+## 4. GRAPHIC TYPOGRAPHY DIRECTION
 
 For each page:
 
-Typography placement zone:
-[shadow / dark area / sky / wall / depth-of-field / blur / blank area / composition edge / visual pause area]
+Typography hierarchy:
+[Hero Title / Secondary Title / Narrative Sentence / Supporting Text / Caption if present in CDP]
 
-Placement reason:
-[why this typography placement fits the generated Hero Image structure]
+Graphic behavior:
+[oversized / cropped / layered / background / overlap / visual subject]
 
-Layout intelligence:
-[how this page's layout differs from adjacent pages]
+Visual impact:
+[what the typography does visually]
 
-Editorial rhythm:
-[how image scale, typography, density, and negative space vary from previous and next pages]
+Restraint rule:
+[what must be avoided so the page does not become noisy]
 
-## 10. SPATIAL TYPOGRAPHY / EDITORIAL TYPOGRAPHY HIERARCHY
+Content fidelity:
+[confirm typography uses only approved CDP text]
 
-For each page:
+## 5. CAMPAIGN RHYTHM
 
-Spatial anchor:
-[wall / perspective line / tabletop / corridor / architectural edge / shadow direction / gaze / movement / other]
+Across the deck:
 
-Perspective behavior:
-[flat / angled / depth-aware / foreground-background / partial occlusion / other]
+Rhythm variation:
+[how pages change pace]
 
-Hierarchy levels:
-[Hero Title / Secondary Title / Narrative Sentence / Supporting Text / Annotation / Highlight Word / Environmental Label / Caption / Small Detail Text]
+Typography variation:
+[how type behavior changes without becoming random]
 
-Rhythm:
-[large title / tiny type / density variation / distance variation / light-heavy variation / strong-weak variation / negative-space variation]
+Composition variation:
+[how layouts differ]
 
-Tone:
-[how typography gains atmosphere and taste, avoiding information-box feeling]
+Density variation:
+[where the campaign breathes, where it compresses]
 
-## 11. FINAL SLIDE RENDERING NOTES
+Shared campaign temperament:
+[what makes all pages feel like one campaign]
 
-Final pages should:
-[look like a narrative-driven editorial presentation magazine with true spatial editorial typography, not a unified-template PPT]
+## 6. RENDERING NOTES
 
-Final deliverable rule:
-[render all pages into a deliverable .pptx file. Do not deliver only VDP, prompt text, or a written plan.]
+Final rendering must:
+- preserve only approved CDP text
+- preserve locked names
+- avoid invented slogans or labels
+- create Hero Image first
+- compose each page as a Narrative Poster
+- use typography as graphic element
+- avoid corporate PPT, UI cards, and Word document layout
 ```
 
 ## Validation Checklist
 
 Before finalizing, confirm:
-- VDP is produced as an intermediate visual directing artifact, not as the final deliverable.
-- No world analysis appears.
-- No Narrative or Concept Deck is rewritten.
-- Step 1 generated exactly 10 textless Hero Images before any typography or PPT layout work.
-- Step 1 did not generate PPT pages, text-in-image, left-text/right-image layouts, or reserved text areas.
-- Each Hero Image corresponds to exactly one original PPT page.
-- Every page has Composition Type, Negative Space Ratio, Focus Point, and Visual Weight.
-- Every page generates the complete Narrative Hero Image before typography placement.
-- Every Hero Image can stand independently without text.
-- Typography placement is based on image composition analysis.
-- Typography placement differs on every page.
-- Typography follows spatial perspective, composition direction, lighting direction, visual flow, architectural edges, and negative-space areas wherever possible.
-- No floating information boxes appear.
-- Typography hierarchy distinguishes title, narrative sentence, supporting text, annotation, highlight word, environmental label, caption, and small detail text as needed.
-- Typography has breathing, rhythm, scale variation, density variation, and tone.
-- Consecutive pages do not repeat the same Layout Structure.
-- Every page has Lens, Lighting, Atmosphere, Texture, and Camera Feeling.
-- Every page has a GPT Image 2 Prompt.
-- Every page actually calls GPT Image 2 and receives a generated Hero Image.
-- Every generated Hero Image is inserted into the final PPTX as the page's primary visual body.
-- Final output includes a deliverable .pptx file, not only VDP, prompts, or text planning.
-- Slides are Image-led, not Text-led.
-- Typography behaves like spatial editorial typography grown inside the image, not Word layout or UI information cards.
+- GNCP uses only CDP content.
+- No slogan, English campaign, fake data, barcode, fake label, or random graphic was invented.
+- Locked names are preserved exactly.
+- Every Hero Image can stand alone without typography.
+- Every page reads as Narrative Poster, not PPT page.
+- Typography has Graphic Confidence but remains restrained.
+- Design energy comes from order, not decorative noise.
+- Pages vary rhythmically but keep one Campaign temperament.
