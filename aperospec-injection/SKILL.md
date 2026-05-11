@@ -1,6 +1,6 @@
 ---
 name: aperospec-injection
-description: Use Aperospec Injection as the content injection and structure fusion engine before aperospec-runtime. It analyzes existing user content, detects which Aperospec Pipeline layer it belongs to, decides whether each layer should use Full Generation, Assisted Generation, Injection, Lock, Skip, or Continue Generation, and outputs a Runtime Injection Map (RIM). It is not a creative skill and does not create worldview, narrative, concept deck, or visual design.
+description: Use Aperospec Injection as the content injection and structure fusion engine before aperospec-runtime. It analyzes existing user content, detects which Aperospec Pipeline layer it belongs to, confirms formal names for existing assets, locks confirmed names in Lock Asset State, decides whether each layer should use Full Generation, Assisted Generation, Injection, Lock, Skip, or Continue Generation, and outputs a Runtime Injection Map (RIM). It is not a creative skill and does not create worldview, narrative, concept deck, or visual design.
 ---
 
 # Aperospec Injection
@@ -38,6 +38,73 @@ This skill must:
 1. Identify which Pipeline layer the existing content belongs to.
 2. Decide which content should be locked, completed, skipped, or continued.
 3. Generate a Runtime Injection Map.
+
+## Naming Confirmation System
+
+Injection Layer is responsible for:
+
+> formal naming confirmation for all Existing Assets.
+
+Existing Assets include:
+- constructed content
+- existing user plans
+- confirmed exhibit items
+- confirmed chapters
+- client-locked content
+- existing Narrative Structure
+- existing spatial names
+- existing function modules
+
+## Once Confirmed
+
+Once Injection Layer confirms a formal name, that name enters:
+
+> Lock Asset State.
+
+## Lock Asset State Rules
+
+After entering Lock Asset State, all downstream Skills are forbidden to:
+- rename
+- replace with summary wording
+- "upgrade" the name
+- rename it narratively
+- replace it with synonyms
+- create a stylized name
+- automatically optimize the name with AI
+
+## Allowed Actions
+
+Downstream Skills may only:
+- reference
+- arrange in layout
+- connect through Narrative
+- organize rhythm
+- structure pages
+
+## Important Naming Principle
+
+Formal names are not decided temporarily by:
+
+> ConceptDeck Layer.
+
+They must be completed in:
+
+> Injection Layer Naming Confirmation.
+
+## Existing Content Protection
+
+User-provided names for the following are treated as Confirmed Assets by default:
+- exhibit item names
+- exhibition zone names
+- chapter names
+- spatial names
+- constructed content
+
+## Default Naming Rule
+
+Unless the user explicitly requests renaming, downstream Skills are forbidden to:
+
+> modify formal names.
 
 ## Important Principle
 
@@ -213,6 +280,8 @@ RIM must contain:
 - Existing Content
 - Detected Layer
 - Runtime Decision
+- Confirmed Asset Names
+- Lock Asset State
 - Lock Rules
 - Continue Generation Rules
 - Skip Rules

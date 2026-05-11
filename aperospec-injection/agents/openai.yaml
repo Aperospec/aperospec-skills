@@ -1,3 +1,3 @@
 display_name: Aperospec Injection
 short_description: Existing content injection engine.
-default_prompt: Use Aperospec Injection to analyze existing user content, detect which Aperospec Pipeline layer it belongs to, decide which layers should be locked, skipped, assisted, injected, or continued, and output a Runtime Injection Map (RIM). Do not create worldview, narrative, concept deck, or visual design.
+default_prompt: Use Aperospec Injection to analyze existing user content, detect which Aperospec Pipeline layer it belongs to, confirm formal names for Existing Assets, lock confirmed names in Lock Asset State, decide which layers should be locked, skipped, assisted, injected, or continued, and output a Runtime Injection Map (RIM). Unless the user explicitly requests renaming, downstream Skills must not rename, summarize, stylize, or AI-optimize confirmed asset names. Do not create worldview, narrative, concept deck, or visual design.

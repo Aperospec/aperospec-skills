@@ -52,7 +52,37 @@ Forbidden operations:
 - rewrite Scenes
 - change Emotional Logic
 
-## 5. CONTINUE GENERATION RULES
+## 5. CONFIRMED ASSET NAMES
+
+Confirmed Asset Names:
+- [formal asset name]
+
+Asset type:
+- [exhibit item / chapter / spatial name / function module / constructed content / client-locked content]
+
+Name source:
+- [user-provided / existing document / client-locked / constructed site]
+
+Lock Asset State:
+- [Locked / Not Locked]
+
+Downstream forbidden operations:
+- rename
+- replace with summary wording
+- "upgrade" the name
+- narratively rename
+- replace with synonyms
+- stylize the name
+- AI-optimize the name
+
+Downstream allowed operations:
+- reference
+- arrange in layout
+- connect through Narrative
+- organize rhythm
+- structure pages
+
+## 6. CONTINUE GENERATION RULES
 
 Continue generating:
 - [layer / artifact]
@@ -60,7 +90,7 @@ Continue generating:
 Generation must preserve:
 - [existing content or constraint]
 
-## 6. SKIP RULES
+## 7. SKIP RULES
 
 Skip:
 - [layer / skill]
@@ -68,7 +98,7 @@ Skip:
 Reason:
 [Why this layer already exists or is unnecessary.]
 
-## 7. ASSISTED GENERATION RULES
+## 8. ASSISTED GENERATION RULES
 
 Assist generation for:
 - [layer / skill]
@@ -79,7 +109,7 @@ Missing parts to complete:
 Must be based on:
 - [existing content]
 
-## 8. RUNTIME HANDOFF
+## 9. RUNTIME HANDOFF
 
 Pass this RIM to:
 
@@ -106,6 +136,8 @@ Before finalizing, confirm:
 - Detected Layer is explicit.
 - Runtime Decision covers every Pipeline skill.
 - Lock Mode clearly forbids modification.
+- Confirmed Asset Names are listed when the user provides existing names.
+- Lock Asset State forbids downstream renaming unless the user explicitly requests renaming.
 - Assisted Generation clearly lists what is missing.
 - Continue Generation explains what the next skill should do.
 - The final output is RIM, not CWP, NWP, CDP, VDP, or Final Deck.
