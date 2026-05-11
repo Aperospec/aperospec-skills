@@ -31,6 +31,12 @@ For each page:
 
 ### Slide [number]
 
+Image-first Composition:
+[Confirm the complete Narrative Hero Image is generated before typography placement.]
+
+Standalone Hero Image Value:
+[Explain how the Hero Image works independently without text.]
+
 Composition Type:
 [Fullscreen / Floating Composition / Cinematic Crop / Split Atmosphere / Black Frame / Minimal Composition]
 
@@ -46,13 +52,24 @@ Visual Weight:
 ## 2. TYPOGRAPHY DIRECTION
 
 Overall typography principle:
-[treat type as cinematic subtitles, not PPT text]
+[treat type as editorial typography implanted into the image structure, not PPT text]
+
+Image Composition Analysis:
+- Light-dark relationship:
+- Visual center of gravity:
+- Highlight areas:
+- Shadow areas:
+- Negative space:
+- Depth-of-field / blur areas:
+- Visual flow:
 
 For each page:
 - Amount of text:
 - Sentence style:
 - Breathing:
 - Emotional function:
+- Dynamic placement:
+- Image-text relationship:
 
 Typography must avoid:
 - dense text
@@ -60,6 +77,8 @@ Typography must avoid:
 - bullet points
 - enterprise layout
 - information-first hierarchy
+- fixed left-text/right-image templates
+- forcing image cuts or blank text panels
 
 ## 3. ATMOSPHERE DIRECTION
 
@@ -128,6 +147,9 @@ The generated Hero Image must become the dominant visual subject of the correspo
 Image-led rule:
 [how the Hero Image dominates the page]
 
+Standalone image rule:
+[the Hero Image must still work as a poster, photographic artwork, magazine spread, architectural photograph, or Narrative Scene without typography]
+
 Hero Image insertion rule:
 [insert the generated Hero Image into the final PPTX as the page's primary visual body]
 
@@ -148,11 +170,30 @@ Required aesthetic:
 - narrative space
 - visual tension
 - concept-driven
+- architecture photography
+- editorial photography
+- restrained premium feeling
 
-## 7. FINAL SLIDE RENDERING NOTES
+## 7. IMAGE-FIRST TYPOGRAPHY INTEGRATION
+
+For each page:
+
+Typography placement zone:
+[shadow / dark area / sky / wall / depth-of-field / blur / blank area / composition edge / visual pause area]
+
+Placement reason:
+[why this typography placement fits the generated Hero Image structure]
+
+Layout intelligence:
+[how this page's layout differs from adjacent pages]
+
+Editorial rhythm:
+[how image scale, typography, density, and negative space vary from previous and next pages]
+
+## 8. FINAL SLIDE RENDERING NOTES
 
 Final pages should:
-[look like conceptual film posters, not PPT]
+[look like a narrative-driven editorial presentation magazine, not a unified-template PPT]
 
 Final deliverable rule:
 [render all pages into a deliverable .pptx file. Do not deliver only VDP, prompt text, or a written plan.]
@@ -165,10 +206,14 @@ Before finalizing, confirm:
 - No world analysis appears.
 - No Narrative or Concept Deck is rewritten.
 - Every page has Composition Type, Negative Space Ratio, Focus Point, and Visual Weight.
+- Every page generates the complete Narrative Hero Image before typography placement.
+- Every Hero Image can stand independently without text.
+- Typography placement is based on image composition analysis.
+- Consecutive pages do not repeat the same Layout Structure.
 - Every page has Lens, Lighting, Atmosphere, Texture, and Camera Feeling.
 - Every page has a GPT Image 2 Prompt.
 - Every page actually calls GPT Image 2 and receives a generated Hero Image.
 - Every generated Hero Image is inserted into the final PPTX as the page's primary visual body.
 - Final output includes a deliverable .pptx file, not only VDP, prompts, or text planning.
 - Slides are Image-led, not Text-led.
-- Typography behaves like cinematic subtitles.
+- Typography behaves like editorial typography integrated into the image, not Word layout.

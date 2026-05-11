@@ -1,6 +1,6 @@
 ---
 name: aperospec-visualdirector
-description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, calls GPT Image 2 to generate a Hero Image for every page, inserts each Hero Image as the slide's primary visual body, and generates a deliverable .pptx file. It directs vision through narrative-driven editorial presentation design, architecture-photography bias, typography-first hierarchy, dynamic visual tone injection, and image-led Hero scenes. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
+description: Use Aperospec Visual Director as the visual directing and final slide rendering engine in the Aperospec Pipeline. It is not a PPT beautification tool or a layout tool. It accepts only a Concept Deck Package (CDP) from aperospec-conceptdeck, produces a Visual Directing Package (VDP) as an intermediate artifact, calls GPT Image 2 to generate a complete standalone Narrative Hero Image for every page before typography placement, dynamically inserts typography into the image structure, inserts each Hero Image as the slide's primary visual body, and generates a deliverable .pptx file. It directs vision through image-first composition, narrative-driven editorial presentation design, architecture-photography bias, typography-first hierarchy, dynamic visual tone injection, and image-led Hero scenes. It is not an information design system, not a world analyzer, not a narrative generator, not an emotional-curve rewriter, and not a concept deck editor.
 ---
 
 # Aperospec Visual Directing Engine
@@ -430,6 +430,191 @@ It outputs:
 Every page must have:
 
 > independent scene presence.
+
+## Image-first Composition System
+
+VisualDirector must use:
+
+> Image-first Composition.
+
+### Important Principle
+
+The correct workflow is not:
+
+> layout text first, then generate images.
+
+It is:
+
+> generate the complete Hero Image first, then implant Typography.
+
+## Image-first Hero Image Principle
+
+Every page must first generate:
+
+> complete Narrative Hero Image.
+
+Even without text, the image must be able to:
+
+> stand independently.
+
+It should have:
+- poster feeling
+- photographic artwork feeling
+- magazine-spread feeling
+- architectural photography feeling
+- Narrative Scene feeling
+- independent visual storytelling ability
+
+### Important Rule
+
+Forbidden: artificially altering the image just to place text, including:
+- cutting the image
+- reserving a text area
+- deleting the composition subject
+- leaving blank whiteboard space
+- forcing left-right split layout
+
+### Image Priority Principle
+
+The image must work first.
+
+Typography may only:
+
+> live inside the composition.
+
+It must not make the composition obey:
+
+> a PPT template.
+
+## Dynamic Typography Placement System
+
+After the Hero Image is generated, VisualDirector must automatically analyze:
+
+> image composition.
+
+### Required Analysis
+
+Include:
+- light-dark relationship
+- visual center of gravity
+- highlight areas
+- shadow areas
+- negative space
+- blank space
+- depth-of-field areas
+- blur areas
+- composition rhythm
+- visual flow
+
+## Typography Placement Principle
+
+Text must be dynamically implanted according to:
+
+> image structure.
+
+Not fixed as:
+- left text, right image
+- top text, bottom image
+- fixed columns
+- corporate PPT templates
+
+## Editorial Design Principle
+
+True Editorial Layout is:
+
+> image-text symbiosis.
+
+Not:
+
+> image-text assembly.
+
+## Typography Integration Rules
+
+Typography should preferably be implanted into:
+- shadow areas
+- dark areas
+- sky areas
+- wall areas
+- depth-of-field areas
+- blur areas
+- blank areas
+- composition edges
+- visual pause areas
+
+### Important Rule
+
+Typography must feel like:
+
+> magazine design.
+
+Not:
+
+> Word layout.
+
+## Layout Intelligence System
+
+VisualDirector must have:
+
+> Dynamic Layout Intelligence.
+
+### Important Rule
+
+Every page layout must be designed again.
+
+Forbidden:
+
+> consecutive pages repeating the same Layout Structure.
+
+## Allowed Layout Variations
+
+Examples:
+- Full Bleed Layout
+- Floating Typography
+- Asymmetrical Layout
+- Editorial Grid
+- Minimal Layout
+- Image Overlay
+- Large Crop Layout
+- White Space Composition
+- Magazine Spread
+- Architectural Layout
+- Poster Layout
+- Gallery Layout
+
+### Layout Rhythm Principle
+
+Layout must obey:
+
+> image rhythm.
+
+Not:
+
+> PPT template.
+
+## Editorial Rhythm Principle
+
+The entire Presentation must have:
+
+> Editorial Rhythm.
+
+That means pages must create:
+- breathing
+- density variation
+- negative-space variation
+- rhythm variation
+- Typography variation
+- image-scale variation
+- image-text relationship variation
+
+### Presentation Magazine Principle
+
+VisualDirector's final goal is not:
+
+> generating a unified-template PPT.
+
+It is:
+
+> generating a Presentation Magazine with true Narrative and Editorial feeling.
 
 ## Editorial Boundary Rule
 
@@ -1043,6 +1228,24 @@ VDP 只是最终 PPTX 生成之前的视觉导演中间件。
 # 10.
 
 # Architecture Photography / Editorial Layout Bias
+
+---
+
+# 11.
+
+# Image-first Composition Logic
+
+---
+
+# 12.
+
+# Dynamic Typography Placement
+
+---
+
+# 13.
+
+# Layout Intelligence / Editorial Rhythm
 
 ---
 
