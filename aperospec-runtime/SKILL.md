@@ -52,6 +52,7 @@ Forbidden:
 
 For the detailed execution template, read `references/runtime-protocol.md`.
 For the management-layer PM rules, read `references/runtime-management-rules.md`.
+For team productivity standards, read `/TEAM_PRODUCTIVITY_PROTOCOL.md` and `/PIPELINE_ACCEPTANCE_CHECKLIST.md`.
 
 ## Runtime Authority
 
