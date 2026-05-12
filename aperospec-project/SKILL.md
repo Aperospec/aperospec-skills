@@ -87,6 +87,8 @@ Forbidden input forms:
 
 If the user provides long source material, first compress it into a single `TOPIC` before running the engine.
 
+If existing locked content is already provided from Injection or Runtime, treat it as upstream constraint, not as permission to drift into narrative or deck logic.
+
 ## Output Protocol
 
 Always output:
@@ -108,6 +110,26 @@ It is a standardized cognitive input for:
 > `aperospec-cinema`
 
 For the reusable output template, read `references/cognitive-world-package.md`.
+
+## Escalation Rule
+
+If the topic is unclear, contradictory, or impossible to normalize into one real `TOPIC`, do not solve the ambiguity by generating a blended world.
+
+Instead:
+- state that the topic is unresolved
+- ask Runtime or the user for normalization
+
+## Downstream Protection Rule
+
+`aperospec-project` may create narrative potential.
+
+It may not:
+- write scenes
+- write page sequence
+- define emotional rhythm of the deck
+- define visual hierarchy
+
+Those belong downstream.
 
 ## Cognitive World Package Structure
 

@@ -39,6 +39,12 @@ This skill must:
 2. Decide which content should be locked, completed, skipped, or continued.
 3. Generate a Runtime Injection Map.
 
+It must not:
+- rewrite the project direction
+- improvise downstream creative content
+- rename existing confirmed assets
+- bypass Runtime and directly continue the pipeline on its own
+
 ## Naming Confirmation System
 
 Injection Layer is responsible for:
@@ -105,6 +111,35 @@ User-provided names for the following are treated as Confirmed Assets by default
 Unless the user explicitly requests renaming, downstream Skills are forbidden to:
 
 > modify formal names.
+
+Injection itself must also follow this rule.
+
+## Runtime Handoff Rule
+
+Injection does not continue the pipeline by itself.
+
+After layer detection and lock decisions are complete, Injection must hand off only:
+- the detected layer
+- the lock decisions
+- the skip decisions
+- the assisted-generation decisions
+- the confirmed formal names
+
+to:
+
+> `aperospec-runtime.skill`
+
+Runtime is the only role allowed to decide actual stage execution order.
+
+## Multiple Asset Rule
+
+If the user provides multiple existing assets across multiple layers, Injection must:
+- identify each asset's layer
+- preserve each confirmed formal name
+- decide which layer is already fixed
+- output a single merged RIM
+
+Injection must not collapse all assets into one vague summary if that would erase layer boundaries.
 
 ## Important Principle
 

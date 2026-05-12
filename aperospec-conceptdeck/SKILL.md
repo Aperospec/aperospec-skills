@@ -68,6 +68,8 @@ And generates:
 
 > Concept Deck Package (CDP)
 
+It must not repair a weak NWP by silently replacing the narrative universe with a new one.
+
 ## Core Responsibility
 
 This skill is responsible for:
@@ -258,6 +260,30 @@ ConceptDeck must always preserve:
 Narrative:
 
 > advances.
+
+## Escalation Rule
+
+If the NWP is too weak, contradictory, or not emotionally translatable, ConceptDeck must not hide the problem by manufacturing a stronger narrative on its own.
+
+Instead:
+- identify the NWP weakness
+- return control to Runtime
+- request upstream rework
+
+## Downstream Boundary Rule
+
+ConceptDeck may define:
+- page concept
+- emotional rhythm
+- cognitive sequence
+- atmosphere direction
+
+ConceptDeck may not define:
+- final visual layout execution
+- poster typography treatment
+- final campaign composition
+
+Those belong to `aperospec-visualdirector`.
 
 Information:
 

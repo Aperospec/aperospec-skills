@@ -71,6 +71,8 @@ CDP may contain:
 
 VisualDirector must not accept raw topic analysis as a substitute for CDP.
 
+If extra upstream analysis, raw client text, or later-stage rendering preference arrives alongside CDP, ignore it unless Runtime explicitly includes it inside the valid CDP boundary.
+
 ## Strict Content Fidelity
 
 VisualDirector must only use content already present in the ConceptDeck:
@@ -101,6 +103,8 @@ Do not rename, paraphrase, expand, translate, summarize, stylize, or "upgrade" u
 Do not add invented microcopy to make the poster look more designed.
 
 If required content is missing, use less typography rather than inventing content.
+
+If critical content is missing and the page cannot remain faithful to CDP, escalate the gap to Runtime instead of inventing substitute copy.
 
 ## Hero Image First
 
@@ -258,6 +262,31 @@ Forbidden: all pages using the same intensity of:
 ## Page Energy Classification
 
 VisualDirector must automatically identify page type and decide visual energy level based on page role.
+
+## Escalation Rule
+
+If CDP content is contradictory, structurally incomplete, or too weak to support a faithful visual translation, VisualDirector must not solve the problem by rewriting the concept or inventing a stronger campaign narrative.
+
+Instead:
+- identify the CDP weakness
+- return control to Runtime
+- request upstream correction
+
+## Rendering Boundary Rule
+
+VisualDirector defines:
+- visual hierarchy
+- poster logic
+- Hero Image direction
+- typography behavior
+- page energy level
+
+VisualDirector does not define:
+- slide export mechanics
+- image generation retry logic
+- final deck completion state
+
+Those belong to Runtime and Stage 5 rendering.
 
 ### Energy Level A: Hero Page
 

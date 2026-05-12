@@ -76,6 +76,8 @@ Forbidden direct inputs:
 
 If the input is not a CWP, do not freely interpret it. Ask for a CWP from `aperospec-project` first.
 
+If the input contains extra source material outside CWP, ignore it and request Runtime-cleaned input rather than blending contexts.
+
 ### OUTPUT TYPE
 
 This system always outputs:
@@ -105,6 +107,14 @@ This skill only performs:
 > Narrative Translation.
 
 It must not decide the cognitive structure again.
+
+## Escalation Rule
+
+If the CWP is internally inconsistent, missing a critical section, or too weak to support narrative translation, Cinema must not repair it by inventing a new cognitive structure.
+
+Instead:
+- report that the CWP is insufficient
+- return control to Runtime for upstream rework
 
 ## Cognitive To Narrative Mapping System
 
@@ -258,6 +268,16 @@ Forbidden:
 Forbidden:
 
 > re-analyzing the world.
+
+### RULE 3
+
+Forbidden:
+- deciding page count
+- deciding slide order
+- deciding typography density
+- deciding poster composition
+
+Those belong to downstream skills.
 
 Use the CWP as the source of truth.
 

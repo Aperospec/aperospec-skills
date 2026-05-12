@@ -51,6 +51,7 @@ Forbidden:
 ## Runtime Structure
 
 For the detailed execution template, read `references/runtime-protocol.md`.
+For the management-layer PM rules, read `references/runtime-management-rules.md`.
 
 ## Runtime Authority
 
