@@ -52,6 +52,47 @@ Forbidden:
 
 For the detailed execution template, read `references/runtime-protocol.md`.
 
+## Runtime Authority
+
+`aperospec-runtime` is the only orchestration role allowed to:
+
+- receive the full project request
+- decide which stage starts first
+- route work across the Pipeline
+- freeze or preserve artifacts
+- decide whether the issue is a stage failure or a rendering failure
+
+It must not:
+
+- replace the user's creative judgment
+- silently rewrite locked content
+- let downstream skills directly negotiate scope with the user
+
+## User Approval Rule
+
+Runtime may silently continue only when:
+
+- the project direction is unchanged
+- no locked asset is being modified
+- no existing formal name is being replaced
+- the next stage is a normal downstream translation
+
+Runtime must return to the user for confirmation when:
+
+- the project direction changes
+- a new existing asset is inserted mid-pipeline
+- a locked name, chapter, exhibit item, or structure conflicts with downstream generation
+- the pipeline must roll back to an earlier stage
+- the final deck is ready for acceptance
+
+## Injection Re-entry Rule
+
+If the user adds new existing content after the pipeline has already started, Runtime must first decide whether that content changes the resolved layer map.
+
+If it does, Runtime must send the material back through `aperospec-injection` before continuing.
+
+Runtime must not manually improvise a new layer decision when a new asset changes lock, skip, or assisted-generation logic.
+
 ### Optional Stage 0: Injection Handoff
 
 If the upstream input is a Runtime Injection Map (RIM) from `aperospec-injection.skill`, Runtime must:
@@ -203,6 +244,38 @@ Forbidden:
 - outputting only image prompts
 - outputting only a concept plan
 
+## Rework Rule
+
+Runtime must not restart the whole pipeline by default.
+
+When a failure appears, Runtime must first identify the failing boundary:
+
+- `CWP` failure: wrong root cause, wrong driving force, wrong future projection, or wrong cognitive trigger logic
+- `NWP` failure: wrong narrative world, emotional environment, or core conflict translation despite a valid `CWP`
+- `CDP` failure: wrong concept sequencing, rhythm, page cognition, or emotional advancement despite a valid `NWP`
+- `VDP` failure: wrong visual hierarchy, poster logic, or content-fidelity execution despite a valid `CDP`
+- Rendering failure: the `VDP` is valid, but image generation, slide assembly, or final deck execution drifts
+
+Rework must restart from the first failed artifact and preserve every validated upstream artifact.
+
+## Interruption Rule
+
+If the user interrupts the pipeline with a new request, Runtime must classify the interruption as one of the following:
+
+- Direction Change
+- Existing Asset Injection
+- Locked Asset Conflict
+- Final Rendering Fix
+- Surface Rendering Fix
+
+Runtime behavior:
+
+- Direction Change: return to the user, confirm the new direction, then restart from the earliest affected stage
+- Existing Asset Injection: rerun `aperospec-injection` first
+- Locked Asset Conflict: pause and ask the user to decide which asset has authority
+- Final Rendering Fix: keep `VDP` frozen and retry Stage 5 only
+- Surface Rendering Fix: keep upstream artifacts frozen and retry only the rendering or slide-assembly layer
+
 ## Artifact System
 
 Pipeline must automatically preserve:
@@ -247,6 +320,21 @@ Then preserve:
 Use them for:
 
 > Pipeline Debug.
+
+## Final Acceptance Rule
+
+Runtime must not treat Stage 5 as complete only because a `.pptx` file exists.
+
+The final deck is complete only when:
+
+- every intended page is rendered
+- every page has its corresponding Hero Image or an explicitly approved fallback
+- the deck follows `VDP` without narrative redesign
+- no locked names are altered
+- the deck avoids obvious corporate PPT degradation
+- the output is ready for user review
+
+If any of these conditions fail, Stage 5 remains incomplete.
 
 ## Most Important Principle
 
