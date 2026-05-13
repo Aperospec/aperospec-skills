@@ -34,6 +34,8 @@ Use this checklist to decide whether each stage is ready to hand off.
 - Each page has one concept unit
 - Emotional rhythm is intentional
 - Atmosphere directions are actionable
+- Page role is explicit
+- Required content payload is explicit
 - CDP is usable by VisualDirector without inventing stronger narrative
 
 ## 5. VisualDirector Ready
@@ -42,6 +44,7 @@ Use this checklist to decide whether each stage is ready to hand off.
 - Locked names are untouched
 - Page energy is classified
 - Hero Image direction is clear
+- Typography / image relationship is explicit
 - VDP is usable by Rendering without redesign
 
 ## 6. Final Deck Ready

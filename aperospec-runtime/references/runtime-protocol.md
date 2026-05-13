@@ -158,6 +158,13 @@ Freeze:
 
 > VDP is frozen immediately after generation.
 
+VDP must be complete enough for Stage 5 to render without inventing:
+- missing copy logic
+- page role
+- page energy level
+- typography / image relationship
+- fallback poster structure
+
 ## Stage 5: Rendering Agent
 
 Call:
@@ -203,6 +210,7 @@ Stage 5 completion requires:
 - every intended Hero Image is present or explicitly marked as approved fallback
 - no locked formal name is altered
 - no corporate PPT fallback layout replaces the VDP-defined narrative poster logic
+- no missing VDP field forces generic left-text/right-image safety layout
 
 Forbidden:
 - outputting only text

@@ -1,8 +1,20 @@
-# Graphic Narrative Campaign Package Template
+# Visual Directing Package (VDP) Template
 
 Use this template only when the input is a complete Concept Deck Package (CDP) from `aperospec-conceptdeck`.
 
-The output is a Graphic Narrative Campaign Package (GNCP), not a generic VDP and not a rewritten ConceptDeck.
+The output is:
+
+> Visual Directing Package (VDP)
+
+VDP is the Stage 4 package passed to Runtime and then to Stage 5 rendering.
+
+Its visual temperament is:
+
+> Graphic Narrative Campaign
+
+But its protocol name remains:
+
+> VDP
 
 ## Input Gate
 
@@ -21,7 +33,7 @@ If the CDP does not include usable text, do not invent copy. Mark the missing co
 ## Required Output
 
 ```markdown
-# Graphic Narrative Campaign Package (GNCP)
+# Visual Directing Package (VDP)
 
 ## INPUT SOURCE
 
@@ -152,7 +164,7 @@ Hero Page distribution:
 Quiet page distribution:
 [which pages must pull back as Narrative, Transition, or Atmosphere pages]
 
-## 6. RENDERING NOTES
+## 6. STAGE 5 HANDOFF NOTES
 
 Final rendering must:
 - preserve only approved CDP text
@@ -162,12 +174,20 @@ Final rendering must:
 - compose each page as a Narrative Poster
 - use typography as graphic element
 - avoid corporate PPT, UI cards, and Word document layout
+
+For each page, pass forward:
+- Hero Image direction
+- page energy level
+- page role
+- typography / image relationship
+- negative-space strategy
+- content fidelity constraints
 ```
 
 ## Validation Checklist
 
 Before finalizing, confirm:
-- GNCP uses only CDP content.
+- VDP uses only CDP content.
 - No slogan, English campaign, fake data, barcode, fake label, or random graphic was invented.
 - Locked names are preserved exactly.
 - Every Hero Image can stand alone without typography.
@@ -179,3 +199,4 @@ Before finalizing, confirm:
 - Narrative Pages pull back with more readability, balance, and restraint.
 - Transition and Atmosphere Pages may be quiet, minimal, and low density.
 - Pages vary rhythmically but keep one Campaign temperament.
+- Stage 5 can render from VDP without guessing missing page logic.

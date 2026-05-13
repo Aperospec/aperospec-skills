@@ -66,6 +66,9 @@ CDP may contain:
 - Narrative Sentences
 - Supporting Text
 - page concepts
+- page roles
+- narrative weight
+- energy behavior
 - atmosphere directions
 - visual directions
 
@@ -105,6 +108,16 @@ Do not add invented microcopy to make the poster look more designed.
 If required content is missing, use less typography rather than inventing content.
 
 If critical content is missing and the page cannot remain faithful to CDP, escalate the gap to Runtime instead of inventing substitute copy.
+
+## Output Protocol
+
+VisualDirector must output:
+
+> Visual Directing Package (VDP)
+
+VDP is the formal Stage 4 handoff package used by Runtime and Stage 5.
+
+VDP may adopt a Graphic Narrative Campaign visual temperament, but it must remain a VDP protocol package rather than an ambiguously named alternative output.
 
 ## Hero Image First
 
