@@ -144,11 +144,17 @@ Allowed Context:
 
 > CDP only.
 
+Exception:
+- Style DNA Map from RIM may be included only when `aperospec-injection` classified user reference images as Style Reference Only.
+- Style DNA is a late-stage visual execution input. It must enter only after CDP is frozen.
+
 Forbidden:
 - original project documents
 - CWP
 - NWP
 - upstream analysis
+- raw reference images as semantic content
+- reference-image subjects, objects, characters, logos, scenes, layouts, poses, or narrative events
 
 Output:
 
@@ -164,6 +170,8 @@ VDP must be complete enough for Stage 5 to render without inventing:
 - page energy level
 - typography / image relationship
 - fallback poster structure
+- Style DNA application rules when Style Reference Only images are provided
+- forbidden-transfer boundaries for reference-image content
 
 ## Stage 5: Rendering Agent
 

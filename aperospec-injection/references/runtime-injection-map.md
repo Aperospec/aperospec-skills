@@ -29,6 +29,44 @@ Reason:
 Corresponding Skill:
 [aperospec-project / aperospec-cinema / aperospec-conceptdeck / aperospec-visualdirector / Rendering Agent]
 
+## 2A. STYLE DNA MAP
+
+Include this section only when the user provides reference images.
+
+Reference classification:
+[Content Reference / Style Reference Only / Brand / Asset Lock]
+
+If Style Reference Only:
+
+Extracted Style DNA:
+- Brushwork:
+- Line quality:
+- Surface texture:
+- Material feeling:
+- Color system:
+- Lighting atmosphere:
+- Edge treatment:
+- Rendering method:
+- Grain / print / noise feeling:
+- Composition temperament:
+- Typography compatibility:
+
+Forbidden transfer:
+- depicted subject
+- object
+- character
+- building
+- product
+- logo
+- symbol
+- exact layout
+- exact pose
+- exact scene
+- narrative event
+
+Pipeline boundary:
+[Confirm Style DNA must not enter Cognitive, Narrative, or Concept Deck layers and may only be passed to VisualDirector after CDP is frozen.]
+
 ## 3. RUNTIME DECISION
 
 | Pipeline Skill | Mode | Reason |
@@ -127,6 +165,7 @@ Runtime should:
 | Worldview, emotional environment, narrative universe, emotional curve | Narrative Layer |
 | Exhibit items, concept sequence, cognitive triggers, atmosphere directions | Concept Deck Layer |
 | Brand assets, visual guidelines, typography, color, lighting | Visual Direction Layer |
+| Style Reference Only images, brushwork, texture, material feeling, color system, lighting, rendering method | Visual Direction Layer as Style DNA Map |
 | Already rendered slides or deck files | Rendering Layer |
 
 ## Validation Checklist
@@ -137,6 +176,8 @@ Before finalizing, confirm:
 - Runtime Decision covers every Pipeline skill.
 - Lock Mode clearly forbids modification.
 - Confirmed Asset Names are listed when the user provides existing names.
+- Style Reference Only images are converted into Style DNA Map rather than treated as reusable content.
+- Style DNA Map is blocked from Cognitive, Narrative, and Concept Deck layers.
 - Lock Asset State forbids downstream renaming unless the user explicitly requests renaming.
 - Assisted Generation clearly lists what is missing.
 - Continue Generation explains what the next skill should do.

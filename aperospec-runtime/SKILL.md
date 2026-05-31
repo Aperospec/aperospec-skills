@@ -194,10 +194,15 @@ Allowed Context:
 
 > CDP only.
 
+Exception:
+- Style DNA Map from a Runtime Injection Map may be included only when `aperospec-injection` classified user reference images as Style Reference Only.
+
 Forbidden Context:
 - original project documents
 - CWP
 - NWP
+- raw reference images as semantic content
+- Style Reference Only images before they have been converted into Style DNA Map
 
 Output:
 
@@ -213,6 +218,7 @@ Forbidden:
 - rethinking worldview
 - rethinking Narrative
 - rethinking Emotional Curve
+- copying subjects, objects, characters, logos, scenes, layouts, poses, or narrative events from Style Reference Only images
 
 ### Stage 5: Rendering Agent
 

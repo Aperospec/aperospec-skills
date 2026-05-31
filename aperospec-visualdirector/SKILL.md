@@ -76,6 +76,70 @@ VisualDirector must not accept raw topic analysis as a substitute for CDP.
 
 If extra upstream analysis, raw client text, or later-stage rendering preference arrives alongside CDP, ignore it unless Runtime explicitly includes it inside the valid CDP boundary.
 
+### Style DNA Exception
+
+VisualDirector may also receive:
+
+> Style DNA Map
+
+only when Runtime passes it from a Runtime Injection Map after `aperospec-injection` classified user reference images as Style Reference Only.
+
+Style DNA Map is not content.
+
+It is:
+
+> late-stage visual-style guidance.
+
+It must not change:
+- CDP content
+- page sequence
+- exhibit logic
+- Narrative meaning
+- page role
+- approved copy
+- locked names
+
+## Style Reference Rule
+
+If Style DNA is provided, VisualDirector must use it only as visual-style guidance.
+
+Allowed transfer:
+- brushwork
+- line quality
+- edge softness / hardness
+- surface texture
+- material rendering
+- color palette
+- saturation / contrast
+- lighting atmosphere
+- grain / print / noise feeling
+- rendering method
+- composition temperament
+- typography compatibility
+
+Forbidden transfer:
+- people
+- objects
+- characters
+- buildings
+- products
+- logos
+- symbols
+- exact layout
+- exact pose
+- exact scene
+- narrative event
+
+The reference image defines:
+
+> how the final image feels.
+
+It does not define:
+
+> what the final image depicts.
+
+VisualDirector must translate Style DNA into page-level visual rules without copying reference-image content.
+
 ## Strict Content Fidelity
 
 VisualDirector must only use content already present in the ConceptDeck:
@@ -424,9 +488,9 @@ The whole deck must maintain:
 
 VisualDirector must output a:
 
-> Graphic Narrative Campaign Package (GNCP)
+> Visual Directing Package (VDP)
 
-GNCP must include:
+VDP must include:
 
 ### 1. Content Fidelity Map
 
@@ -450,7 +514,18 @@ For each page:
 - composition energy
 - why the image can stand alone
 
-### 3. Graphic Poster Composition
+### 3. Style DNA Application
+
+Include this section only when Style DNA is provided.
+
+For each page:
+- which Style DNA traits apply
+- how brushwork, texture, material feeling, color, lighting, or rendering method shape the Hero Image
+- how Style DNA affects typography / image relationship
+- how Style DNA affects poster composition without changing CDP content
+- which reference-image elements must not be copied
+
+### 4. Graphic Poster Composition
 
 For each page:
 - page energy level
@@ -460,7 +535,7 @@ For each page:
 - density level
 - negative-space strategy
 
-### 4. Graphic Typography Direction
+### 5. Graphic Typography Direction
 
 For each page:
 - typography hierarchy
@@ -470,7 +545,7 @@ For each page:
 - visual impact
 - restraint rule
 
-### 5. Campaign Rhythm
+### 6. Campaign Rhythm
 
 Across the full deck:
 - energy curve
@@ -480,10 +555,12 @@ Across the full deck:
 - composition variation
 - shared campaign temperament
 
-### 6. Rendering Notes
+### 7. Rendering Notes
 
 For final rendering:
 - preserve only approved CDP text
+- apply Style DNA only when provided
+- do not copy reference-image subjects, objects, characters, logos, scenes, layouts, poses, or narrative events
 - do not invent labels or data
 - use Hero Image first
 - compose as Narrative Poster
@@ -497,6 +574,8 @@ Before finalizing, confirm:
 - No fake data, barcode, UI metadata, fashion metadata, or random label was added.
 - All formal names come from CDP or locked user content.
 - Every page uses only CDP title, exhibit name, core copy, Narrative Sentence, or Supporting Text.
+- Style DNA is used only as visual-style guidance when provided.
+- No reference-image subject, object, character, logo, scene, layout, pose, or narrative event was copied.
 - Every Hero Image can stand alone without typography.
 - Each page feels like a Narrative Poster, not a PPT page.
 - Typography functions as graphic element, not an information box.

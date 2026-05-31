@@ -45,6 +45,103 @@ It must not:
 - rename existing confirmed assets
 - bypass Runtime and directly continue the pipeline on its own
 
+## Reference Image Classification Rule
+
+When the user provides reference images, Injection must classify each image before assigning it to the Pipeline.
+
+Reference images may be:
+
+### 1. Content Reference
+
+Use this classification only when the user explicitly wants the depicted content preserved.
+
+Content Reference may preserve:
+- subject
+- object
+- scene
+- character
+- product
+- logo
+- symbol
+- exact layout
+- factual visual content
+
+### 2. Style Reference Only
+
+Use this classification when the user wants to reference the image's visual style rather than its depicted content.
+
+Triggers include:
+- "reference the style"
+- "style reference"
+- "参考画风"
+- "只参考画风"
+- "不要用图里的元素"
+- "不要直接调用参考图中的元素"
+- "参考笔触 / 肌理 / 材质 / 色彩"
+
+Style Reference Only must extract only:
+- brushwork
+- line quality
+- surface texture
+- material feeling
+- color system
+- lighting atmosphere
+- edge treatment
+- rendering method
+- grain / print / noise feeling
+- composition temperament
+- typography compatibility
+
+Style Reference Only must not preserve or reuse:
+- depicted subjects
+- objects
+- characters
+- buildings
+- products
+- logos
+- symbols
+- exact layout
+- exact pose
+- exact scene
+- narrative event
+
+### 3. Brand / Asset Lock
+
+Use this classification when the user provides formal brand assets or identity rules.
+
+Brand / Asset Lock may preserve:
+- logo
+- brand color
+- typeface
+- identity system
+- fixed visual guideline
+- client-locked visual asset
+
+## Style DNA Map Rule
+
+If a reference image is classified as Style Reference Only, Injection must not treat it as locked visual content.
+
+Instead, Injection must extract a:
+
+> Style DNA Map.
+
+The Style DNA Map belongs to:
+
+> Visual Direction Layer.
+
+It may be passed to Runtime only as a late-stage visual-style input for `aperospec-visualdirector`.
+
+It must not influence:
+- Cognitive Layer
+- Narrative Layer
+- Concept Deck Layer
+- project topic
+- worldview
+- Narrative Universe
+- exhibit logic
+- page sequence
+- concept structure
+
 ## Naming Confirmation System
 
 Injection Layer is responsible for:
@@ -213,6 +310,7 @@ Includes:
 - color
 - lighting
 - brand visuals
+- Style DNA Map from Style Reference Only images
 
 Corresponds to:
 
@@ -316,6 +414,7 @@ RIM must contain:
 - Detected Layer
 - Runtime Decision
 - Confirmed Asset Names
+- Style DNA Map when Style Reference Only images are provided
 - Lock Asset State
 - Lock Rules
 - Continue Generation Rules

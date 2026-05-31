@@ -2,6 +2,9 @@
 
 Use this template only when the input is a complete Concept Deck Package (CDP) from `aperospec-conceptdeck`.
 
+Optional input:
+- Style DNA Map from RIM, only when `aperospec-injection` classified user reference images as Style Reference Only.
+
 The output is:
 
 > Visual Directing Package (VDP)
@@ -39,6 +42,9 @@ If the CDP does not include usable text, do not invent copy. Mark the missing co
 
 Concept Deck Package:
 [briefly name the CDP]
+
+Style DNA Map:
+[none / briefly name the Style Reference Only source]
 
 ## 1. CONTENT FIDELITY MAP
 
@@ -89,7 +95,50 @@ Composition energy:
 Standalone value:
 [why the image works without typography]
 
-## 3. GRAPHIC POSTER COMPOSITION
+## 3. STYLE DNA APPLICATION
+
+Include this section only when Style DNA Map is provided.
+
+For each page:
+
+### Page [number]
+
+Applied Style DNA:
+- Brushwork:
+- Line quality:
+- Surface texture:
+- Material feeling:
+- Color system:
+- Lighting atmosphere:
+- Edge treatment:
+- Rendering method:
+- Grain / print / noise feeling:
+- Composition temperament:
+- Typography compatibility:
+
+Hero Image style application:
+[how the Hero Image uses Style DNA without copying reference-image content]
+
+Typography style application:
+[how type treatment fits the Style DNA]
+
+Composition style application:
+[how composition temperament is translated without copying the exact reference layout]
+
+Forbidden reference-image transfer:
+- subject:
+- object:
+- character:
+- building:
+- product:
+- logo:
+- symbol:
+- exact layout:
+- exact pose:
+- exact scene:
+- narrative event:
+
+## 4. GRAPHIC POSTER COMPOSITION
 
 For each page:
 
@@ -117,7 +166,7 @@ Density level:
 Negative-space strategy:
 [how emptiness supports impact]
 
-## 4. GRAPHIC TYPOGRAPHY DIRECTION
+## 5. GRAPHIC TYPOGRAPHY DIRECTION
 
 For each page:
 
@@ -136,7 +185,7 @@ Restraint rule:
 Content fidelity:
 [confirm typography uses only approved CDP text]
 
-## 5. CAMPAIGN RHYTHM
+## 6. CAMPAIGN RHYTHM
 
 Across the deck:
 
@@ -164,11 +213,13 @@ Hero Page distribution:
 Quiet page distribution:
 [which pages must pull back as Narrative, Transition, or Atmosphere pages]
 
-## 6. STAGE 5 HANDOFF NOTES
+## 7. STAGE 5 HANDOFF NOTES
 
 Final rendering must:
 - preserve only approved CDP text
 - preserve locked names
+- apply Style DNA only as visual-style guidance when provided
+- never copy reference-image subjects, objects, characters, logos, scenes, layouts, poses, or narrative events
 - avoid invented slogans or labels
 - create Hero Image first
 - compose each page as a Narrative Poster
@@ -180,6 +231,8 @@ For each page, pass forward:
 - page energy level
 - page role
 - typography / image relationship
+- Style DNA application rules when present
+- forbidden reference-image transfer boundaries when present
 - negative-space strategy
 - content fidelity constraints
 ```
@@ -190,6 +243,8 @@ Before finalizing, confirm:
 - VDP uses only CDP content.
 - No slogan, English campaign, fake data, barcode, fake label, or random graphic was invented.
 - Locked names are preserved exactly.
+- Style DNA Map, when present, affects only visual style.
+- No reference-image content is copied into Hero Image, typography, layout, or narrative.
 - Every Hero Image can stand alone without typography.
 - Every page reads as Narrative Poster, not PPT page.
 - Typography has Graphic Confidence but remains restrained.
