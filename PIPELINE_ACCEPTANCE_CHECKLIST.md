@@ -14,6 +14,18 @@
 - 没有遗留的、会阻断流水线的基础矛盾。
 - Runtime 可以顺利启动正式 CWP -> NWP -> CDP -> VDP 链条。
 
+### External Research Readiness
+
+Before moving from Council Mode to Production Mode, Runtime must check whether any unresolved factual, market, cultural, policy, technical, case-study, or visual-reference assumptions require external research.
+
+The pipeline is production-ready only if one of the following is true:
+
+- no external research is needed;
+- required external research has been completed and synthesized;
+- the human explicitly decides to proceed without external research;
+- unresolved research items are marked as non-blocking.
+
+External research must not silently alter locked content, user intent, or final production direction.
 ### Final Output Format Confirmed
 
 Before Production Mode begins, Runtime must confirm the final output format with the human.

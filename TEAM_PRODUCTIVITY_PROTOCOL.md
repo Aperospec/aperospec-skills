@@ -13,3 +13,4 @@
 - 听指挥：Skill 在 Council Mode 时仅出具判断，不得直接强行生成最终件。
 - 信息收口：所有内容汇报、草稿整合、异常兜底都由 Runtime 完成，避免对用户造成信息轰炸。
 - 决策宽容度：A productive Runtime does not force early decisions that the human has not yet made, but it must identify which decisions are required before production. Final output format is one of those required production decisions.
+- 外部研究边界：A productive Runtime does not rely only on user input when the project clearly depends on external context, but it must manage research as controlled supporting context rather than as hidden creative authority.
