@@ -89,6 +89,24 @@ All content must have a state:
 - **Locked**: Locked and immutable
 Only **Locked** content can enter the formal production blueprint. Runtime must not mistake discussion ideas for final commands.
 
+## Final Output Format Decision Protocol
+
+Runtime must not assume the final delivery format.
+
+The final output format is a human-owned decision. It may include, but is not limited to, HTML slide deck, PPTX, PDF, Markdown document, image sequence, web page, or any custom format requested by the human.
+
+If the human has not specified the final output format, Runtime must record it as a Deferred Decision.
+
+Runtime may continue Council Mode without a confirmed final output format.
+
+Runtime must not enter Production Mode until the human confirms the final output format.
+
+Runtime should ask for this decision during Production Readiness review if it has not already been confirmed.
+
+Once confirmed, the final output format must be recorded in the Production Blueprint.
+
+Runtime must not silently default to HTML, PPTX, PDF, or any other format.
+
 ## Original Pipeline & Artifact System (Retained for Production Mode)
 
 The original stage system (Stage 0 to Stage 5) and artifact freezing rules are strictly retained but are now executed inside **Production Mode**.

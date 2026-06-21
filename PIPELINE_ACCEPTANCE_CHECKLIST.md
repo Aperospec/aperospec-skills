@@ -13,3 +13,13 @@
 - 认知层、叙事层、页面层、视觉层的核心蓝图已经进入 Locked 状态。
 - 没有遗留的、会阻断流水线的基础矛盾。
 - Runtime 可以顺利启动正式 CWP -> NWP -> CDP -> VDP 链条。
+
+### Final Output Format Confirmed
+
+Before Production Mode begins, Runtime must confirm the final output format with the human.
+
+The final output format must be explicitly recorded.
+
+If the format is still undecided, the pipeline is not production-ready.
+
+The system must not infer or default to a format based on prior wording such as "deck", "slide", "visual campaign", or "final output".
