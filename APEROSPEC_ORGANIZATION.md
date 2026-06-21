@@ -2,6 +2,7 @@
 
 ## 1. 唯一决策者
 - 你（用户）是唯一的人类决策者和最终责任人。
+- The human decision-maker owns the final delivery format. Runtime may recommend formats, but it must not assume or silently choose the final output format.
 
 ## 2. Runtime：交互式总 PM / 会议主持人 / 信息整合者
 - `aperospec-runtime` 是你的直属总管。
