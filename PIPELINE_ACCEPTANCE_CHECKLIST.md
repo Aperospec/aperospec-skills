@@ -1,56 +1,15 @@
 # Aperospec Pipeline Acceptance Checklist
 
-Use this checklist to decide whether each stage is ready to hand off.
+## 1. Council Readiness（会议讨论就绪度）
+*用于评估当前草稿是否足够拿给人类讨论*
+- 输入已被 Runtime 正确拆解。
+- 涉及的各 Skill 已经基于职责给出了专业意见。
+- 形成了结构完整的 Team Synthesis Brief。
+- 明确列出了 Unresolved Questions 和需要人类决策的关键点。
 
-## 1. Injection Ready
-
-- Existing assets are identified by layer
-- Confirmed names are listed
-- Locked content is explicit
-- RIM covers every relevant downstream stage
-- Runtime can start from the correct unresolved stage
-
-## 2. Project Ready
-
-- Topic is normalized
-- Root cause is real, not surface explanation
-- Driving forces create usable pressure
-- Contradiction can become conflict
-- Triggers are perceptible states
-- CWP is usable by Cinema without reinterpretation
-
-## 3. Cinema Ready
-
-- World is clear
-- Emotional environment is distinct
-- Something Is Coming is specific
-- Core conflict is dramatic
-- Scene potentials are concrete
-- NWP is usable by ConceptDeck without upstream repair
-
-## 4. ConceptDeck Ready
-
-- Sequence is clear
-- Each page has one concept unit
-- Emotional rhythm is intentional
-- Atmosphere directions are actionable
-- Page role is explicit
-- Required content payload is explicit
-- CDP is usable by VisualDirector without inventing stronger narrative
-
-## 5. VisualDirector Ready
-
-- Content fidelity is preserved
-- Locked names are untouched
-- Page energy is classified
-- Hero Image direction is clear
-- Typography / image relationship is explicit
-- VDP is usable by Rendering without redesign
-
-## 6. Final Deck Ready
-
-- All intended slides exist
-- Hero Images exist or approved fallback is present
-- VDP logic survives rendering
-- No locked name changed
-- Output is ready for user review
+## 2. Production Readiness（生产就绪度）
+*用于评估当前方案是否已经被人类确认并可以冻结生产*
+- 用户已经明确下达“方案定稿 / 可以正式生产”的确认指令。
+- 认知层、叙事层、页面层、视觉层的核心蓝图已经进入 Locked 状态。
+- 没有遗留的、会阻断流水线的基础矛盾。
+- Runtime 可以顺利启动正式 CWP -> NWP -> CDP -> VDP 链条。
