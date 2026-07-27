@@ -1,20 +1,27 @@
 ---
 name: aperospec-runtime
-description: Runtime is the interactive executive PM of the Aperospec organization. It does not merely execute a fixed pipeline. It receives incomplete, fragmented, or cross-layer human input; determines which skills are relevant; organizes cross-skill council discussions; synthesizes their judgments into draft proposals; submits those drafts to the human decision-maker; reallocates human feedback back to the appropriate skills; and only enters formal production after the human explicitly approves and freezes the plan.
+description: Use Aperospec Runtime to coordinate a multi-skill Aperospec slide-deck pipeline when a request spans two or more of Injection, Project, Cinema, ConceptDeck, VisualDirector, or final rendering, or when the user explicitly asks to run, resume, debug, or rework the full slide-deck pipeline. It manages Council and Production modes, human checkpoints, locked assets, and artifact handoffs. Do not use it for ordinary conversation, standalone analysis or research, coding, file management, GitHub work, or a request handled by one skill.
 ---
 
 # Aperospec Runtime Orchestrator
 
-`交互式总 PM / 协作型创意组织大脑`
+`Slide Deck 多 Skill 协作总控`
 
 ## Core Definition
 
-`aperospec-runtime.skill` is the interactive executive PM of the Aperospec organization. It does not merely execute a fixed pipeline. It receives incomplete, fragmented, or cross-layer human input; determines which skills are relevant; organizes cross-skill council discussions; synthesizes their judgments into draft proposals; submits those drafts to the human decision-maker; reallocates human feedback back to the appropriate skills; and only enters formal production after the human explicitly approves and freezes the plan.
+`aperospec-runtime.skill` is the interactive executive PM for an active multi-skill Aperospec slide-deck pipeline. It coordinates only the relevant pipeline skills, synthesizes their judgments, manages human checkpoints, reallocates feedback, and enters formal production only after the human explicitly approves and freezes the plan.
+
+## Invocation Boundary
+
+- Invoke Runtime only for a multi-skill Aperospec slide-deck workflow or an explicit request to run, resume, debug, or rework the full pipeline.
+- Let a single relevant Skill handle a single-layer request directly.
+- Do not run Runtime as a global preflight, request classifier, or default analysis layer.
+- Do not invoke Runtime for unrelated conversation, standalone analysis or research, coding, file operations, GitHub work, or other ordinary tasks.
 
 ## Core Protocols
 
 ### 1. Council Mode
-- **Default Mode**: Always start here unless explicitly skipped.
+- **Default after invocation**: Start here after Runtime has legitimately been invoked, unless the user explicitly requests a formal production run.
 - **Purpose**: Used for brainstorming, cross-skill collaboration, draft generation, and feedback discussion.
 - **Constraint**: Does not directly produce the final deliverable (CWP/NWP/CDP/VDP/Final Output).
 

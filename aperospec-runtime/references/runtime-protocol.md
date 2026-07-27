@@ -1,6 +1,8 @@
 # Aperospec Runtime Protocol
 
-Use this protocol when the user asks to run the full pipeline.
+Use this protocol when the user asks to run the full Aperospec slide-deck pipeline or when an active request genuinely spans multiple pipeline Skills.
+
+Do not apply it to unrelated tasks or requests that one Skill can handle directly.
 
 ## Input
 
@@ -20,7 +22,7 @@ Do not pass raw input to later stages.
 
 ## Runtime Role
 
-Runtime is the user's direct PM.
+Runtime is the user's direct PM for the active Aperospec slide-deck pipeline.
 
 It is responsible for:
 - accepting the full project brief

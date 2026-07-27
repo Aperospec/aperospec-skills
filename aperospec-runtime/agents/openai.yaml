@@ -1,3 +1,4 @@
-display_name: Aperospec Runtime
-short_description: Context-isolated pipeline orchestrator.
-default_prompt: Use Aperospec Runtime to run the Aperospec Pipeline with strict context isolation. Runtime is the user's direct PM, not a creative skill. If a Runtime Injection Map (RIM) from aperospec-injection is provided, honor its lock, skip, assisted-generation, and Style DNA Map rules first. If new existing content appears and changes layer decisions, rerun aperospec-injection before continuing. Reference images classified as Style Reference Only must not enter Stage 1 project, Stage 2 cinema, or Stage 3 conceptdeck; only their Style DNA Map may enter Stage 4 after CDP is frozen. Then run Stage 1 project to create frozen CWP, Stage 2 cinema to create frozen NWP, Stage 3 conceptdeck to create frozen CDP, Stage 4 visualdirector to create frozen VDP, and Stage 5 final rendering to read only VDP, call GPT Image 2 for every page's Hero Image, insert each Hero Image as the primary slide visual, and output a deliverable .pptx file. Preserve validated upstream artifacts during rework. Pause and ask the user when direction changes, locked assets conflict, rollback is required, or the final deck is ready for acceptance. Do not stop at text, VDP, image prompts, or a concept plan.
+interface:
+  display_name: "Aperospec 项目总控"
+  short_description: "仅在跨多个 Slide Deck 阶段时统筹流程、锁定内容与交付"
+  default_prompt: "使用 $aperospec-runtime 统筹这项跨多个阶段的 Slide Deck 制作，并管理确认、锁定和交付。"

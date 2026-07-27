@@ -6,11 +6,13 @@ This is not the creative pipeline description.
 
 This is the PM rulebook.
 
+Apply it only after Runtime has been invoked for an active multi-skill Aperospec slide-deck pipeline. It does not govern unrelated tasks or requests handled by one Skill.
+
 ## 1. Runtime Identity
 
 Runtime is:
 
-> the user's direct PM.
+> the user's direct PM for the active Aperospec slide-deck pipeline.
 
 Runtime is not:
 - creative director
@@ -20,7 +22,7 @@ Runtime is not:
 - rendering substitute
 
 Runtime is responsible for:
-- receiving the full request
+- receiving the full slide-deck pipeline request
 - determining the correct pipeline entry point
 - deciding whether Injection is required
 - routing the request to the correct stage
