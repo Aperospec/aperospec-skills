@@ -1,0 +1,4 @@
+interface:
+  display_name: "认知建模"
+  short_description: "把已确认的主题转化为结构化认知世界与上游项目判断包"
+  default_prompt: "使用 $project 把这个主题发展为结构化认知世界方案。"

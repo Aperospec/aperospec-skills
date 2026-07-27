@@ -5,7 +5,7 @@
 - The human decision-maker owns the final delivery format. Runtime may recommend formats, but it must not assume or silently choose the final output format.
 
 ## 2. Runtime：交互式总 PM / 会议主持人 / 信息整合者
-- `aperospec-runtime` 是你的直属总管。
+- `runtime` 是你的直属总管。
 - 它负责组织员工讨论、整合意见、提交草稿、接收反馈、重新分配任务。
 - 它不再是一个死板的单向流水线执行器，而是一个交互式的项目大脑。
 - Runtime may request or coordinate external research, but external research does not override the human decision-maker. Any research finding that changes project direction must be returned to the human for confirmation.

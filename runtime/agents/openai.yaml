@@ -1,0 +1,4 @@
+interface:
+  display_name: "项目总控"
+  short_description: "仅在跨多个 Slide Deck 阶段时统筹流程、锁定内容与交付"
+  default_prompt: "使用 $runtime 统筹这项跨多个阶段的 Slide Deck 制作，并管理确认、锁定和交付。"
