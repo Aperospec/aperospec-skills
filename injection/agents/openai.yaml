@@ -1,4 +1,4 @@
 interface:
   display_name: "内容融合"
-  short_description: "分析既有资料的层级与归属，锁定不可改内容并融入新结构"
-  default_prompt: "使用 $injection 整理这些既有材料并形成可执行的内容融合图。"
+  short_description: "判断材料修正 V2 现实模型、用户选择还是下游制作层"
+  default_prompt: "使用 $injection 整理这些既有材料，标明它们是否修正 Aperospec V2 第一阶段现实模型、是否记录了我明确作出的焦点或利益选择，或只属于下游制作层，并形成可执行的内容融合图。"

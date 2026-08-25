@@ -1,37 +1,40 @@
-# Aperospec Pipeline Acceptance Checklist
+# SlideDeck Pipeline Acceptance Checklist
 
-## 1. Council Readiness（会议讨论就绪度）
-*用于评估当前草稿是否足够拿给人类讨论*
-- 输入已被 Runtime 正确拆解。
-- 涉及的各 Skill 已经基于职责给出了专业意见。
-- 形成了结构完整的 Team Synthesis Brief。
-- 明确列出了 Unresolved Questions 和需要人类决策的关键点。
+## Council readiness
 
-## 2. Production Readiness（生产就绪度）
-*用于评估当前方案是否已经被人类确认并可以冻结生产*
-- 用户已经明确下达“方案定稿 / 可以正式生产”的确认指令。
-- 认知层、叙事层、页面层、视觉层的核心蓝图已经进入 Locked 状态。
-- 没有遗留的、会阻断流水线的基础矛盾。
-- Runtime 可以顺利启动正式 CWP -> NWP -> CDP -> VDP 链条。
+- Runtime was legitimately invoked for a multi-stage request.
+- Required source material has been classified; evidence and rights limits are visible.
+- Aperospec Stage 1 is complete enough to expose a causally grounded focus set.
+- The user's selected focus is explicit or clearly preserved from an earlier decision.
+- Relevant Skills have contributed within their own responsibilities.
+- Runtime has produced one synthesis with unresolved decisions separated from ordinary execution choices.
+- Any external research capable of changing the direction is complete, deferred as non-blocking, or returned to the user.
 
-### External Research Readiness
+## Production readiness
 
-Before moving from Council Mode to Production Mode, Runtime must check whether any unresolved factual, market, cultural, policy, technical, case-study, or visual-reference assumptions require external research.
+- The user has approved the plan and authorized Production Mode.
+- The Aperospec Upstream Lock contains the completed Stage 1 model and user-selected focus.
+- Any strategy-bearing output has a separate user-confirmed Stage 2 lock.
+- Evidence, rights, claims, references, and locked assets are defined to the degree required by the output.
+- The requested output channel and deliverable are clear enough to execute. Ask only when materially different formats would change meaning, scope, cost, rights, or delivery.
+- No unresolved contradiction blocks the CWP -> NWP -> CDP -> VDP chain.
 
-The pipeline is production-ready only if one of the following is true:
+## Editorial and visual readiness
 
-- no external research is needed;
-- required external research has been completed and synthesized;
-- the human explicitly decides to proceed without external research;
-- unresolved research items are marked as non-blocking.
+- ConceptDeck copy fulfills the title promise, preserves evidence boundaries, and contains final audience-facing language for every page.
+- VisualDirector uses the locked copy without rewriting facts or voice.
+- The VDP defines hierarchy, image roles, quiet zones, crop intent, fallbacks, and review criteria.
+- Covers and thumbnails pass a small-size hierarchy check when relevant.
+- Reference images are classified as content, style-only, or locked assets; style references are not treated as reusable content.
 
-External research must not silently alter locked content, user intent, or final production direction.
-### Final Output Format Confirmed
+## Rendering readiness
 
-Before Production Mode begins, Runtime must confirm the final output format with the human.
+- Rendering receives a locked CDP and VDP rather than inventing layout or copy.
+- Output dimensions, safe zones, crop behavior, overflow rules, and export format are explicit.
+- Final files pass content, visual, technical, and channel QA.
+- Failures reopen the first responsible layer and only the downstream artifacts affected by it.
 
-The final output format must be explicitly recorded.
+## External release gate
 
-If the format is still undecided, the pipeline is not production-ready.
-
-The system must not infer or default to a format based on prior wording such as "deck", "slide", "visual campaign", or "final output".
+- Final acceptance remains with the user.
+- Publishing, uploading, payment, credential use, and other external or irreversible actions require their normal authorization.

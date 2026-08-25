@@ -29,7 +29,24 @@ Reason:
 Corresponding Skill:
 [project / cinema / conceptdeck / visualdirector / Rendering Agent]
 
-## 2A. STYLE DNA MAP
+## 2A. APEROSPEC V2 IMPACT
+
+Impact class:
+[Stage 1 evidence / Stage 1 contradiction / Stage 1 model update / focus-set update / explicit user focus selection / explicit user Stage 2 update / downstream-only / no impact]
+
+Affected upstream object:
+[Active frame / temporal formation / position or operating force / baseline future judgment / focus set / selected focus / subject / interest function / desired direction / resource or dependency / loss boundary / none]
+
+Evidence status:
+[Observed / sourced / reported / inferred / assumed / unknown]
+
+Lock consequence:
+[Reopen Aperospec Stage 1 / preserve current Stage 1 lock / record explicit user selection / reopen Stage 2 clarification / preserve current user-owned locks]
+
+Authority check:
+[Quote or identify the user's explicit instruction when focus, interests, direction, or boundaries change. If there is no explicit user choice, state that the material cannot change those locks.]
+
+## 2B. STYLE DNA MAP
 
 Include this section only when the user provides reference images.
 
@@ -161,7 +178,8 @@ Runtime should:
 
 | Existing content | Likely layer |
 | --- | --- |
-| Root-cause analysis, drive forces, world understanding | Cognitive Layer |
+| Active frames, anomalies, temporal formation, actor positions, operating forces, baseline future evidence, focus-set evidence | Aperospec V2 Stage 1 / Cognitive Layer |
+| Explicit user choice of focus, represented subject, interests, desired direction, resources, dependencies, or loss boundaries | Aperospec V2 user-owned lock; preserve wording and route to Runtime |
 | Worldview, emotional environment, narrative universe, emotional curve | Narrative Layer |
 | Exhibit items, concept sequence, cognitive triggers, atmosphere directions | Concept Deck Layer |
 | Brand assets, visual guidelines, typography, color, lighting | Visual Direction Layer |
@@ -173,6 +191,9 @@ Runtime should:
 Before finalizing, confirm:
 - Existing content was preserved first.
 - Detected Layer is explicit.
+- Aperospec V2 impact class and evidence status are explicit.
+- New evidence or contradiction reopens Stage 1 when it can change the reality model, baseline future judgment, or focus set.
+- Focus selection and Stage 2 interest locks change only when the user made an explicit choice.
 - Runtime Decision covers every Pipeline skill.
 - Lock Mode clearly forbids modification.
 - Confirmed Asset Names are listed when the user provides existing names.

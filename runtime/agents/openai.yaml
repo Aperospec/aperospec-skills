@@ -1,4 +1,4 @@
 interface:
   display_name: "项目总控"
-  short_description: "仅在跨多个 Slide Deck 阶段时统筹流程、锁定内容与交付"
-  default_prompt: "使用 $runtime 统筹这项跨多个阶段的 Slide Deck 制作，并管理确认、锁定和交付。"
+  short_description: "统筹 V2 上游门禁、多阶段 Slide Deck 锁定与交付"
+  default_prompt: "使用 $runtime 统筹这项多阶段 Slide Deck 制作：先完成 Aperospec V2 第一阶段并由我选定焦点，再锁定认知、叙事、编辑、视觉和渲染交付。"

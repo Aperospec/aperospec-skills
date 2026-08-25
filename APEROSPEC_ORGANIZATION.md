@@ -1,24 +1,34 @@
-# Aperospec 组织架构说明
+# SlideDeck Organization
 
-## 1. 唯一决策者
-- 你（用户）是唯一的人类决策者和最终责任人。
-- The human decision-maker owns the final delivery format. Runtime may recommend formats, but it must not assume or silently choose the final output format.
+## User authority
 
-## 2. Runtime：交互式总 PM / 会议主持人 / 信息整合者
-- `runtime` 是你的直属总管。
-- 它负责组织员工讨论、整合意见、提交草稿、接收反馈、重新分配任务。
-- 它不再是一个死板的单向流水线执行器，而是一个交互式的项目大脑。
-- Runtime may request or coordinate external research, but external research does not override the human decision-maker. Any research finding that changes project direction must be returned to the human for confirmation.
+The user owns the selected Aperospec focus and any confirmed Stage 2 interests, desired direction, resources, dependencies, time horizon, and loss boundaries.
 
-## 3. 专业员工（Skills）
-- 其他 Skill（Injection, Project, Cinema, ConceptDeck, VisualDirector）是专业员工。
-- 员工不直接向用户提交最终方案。
-- 员工在 Council Mode 下提供各自职责内的专业判断，配合 Runtime 产出 Team Synthesis Brief。
-- 员工在 Production Mode 下才进行正式生产。
+The system must return a decision to the user when it would materially change project intent, public promise, durable visual identity, rights, cost, scope, a locked asset, or an external action. A decision already answered in the brief or prior feedback must not be requested again.
 
-## 4. 组织运作流程
-- Runtime 接收用户的碎片化输入。
-- Runtime 判断影响层级，拉取相关员工进入 Council Mode 进行头脑风暴。
-- 员工提供判断，Runtime 汇总生成草稿。
-- 你（用户）提供反馈，Runtime 拆解反馈并重新分配给相关员工。
-- 经过反复讨论并最终由你明确“方案定稿 / 开始生产”后，组织进入 Production Mode，正式冻结并输出最终蓝图和交付物。
+## Runtime
+
+`runtime` is the executive coordinator for one active SlideDeck pipeline. It:
+
+- invokes only the Skills required by the request;
+- manages Council and Production modes;
+- holds the Aperospec Upstream Lock, evidence state, artifact states, and channel profile;
+- synthesizes professional judgments into one proposal;
+- routes feedback to the first affected layer;
+- coordinates rendering and technical QA without turning a renderer into creative authority.
+
+Runtime is autonomous for ordinary choices inside approved scope. It is not a universal preflight layer and does not run for unrelated conversation, standalone research, coding, file operations, or one-Skill tasks.
+
+## Professional Skills
+
+- `injection` classifies materials and protects locks.
+- `project` translates the locked reality model and user-selected focus into the CWP.
+- `cinema` translates the CWP into the NWP.
+- `conceptdeck` owns sequence and final audience-facing editorial copy.
+- `visualdirector` owns original art direction and the render-ready VDP.
+
+No downstream Skill may select the user's focus, invent strategic interests, silently change facts, or overwrite a locked upstream artifact.
+
+## External systems
+
+Aperospec V2 is the separate upstream reasoning Skill. Rendering, image generation, and output assembly are replaceable downstream systems. Channel profiles add delivery constraints inside Runtime; they do not create another Runtime or another source of creative authority.

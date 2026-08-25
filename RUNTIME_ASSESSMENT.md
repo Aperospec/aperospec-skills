@@ -1,14 +1,23 @@
-# Runtime 能力评估
+# Runtime Assessment
 
-## 1. 历史问题复盘
-旧版 Runtime 的问题并不是职责边界不清，而是**过度流水线化**。它强行将复杂的创意项目简化成了“一键生成到底”的死板机器，缺乏对人类碎片化意图的宽容，也缺乏沟通和调整的弹性。
+## Current role
 
-## 2. 新版 Runtime 的核心能力
-新版 Runtime 已经调整为“交互式总 PM”。它的核心能力现在体现在：
-- **输入判断能力**：能接纳晚期输入、碎片化材料、反向反馈。
-- **跨 Skill 协作组织力**：通过 Council Mode 牵头进行多维度的头脑风暴。
-- **草稿整合能力**：将零散的判断组装成高质量的 Team Synthesis Brief 提交给人类。
-- **人类反馈再分配能力**：准确拆解人类修改意见，重新导向到对应的认知、叙事、页面或视觉 Skill。
-- **定稿后生产控制力**：在得到最终授权后，启动 Production Mode，死守 Artifact 冻结规则，稳定输出最终物料。
+Runtime is a scoped coordinator for one multi-stage SlideDeck task. Its value is not that it forces every request through a fixed sequence; it keeps the relevant reasoning, editorial, visual, and rendering layers coherent while preserving user-owned decisions.
 
-结论：新版 Runtime 是一个成熟、具有高度弹性和协作性的创意组织大脑。
+## Strengths
+
+- accepts fragmented and late input without treating it as process failure;
+- distinguishes evidence, focus, narrative, copy, visual, and technical feedback;
+- invokes only the Skills needed for the active layers;
+- preserves artifact states and reopens only the first failed layer;
+- supports autonomous in-scope production while retaining real human decision gates;
+- keeps channel-specific requirements inside one Runtime;
+- hands a locked VDP to a replaceable renderer and owns final technical QA.
+
+## Boundaries
+
+Runtime is not a global request router, a substitute for Aperospec, a factual source, a renderer, or permission to publish. It must not select the user's focus, infer strategic interests, silently change locked artifacts, or ask the user to perform ordinary design work that the pipeline can resolve itself.
+
+## Acceptance judgment
+
+Runtime is ready when it can preserve the Aperospec Upstream Lock, produce a coherent Team Synthesis Brief, enter Production Mode only after approval, route feedback locally, and deliver a verified final output without multiplying Runtimes or exposing internal Skill coordination as user work.

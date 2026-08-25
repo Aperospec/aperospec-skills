@@ -1,4 +1,4 @@
 interface:
   display_name: "叙事世界"
-  short_description: "把认知方向翻译为人物、情境、冲突和叙事世界的完整方案"
-  default_prompt: "使用 $cinema 把已确认的认知方向转译为叙事世界方案。"
+  short_description: "把 V2 认知世界包与用户选定焦点忠实转译为叙事世界"
+  default_prompt: "使用 $cinema 把已通过 Aperospec V2 门禁的认知世界包转译为叙事世界，保持用户选定焦点、基准未来判断、证据边界和未决矛盾不变。"

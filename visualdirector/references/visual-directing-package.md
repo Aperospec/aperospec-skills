@@ -1,257 +1,267 @@
-# Visual Directing Package (VDP) Template
+# Visual Directing Package (VDP) Contract
 
-Use this template only when the input is a complete Concept Deck Package (CDP) from `conceptdeck`.
+Use this contract only when Runtime requests a formal VDP from a complete, locked Concept Deck Package (CDP).
 
-Optional input:
-- Style DNA Map from RIM, only when `injection` classified user reference images as Style Reference Only.
+Optional inputs are limited to:
 
-The output is:
+- a Style DNA Map classified by Injection as `Style Reference Only`;
+- a human-approved Brand Visual Lock;
+- confirmed output format and active channel constraints supplied by Runtime.
 
-> Visual Directing Package (VDP)
+Do not accept raw research, original project documents, CWP, NWP, unapproved copy, or reference-image content as a semantic source.
 
-VDP is the Stage 4 package passed to Runtime and then to Stage 5 rendering.
-
-Its visual temperament is:
-
-> Graphic Narrative Campaign
-
-But its protocol name remains:
-
-> VDP
-
-## Input Gate
-
-Confirm the CDP provides usable existing content:
-- title
-- exhibit name
-- core copy
-- Narrative Sentence
-- Supporting Text
-- page concept
-- atmosphere direction
-- visual direction
-
-If the CDP does not include usable text, do not invent copy. Mark the missing content.
+The VDP must let Rendering execute every page without inventing copy, layout logic, asset roles, crop strategy, or fallback behavior.
 
 ## Required Output
 
 ```markdown
 # Visual Directing Package (VDP)
 
-## INPUT SOURCE
+## 0. INPUT AND FIDELITY LOCK
 
 Concept Deck Package:
-[briefly name the CDP]
+[identify the locked CDP]
 
 Style DNA Map:
-[none / briefly name the Style Reference Only source]
+[none / identify the approved Style Reference Only map]
 
-## 1. CONTENT FIDELITY MAP
+Brand Visual Lock:
+[none / identify version and state]
 
-For each page:
-
-### Page [number]
-
-Approved CDP content used:
-- Title:
-- Exhibit name:
-- Core copy:
-- Narrative Sentence:
-- Supporting Text:
-
-Locked names preserved:
-- [names]
-
-Forbidden invented content avoided:
-- slogan
-- English campaign
-- percentage
-- fake parameter
-- barcode
-- set21
-- cotton
-- UI data
-- fake label
-- fashion metadata
-- random graphic
-- unrelated typography
-
-## 2. HERO IMAGE DIRECTION
-
-For each page:
-
-Hero Image concept:
-[visual concept based only on the page's CDP content]
-
-Visual subject:
-[main subject]
-
-Atmosphere:
-[mood and tone]
-
-Composition energy:
-[quiet / tense / confrontational / symbolic / compressed / expansive]
-
-Standalone value:
-[why the image works without typography]
-
-## 3. STYLE DNA APPLICATION
-
-Include this section only when Style DNA Map is provided.
-
-For each page:
-
-### Page [number]
-
-Applied Style DNA:
-- Brushwork:
-- Line quality:
-- Surface texture:
-- Material feeling:
-- Color system:
-- Lighting atmosphere:
-- Edge treatment:
-- Rendering method:
-- Grain / print / noise feeling:
-- Composition temperament:
-- Typography compatibility:
-
-Hero Image style application:
-[how the Hero Image uses Style DNA without copying reference-image content]
-
-Typography style application:
-[how type treatment fits the Style DNA]
-
-Composition style application:
-[how composition temperament is translated without copying the exact reference layout]
-
-Forbidden reference-image transfer:
-- subject:
-- object:
-- character:
-- building:
-- product:
-- logo:
-- symbol:
-- exact layout:
-- exact pose:
-- exact scene:
-- narrative event:
-
-## 4. GRAPHIC POSTER COMPOSITION
-
-For each page:
-
-Page energy level:
-[A Hero Page / B Narrative Page / C Transition Page / D Atmosphere Page]
-
-Page role:
-[cover / chapter opener / core concept / core exhibit / ordinary exhibit introduction / transition / emotional pause / ending]
-
-Energy behavior:
-[build-up / breathing / transition / eruption / resolution]
-
-Poster structure:
-[how the page becomes a Narrative Poster rather than a PPT page]
-
-Visual center of gravity:
-[where visual force sits]
-
-Typography / image relationship:
-[pressing / overlap / background layer / cropped / dominant / restrained]
-
-Density level:
-[low / medium / high]
-
-Negative-space strategy:
-[how emptiness supports impact]
-
-## 5. GRAPHIC TYPOGRAPHY DIRECTION
-
-For each page:
-
-Typography hierarchy:
-[Hero Title / Secondary Title / Narrative Sentence / Supporting Text / Caption if present in CDP]
-
-Graphic behavior:
-[oversized / cropped / layered / background / overlap / visual subject]
-
-Visual impact:
-[what the typography does visually]
-
-Restraint rule:
-[what must be avoided so the page does not become noisy]
+Output contract:
+- Format:
+- Canvas / aspect ratio:
+- Active channel profile:
+- Required variants:
 
 Content fidelity:
-[confirm typography uses only approved CDP text]
+- Exact titles and names preserved:
+- Required limitations preserved:
+- Approved short variants available:
+- Missing input or conflict:
 
-## 6. CAMPAIGN RHYTHM
+## 1. INTENT AND PLATFORM LOCK
 
-Across the deck:
+- Audience viewing state:
+- Communication purpose:
+- Desired first emotional state:
+- First-glance task:
+- Second-glance task:
+- Third-glance task:
+- Viewing distance / device:
+- Platform survival condition:
+- Explicitly rejected visual shortcuts:
 
-Energy curve:
-[how the deck moves through build-up, breathing, transition, eruption, and resolution]
+## 2. VISUAL READ
 
-Rhythm variation:
-[how pages change pace]
+For each supplied, approved, or planned primary visual:
 
-Typography variation:
-[how type behavior changes without becoming random]
+- Main subject and secondary subjects:
+- Gaze, action, and relationship:
+- Foreground / middle ground / background:
+- Saliency anchors:
+- Narrative protection zone:
+- Quiet zones that may hold type:
+- Light direction and contrast center:
+- Color anchors:
+- Crop sensitivity:
+- First felt state:
 
-Composition variation:
-[how layouts differ]
+If no image exists yet, provide the same fields as a planned scene map rather than pretending to have analyzed pixels.
 
-Density variation:
-[where the campaign breathes, where it compresses]
+## 3. ART DIRECTION DECISION
 
-Shared campaign temperament:
-[what makes all pages feel like one campaign]
+Selected Art Direction thesis:
+[one sentence that joins content focus, felt state, and visual behavior]
 
-Hero Page distribution:
-[which pages may use high Graphic energy]
+Internal alternatives considered:
+- Direction:
+- Strength:
+- Sacrifice:
+- Why rejected or deferred:
 
-Quiet page distribution:
-[which pages must pull back as Narrative, Transition, or Atmosphere pages]
+Selected direction tradeoff:
+[what it deliberately prioritizes and gives up]
 
-## 7. STAGE 5 HANDOFF NOTES
+Originality boundary:
+[how references informed attributes without transferring subjects, layouts, poses, branded styles, or narrative events]
 
-Final rendering must:
-- preserve only approved CDP text
-- preserve locked names
-- apply Style DNA only as visual-style guidance when provided
-- never copy reference-image subjects, objects, characters, logos, scenes, layouts, poses, or narrative events
-- avoid invented slogans or labels
-- create Hero Image first
-- compose each page as a Narrative Poster
-- use typography as graphic element
-- avoid corporate PPT, UI cards, and Word document layout
+Human Visual Direction Gate:
+- Required: [yes / no]
+- Reason:
+- Runtime checkpoint state: [not needed / pending / approved / locked]
 
-For each page, pass forward:
-- Hero Image direction
-- page energy level
-- page role
-- typography / image relationship
-- Style DNA application rules when present
-- forbidden reference-image transfer boundaries when present
-- negative-space strategy
-- content fidelity constraints
+## 4. VISUAL SYSTEM
+
+### Brand Visual Lock Application
+
+- Applied rules:
+- Intentionally unused rules:
+- Conflicts:
+- Proposed lock change requiring Runtime / human decision:
+
+### Style DNA Application
+
+[Include only when Style DNA exists. Describe brushwork, line, surface, material, color, light, edge, grain, rendering, and composition temperament.]
+
+Forbidden reference transfer:
+- subject / object / character:
+- product / logo / symbol:
+- exact layout / pose / scene:
+- narrative event:
+- signature branded treatment:
+
+### Shared Grammar
+
+- Typography personality:
+- Color relationships:
+- Grid and margin behavior:
+- Image treatment:
+- Evidence / screenshot treatment:
+- Caption / source grammar:
+- Repeated identifier, if approved:
+- Variables that must remain flexible:
+
+## 5. PAGE-BY-PAGE VISUAL PLAN
+
+For each page:
+
+### Page [number]
+
+Page role and energy:
+[role / build-up / breathing / transition / eruption / resolution]
+
+Approved CDP content used:
+- Display title:
+- Short title variant:
+- Narrative sentence:
+- Supporting copy:
+- Caption / source line:
+- Required limitation:
+- Do not compress:
+
+Editorial hierarchy:
+- First glance:
+- Second glance:
+- Third glance:
+
+Primary visual task:
+[Hero image / supplied image / screenshot / evidence / diagram / type-led composition / intentional quiet]
+
+Visual concept and subject relationship:
+[what is shown and why]
+
+Composition:
+- Visual center of gravity:
+- Reading path:
+- Grid behavior:
+- Foreground / middle / background:
+- Negative-space strategy:
+- Deliberate rule break, if any:
+
+Typography and image relationship:
+- Type role:
+- Personality / weight range:
+- Semantic line-break intent:
+- Overlap / edge / depth behavior:
+- Restraint rule:
+
+Asset plan:
+- Required source or generated asset:
+- Rights / source state carried forward:
+- Textless image requirement:
+- Evidence-as-visual role:
+- Approved fallback:
+
+Crop and responsive intent:
+- Protected subject region:
+- Allowed crop region:
+- Forbidden crop:
+- Safe zone for type:
+- Small-size survival rule:
+
+Renderer tolerances:
+- Approved short variant:
+- Allowed geometric adjustment:
+- Changes that require return to VisualDirector:
+- Changes that require return to ConceptDeck:
+
+Forbidden downstream drift:
+[what Rendering must not simplify, replace, add, or hide]
+
+## 6. SEQUENCE AND CAMPAIGN RHYTHM
+
+- Energy curve:
+- Hero / Narrative / Transition / Atmosphere distribution:
+- Density variation:
+- Typography variation:
+- Composition variation:
+- Evidence distribution:
+- Shared temperament:
+- How repetition is avoided without losing identity:
+
+## 7. RENDERER EXECUTION PLAN
+
+- Confirmed renderer or backend class:
+- Final canvas and export variants:
+- Asset-generation tasks:
+- Deterministic text-composition tasks:
+- Exact text payload source:
+- Font availability / fallback requirement:
+- Crop execution requirements:
+- Overflow priority order:
+- Thumbnail or distance proofs:
+- Color / contrast checks:
+- Source, rights, and attribution checks:
+- Required intermediate proofs:
+- Final QA artifacts:
+
+## 8. REVIEW AND REPAIR ROUTE
+
+Pre-render risks:
+- Content fidelity:
+- Subject / relationship:
+- Composition:
+- Typography personality:
+- Image-type relationship:
+- Style / brand consistency:
+- Platform fit:
+- Rights / reference transfer:
+
+Repair ownership:
+- Evidence / rights -> Runtime / Injection
+- Focus -> Project
+- Narrative progression -> Cinema
+- Copy / title / sequence -> ConceptDeck
+- Visual direction / hierarchy / composition -> VisualDirector
+- Crop execution / overflow / resolution / export -> Rendering
+
+Bounded retry rule:
+[state when targeted repair continues and when Runtime must pause]
+
+## 9. HUMAN CHECKPOINT RECORD
+
+- Decisions already supplied by the human:
+- Decisions resolved autonomously:
+- Decision still requiring human judgment:
+- Recommended option and consequence:
+- What becomes locked after approval:
 ```
 
-## Validation Checklist
+## VDP Validation
 
 Before finalizing, confirm:
-- VDP uses only CDP content.
-- No slogan, English campaign, fake data, barcode, fake label, or random graphic was invented.
-- Locked names are preserved exactly.
-- Style DNA Map, when present, affects only visual style.
-- No reference-image content is copied into Hero Image, typography, layout, or narrative.
-- Every Hero Image can stand alone without typography.
-- Every page reads as Narrative Poster, not PPT page.
-- Typography has Graphic Confidence but remains restrained.
-- Design energy comes from order, not decorative noise.
-- Page energy levels vary across A Hero, B Narrative, C Transition, and D Atmosphere.
-- Not every page is treated as a Hero Poster.
-- Narrative Pages pull back with more readability, balance, and restraint.
-- Transition and Atmosphere Pages may be quiet, minimal, and low density.
-- Pages vary rhythmically but keep one Campaign temperament.
-- Stage 5 can render from VDP without guessing missing page logic.
+
+- every visible word comes from the locked CDP;
+- no important limitation is hidden for layout convenience;
+- VisualDirector chose composition, elements, camera, hierarchy, and asset roles without outsourcing ordinary creative work to the human;
+- any human gate concerns a material direction choice, not routine execution;
+- no formal VDP is frozen while a material Human Visual Direction Gate remains pending;
+- the Art Direction is original and no reference content or signature branded layout is copied;
+- every page has one primary visual task and a purposeful evidence role where relevant;
+- typography personality follows content rather than a generic prestige style;
+- crop intent, safe zones, short variants, and fallback structures are explicit;
+- cover or first frame passes the relevant small-size proof plan;
+- page structures vary while the visual grammar remains coherent;
+- Rendering can execute without inventing creative logic;
+- repair ownership points to the first failed layer.

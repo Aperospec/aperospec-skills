@@ -1,4 +1,4 @@
 interface:
   display_name: "认知建模"
-  short_description: "把已确认的主题转化为结构化认知世界与上游项目判断包"
-  default_prompt: "使用 $project 把这个主题发展为结构化认知世界方案。"
+  short_description: "把 V2 第一阶段现实模型与用户选定焦点转成认知世界包"
+  default_prompt: "使用 $project 把已完成的 Aperospec V2 第一阶段现实模型和我选定的焦点转化为认知世界包；如果焦点尚未由我选定，保持评议模式并把选择权交还给我。"
